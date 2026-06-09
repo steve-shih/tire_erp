@@ -3,390 +3,1204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>皓宇國際車業 - Tire ERP 系統</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
+    <title>中華全佑 ERP 進銷存管理系統</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Stylesheet -->
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ================= LOGIN SECTION ================= -->
-    <div id="login-container" class="login-wrapper">
-        <div class="login-card">
-            <div class="login-header">
-                <div class="logo-icon"><i class="fa-solid fa-circle-nodes"></i></div>
-                <h1>Tire ERP</h1>
-                <p>請輸入您的帳號與密碼以登入系統</p>
+    <!-- LOGIN SCREEN -->
+    <div id="login-screen" class="login-container">
+        <div class="login-box">
+            <div class="login-logo">
+                <i class="fas fa-truck-moving fa-3x"></i>
+                <h1 class="mt-2">中華全佑 ERP</h1>
             </div>
             <form id="login-form">
                 <div class="form-group">
-                    <label for="username"><i class="fa-solid fa-user"></i> 帳號</label>
-                    <input type="text" id="username" placeholder="請輸入帳號" required autocomplete="username">
+                    <label>帳號</label>
+                    <input type="text" id="login-username" class="form-control" required autocomplete="username">
                 </div>
                 <div class="form-group">
-                    <label for="password"><i class="fa-solid fa-lock"></i> 密碼</label>
-                    <input type="password" id="password" placeholder="請輸入密碼" required autocomplete="current-password">
+                    <label>密碼</label>
+                    <input type="password" id="login-password" class="form-control" required autocomplete="current-password">
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">登入系統</button>
+                <button type="submit" class="btn btn-primary w-full mt-4"><i class="fas fa-sign-in-alt"></i> 登入系統</button>
             </form>
-            <div id="login-error" class="alert alert-danger hidden">
-                <i class="fa-solid fa-triangle-exclamation"></i> 帳號或密碼錯誤！
-            </div>
-            <div class="login-tips">
-                <p><strong>系統預設測試帳號：</strong></p>
-                <p>老闆 (Owner): <code>admin</code> / <code>admin123</code></p>
-                <p>經理 (Manager): <code>manager</code> / <code>manager123</code></p>
-                <p>員工 (Staff): <code>staff</code> / <code>staff123</code></p>
-            </div>
+            <div id="login-error" class="mt-4 text-center text-danger hidden">登入失敗，請檢查帳號密碼</div>
         </div>
     </div>
 
-    <!-- ================= ERP APP MAIN SECTION ================= -->
-    <div id="app-container" class="app-wrapper hidden">
-        <!-- Sidebar Navigation -->
+    <!-- MAIN APP SCREEN -->
+    <div id="app" class="hidden">
+        
+        <!-- SIDEBAR -->
         <aside class="sidebar">
-            <div class="sidebar-brand">
-                <i class="fa-solid fa-circle-nodes"></i>
-                <span>Tire ERP</span>
+            <div class="sidebar-header">
+                <h1><i class="fas fa-truck-moving"></i> 全佑 ERP</h1>
             </div>
-            
-            <div class="user-profile">
-                <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
-                <div class="user-info">
-                    <span id="user-display-name">Loading...</span>
-                    <span id="user-display-role" class="badge">Staff</span>
+            <nav class="nav-menu">
+                <div class="nav-group-title">進銷存管理</div>
+                <a class="nav-item active" data-target="sales-section"><i class="fas fa-file-invoice-dollar"></i> 出貨單</a>
+                <a class="nav-item" data-target="quotes-section"><i class="fas fa-file-signature"></i> 報價單</a>
+                <a class="nav-item" data-target="inventory-section"><i class="fas fa-boxes"></i> 庫存表</a>
+                <a class="nav-item" data-target="purchases-section"><i class="fas fa-shopping-cart"></i> 進貨單</a>
+                
+                <div class="nav-group-title">基本資料</div>
+                <a class="nav-item" data-target="customers-section"><i class="fas fa-users"></i> 客戶資料</a>
+                <a class="nav-item" data-target="vendors-section"><i class="fas fa-industry"></i> 廠商資料</a>
+
+                <div class="nav-group-title">財務報表</div>
+                <a class="nav-item" data-target="ar-section"><i class="fas fa-hand-holding-usd"></i> 應收帳款</a>
+                <a class="nav-item" data-target="ap-section"><i class="fas fa-money-check-alt"></i> 應付帳款</a>
+                <a class="nav-item" data-target="notes-section"><i class="fas fa-money-bill-wave"></i> 票據管理</a>
+                <a class="nav-item" data-target="reports-section"><i class="fas fa-chart-line"></i> 損益報表</a>
+                <a class="nav-item" data-target="payroll-section"><i class="fas fa-user-tie"></i> 人事薪資</a>
+                
+                <div id="owner-settings-group" class="hidden">
+                    <div class="nav-group-title">系統設定</div>
+                    <a class="nav-item" data-target="settings-section"><i class="fas fa-cog"></i> 權限設定</a>
+                    <a class="nav-item" data-target="users-section"><i class="fas fa-users-cog"></i> 帳號管理</a>
+                    <a class="nav-item" data-target="logs-section"><i class="fas fa-history"></i> 系統操作日誌</a>
                 </div>
-            </div>
-
-            <nav class="sidebar-menu">
-                <a href="#" class="menu-item active" data-target="dashboard-section">
-                    <i class="fa-solid fa-chart-line"></i> 儀表板首頁
-                </a>
-                <a href="#" class="menu-item" data-target="customers-section">
-                    <i class="fa-solid fa-users"></i> 客戶管理
-                </a>
-                <a href="#" class="menu-item" data-target="products-section">
-                    <i class="fa-solid fa-cubes"></i> 輪胎與產品庫存
-                </a>
-                <a href="#" class="menu-item" data-target="sales-section">
-                    <i class="fa-solid fa-file-invoice-dollar"></i> 出貨與銷售紀錄
-                </a>
             </nav>
-
             <div class="sidebar-footer">
-                <button id="logout-btn" class="btn btn-outline-danger btn-block">
-                    <i class="fa-solid fa-right-from-bracket"></i> 安全登出
-                </button>
+                <div id="current-user-display" class="mb-2">User</div>
+                <button id="logout-btn" class="btn btn-secondary btn-sm"><i class="fas fa-sign-out-alt"></i> 登出</button>
             </div>
         </aside>
 
-        <!-- Main Content Area -->
+        <!-- MAIN CONTENT -->
         <main class="main-content">
-            <header class="top-navbar">
-                <h2 id="section-title">儀表板首頁</h2>
-                <div class="navbar-actions">
-                    <span class="system-time"><i class="fa-regular fa-clock"></i> <span id="current-time-str">18:20</span></span>
-                </div>
-            </header>
+            <!-- Topbar (Announcement Marquee) -->
+            <div class="marquee-container">
+                <div class="marquee-text" id="announcement-marquee">歡迎使用中華全佑 ERP 系統...</div>
+            </div>
 
-            <!-- Dashboard Section -->
-            <section id="dashboard-section" class="content-section">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-icon icon-blue"><i class="fa-solid fa-users"></i></div>
-                        <div class="stat-info">
-                            <h3>總客戶數量</h3>
-                            <p id="stat-customers-count">0</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon icon-green"><i class="fa-solid fa-cubes"></i></div>
-                        <div class="stat-info">
-                            <h3>輪胎產品種類</h3>
-                            <p id="stat-products-count">0</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon icon-purple"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-                        <div class="stat-info">
-                            <h3>本期出貨單數</h3>
-                            <p id="stat-sales-count">0</p>
-                        </div>
-                    </div>
-                </div>
+            <!-- Content Area -->
+            <div class="content-area">
 
-                <div class="dashboard-banner">
-                    <div class="banner-content">
-                        <h2>歡迎使用 Tire ERP 版本控制與安全追蹤原型系統</h2>
-                        <p>本系統已整合 Python FastAPI 與 MongoDB，所有檔案均具備 **虛擬刪除 (Soft-delete)** 以及 **使用者修改追蹤紀錄 (Audit logs)**，確保資料安全且有跡可循。</p>
+                <!-- 1. SALES SECTION -->
+                <section id="sales-section" class="app-section">
+                    <div class="card-header mb-4">
+                        <h3>出貨單管理</h3>
+                        <button class="btn btn-primary" onclick="openOrderModal('sales')"><i class="fas fa-plus"></i> 新增出貨單</button>
                     </div>
-                </div>
-            </section>
-
-            <!-- Customers Section -->
-            <section id="customers-section" class="content-section hidden">
-                <div class="table-card">
-                    <div class="card-header">
-                        <div class="search-bar">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <input type="text" id="customer-search" placeholder="搜尋客戶編號、名稱、電話、地址...">
+                    <div class="filters-bar">
+                        <div class="form-group mb-0">
+                            <label>部門</label>
+                            <select id="sales-filter-dept" class="form-control">
+                                <option value="">全部</option>
+                                <option value="truck">大車</option>
+                                <option value="sedan">轎車</option>
+                            </select>
                         </div>
-                        <button class="btn btn-primary" onclick="openCustomerModal()">
-                            <i class="fa-solid fa-plus"></i> 新增客戶
-                        </button>
+                        <div class="form-group mb-0">
+                            <label>分類</label>
+                            <select id="sales-filter-cat" class="form-control">
+                                <option value="">全部</option>
+                                <option value="大車店內">大車店內</option>
+                                <option value="大車批發">大車批發</option>
+                                <option value="轎車店內">轎車店內</option>
+                                <option value="轎車批發">轎車批發</option>
+                            </select>
+                        </div>
+                        <div class="form-group mb-0">
+                            <label>日期區間</label>
+                            <div class="flex items-center gap-2">
+                                <input type="date" id="sales-filter-start" class="form-control">
+                                <span>~</span>
+                                <input type="date" id="sales-filter-end" class="form-control">
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary mb-0" onclick="loadSalesOrders()">搜尋</button>
+                        <button class="btn btn-secondary mb-0" onclick="batchPrint('sales')"><i class="fas fa-print"></i> 批次列印</button>
                     </div>
-                    <div class="table-responsive">
-                        <table class="data-table">
-                            <thead>
-                                <tr>
-                                    <th>客戶編號</th>
-                                    <th>公司/客戶名稱</th>
-                                    <th>聯絡電話</th>
-                                    <th>公司地址</th>
-                                    <th>車牌號碼</th>
-                                    <th>操作人員</th>
-                                    <th>最後修改時間</th>
-                                    <th>操作</th>
-                                </tr>
-                            </thead>
-                            <tbody id="customers-table-body">
-                                <!-- Loaded dynamically -->
-                            </tbody>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="sales-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="sales-check-all"></th>
+                                        <th>日期</th>
+                                        <th>單號</th>
+                                        <th>部門/分類</th>
+                                        <th>客戶</th>
+                                        <th>車號</th>
+                                        <th>總金額</th>
+                                        <th>付款狀態</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. QUOTES SECTION -->
+                <section id="quotes-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>報價單管理</h3>
+                        <div class="flex gap-2">
+                            <button class="btn btn-primary" onclick="openOrderModal('quote-customer')"><i class="fas fa-plus"></i> 新增客戶報價單</button>
+                            <button class="btn btn-secondary" onclick="openOrderModal('quote-vendor')"><i class="fas fa-plus"></i> 新增廠商報價單</button>
+                        </div>
+                    </div>
+                    <div class="filters-bar">
+                        <div class="form-group mb-0">
+                            <label>對象類型</label>
+                            <select id="quotes-filter-type" class="form-control">
+                                <option value="">全部</option>
+                                <option value="customer">客戶報價單</option>
+                                <option value="vendor">廠商報價單</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-secondary mb-0" onclick="loadQuotes()">搜尋</button>
+                        <button class="btn btn-secondary mb-0" onclick="batchPrint('quote')"><i class="fas fa-print"></i> 批次列印</button>
+                    </div>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="quotes-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="quotes-check-all"></th>
+                                        <th>日期</th>
+                                        <th>單號</th>
+                                        <th>類型</th>
+                                        <th>對象</th>
+                                        <th>總金額</th>
+                                        <th>有效期限</th>
+                                        <th>備註</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. INVENTORY SECTION -->
+                <section id="inventory-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>庫存表 (唯讀)</h3>
+                        <div class="flex gap-2">
+                            <button class="btn btn-secondary" onclick="window.app.navigate('purchases-section')"><i class="fas fa-arrow-right"></i> 去進貨</button>
+                            <button class="btn btn-secondary" onclick="window.app.navigate('sales-section')"><i class="fas fa-arrow-right"></i> 去出貨</button>
+                            <button class="btn btn-secondary" onclick="openAnnouncementModal()"><i class="fas fa-bullhorn"></i> 更新公告</button>
+                        </div>
+                    </div>
+                    
+                    <div class="tabs">
+                        <div class="tab active" data-tab="inv-truck" onclick="switchInvTab('卡車胎')">大車</div>
+                        <div class="tab" data-tab="inv-sedan" onclick="switchInvTab('轎車胎')">轎車</div>
+                        <div class="tab" data-tab="inv-consignment" onclick="switchInvTab('新胎出寄庫')">新胎出寄庫</div>
+                    </div>
+
+                    <div class="filters-bar">
+                        <div class="form-group mb-0">
+                            <label>搜尋編碼/規格/品牌</label>
+                            <input type="text" id="inv-search" class="form-control" placeholder="輸入關鍵字...">
+                        </div>
+                        <div class="form-group mb-0">
+                            <label>低庫存篩選</label>
+                            <div class="flex items-center gap-2">
+                                <span>數量 <</span>
+                                <input type="number" id="inv-filter-qty" class="form-control" style="width: 80px;" value="5">
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary mb-0" onclick="loadInventory()">搜尋</button>
+                        <button class="btn btn-secondary mb-0" onclick="printInventory()"><i class="fas fa-print"></i> 列印當前庫存表</button>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="inventory-table">
+                                <thead>
+                                    <tr>
+                                        <th>商品編碼</th>
+                                        <th>品牌</th>
+                                        <th>規格</th>
+                                        <th>花紋</th>
+                                        <th class="sedan-col hidden">耐磨指數</th>
+                                        <th class="sedan-col hidden">速度等級</th>
+                                        <th>庫存數量</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. PURCHASES SECTION -->
+                <section id="purchases-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>進貨單管理</h3>
+                        <button class="btn btn-primary" onclick="openOrderModal('purchase')"><i class="fas fa-plus"></i> 新增進貨單</button>
+                    </div>
+                    <div class="filters-bar">
+                        <button class="btn btn-secondary mb-0" onclick="loadPurchases()"><i class="fas fa-sync"></i> 重新載入</button>
+                        <button class="btn btn-secondary mb-0" onclick="batchPrint('purchase')"><i class="fas fa-print"></i> 批次列印</button>
+                    </div>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="purchases-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="purchases-check-all"></th>
+                                        <th>日期</th>
+                                        <th>單號</th>
+                                        <th>廠商</th>
+                                        <th>總金額</th>
+                                        <th>付款狀態</th>
+                                        <th>發票號碼</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 5. CUSTOMERS SECTION -->
+                <section id="customers-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>客戶資料</h3>
+                        <div>
+                            <button class="btn btn-secondary mr-2" onclick="downloadEnvelopes('customer')"><i class="fas fa-envelope"></i> 列印信封</button>
+                            <button class="btn btn-secondary mr-2" onclick="downloadLabels('customer')"><i class="fas fa-tags"></i> 列印地址貼</button>
+                            <button class="btn btn-primary" onclick="openPartyModal('customer')"><i class="fas fa-plus"></i> 新增客戶</button>
+                        </div>
+                    </div>
+                    <div class="filters-bar">
+                        <div class="form-group mb-0">
+                            <input type="text" id="customer-search" class="form-control" placeholder="搜尋名稱/電話/編號...">
+                        </div>
+                        <button class="btn btn-secondary mb-0" onclick="loadCustomers()">搜尋</button>
+                    </div>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="customers-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="cust-check-all"></th>
+                                        <th>客戶編號</th>
+                                        <th>名稱</th>
+                                        <th>統編</th>
+                                        <th>電話</th>
+                                        <th>車輛數</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 6. VENDORS SECTION -->
+                <section id="vendors-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>廠商資料管理</h3>
+                        <div class="flex gap-2">
+                            <button class="btn btn-primary" onclick="openVendorModal()"><i class="fas fa-plus"></i> 新增廠商</button>
+                            <button class="btn btn-secondary" onclick="printMailingLabels('vendor')"><i class="fas fa-envelope"></i> 列印郵件/標籤</button>
+                        </div>
+                    </div>
+                    <div class="filters-bar">
+                        <div class="form-group mb-0">
+                            <input type="text" id="vendor-search" class="form-control" placeholder="搜尋名稱/電話/編號...">
+                        </div>
+                        <button class="btn btn-secondary mb-0" onclick="loadVendors()">搜尋</button>
+                    </div>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="vendors-table">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" id="ven-check-all"></th>
+                                        <th>廠商編號</th>
+                                        <th>名稱</th>
+                                        <th>統編</th>
+                                        <th>電話</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== FINANCIAL MODULES ==================== -->
+
+                <!-- 7. AR SECTION (應收帳款) -->
+                <section id="ar-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>應收帳款管理</h3>
+                        <button class="btn btn-primary" onclick="openPaymentModal('receivable')"><i class="fas fa-cash-register"></i> 新增收款沖帳</button>
+                    </div>
+                    
+                    <div class="tabs">
+                        <div class="tab active" onclick="switchArTab('summary')">客戶帳齡分析</div>
+                        <div class="tab" onclick="switchArTab('detail')">應收日記明細</div>
+                    </div>
+                    
+                    <!-- AR Summary Tab -->
+                    <div id="ar-summary-tab" class="tab-content active">
+                        <div class="stat-cards" id="ar-stat-cards">
+                            <!-- Injected by JS -->
+                        </div>
+                        <div class="card">
+                            <div class="table-responsive">
+                                <table class="table" id="ar-summary-table">
+                                    <thead>
+                                        <tr>
+                                            <th>客戶名稱</th>
+                                            <th>總應收</th>
+                                            <th>已收款</th>
+                                            <th>未收餘額</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- AR Detail Tab -->
+                    <div id="ar-detail-tab" class="tab-content">
+                        <div class="filters-bar">
+                            <select id="ar-detail-status" class="form-control">
+                                <option value="">全部狀態</option>
+                                <option value="unpaid">未收款</option>
+                                <option value="partial">部分收款</option>
+                                <option value="paid">已結清</option>
+                            </select>
+                            <button class="btn btn-secondary mb-0" onclick="loadArDetails()">搜尋</button>
+                        </div>
+                        <div class="card">
+                            <div class="table-responsive">
+                                <table class="table" id="ar-detail-table">
+                                    <thead>
+                                        <tr>
+                                            <th>日期</th>
+                                            <th>出貨單號</th>
+                                            <th>客戶</th>
+                                            <th>車號</th>
+                                            <th>應收金額</th>
+                                            <th>已收金額</th>
+                                            <th>餘額</th>
+                                            <th>狀態</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 8. AP SECTION (應付帳款) -->
+                <section id="ap-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>應付帳款管理</h3>
+                        <button class="btn btn-primary" onclick="openPaymentModal('payable')"><i class="fas fa-money-check-alt"></i> 新增付款沖帳</button>
+                    </div>
+                    
+                    <div class="tabs">
+                        <div class="tab active" onclick="switchApTab('summary')">廠商應付總覽</div>
+                        <div class="tab" onclick="switchApTab('detail')">應付日記明細</div>
+                    </div>
+                    
+                    <!-- AP Summary Tab -->
+                    <div id="ap-summary-tab" class="tab-content active">
+                        <div class="card">
+                            <div class="table-responsive">
+                                <table class="table" id="ap-summary-table">
+                                    <thead>
+                                        <tr>
+                                            <th>廠商名稱</th>
+                                            <th>總應付</th>
+                                            <th>已付款</th>
+                                            <th>未付餘額</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- AP Detail Tab -->
+                    <div id="ap-detail-tab" class="tab-content">
+                        <div class="card">
+                            <div class="table-responsive">
+                                <table class="table" id="ap-detail-table">
+                                    <thead>
+                                        <tr>
+                                            <th>日期</th>
+                                            <th>進貨單號</th>
+                                            <th>廠商</th>
+                                            <th>發票號碼</th>
+                                            <th>應付金額</th>
+                                            <th>已付金額</th>
+                                            <th>餘額</th>
+                                            <th>狀態</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 9. NOTES SECTION (票據管理) -->
+                <section id="notes-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>票據管理</h3>
+                        <button class="btn btn-primary" onclick="openNoteModal()"><i class="fas fa-plus"></i> 新增票據</button>
+                    </div>
+                    <div class="filters-bar">
+                        <select id="notes-filter-type" class="form-control">
+                            <option value="">全部類型</option>
+                            <option value="receivable">應收票據</option>
+                            <option value="payable">應付票據</option>
+                        </select>
+                        <select id="notes-filter-status" class="form-control">
+                            <option value="">全部狀態</option>
+                            <option value="pending" selected>未兌現 (Pending)</option>
+                            <option value="cleared">已兌現 (Cleared)</option>
+                        </select>
+                        <button class="btn btn-secondary mb-0" onclick="loadNotes()">搜尋</button>
+                    </div>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="notes-table">
+                                <thead>
+                                    <tr>
+                                        <th>票據類型</th>
+                                        <th>票號</th>
+                                        <th>金額</th>
+                                        <th>到期日</th>
+                                        <th>對象</th>
+                                        <th>狀態</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 10. REPORTS SECTION (損益報表) -->
+                <section id="reports-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>損益報表 (P&L) 與 ABC 分析</h3>
+                    </div>
+                    
+                    <div class="filters-bar">
+                        <select id="report-year" class="form-control">
+                            <!-- Populated by JS -->
+                        </select>
+                        <select id="report-month" class="form-control">
+                            <option value="">全年</option>
+                            <!-- Months -->
+                        </select>
+                        <button class="btn btn-primary mb-0" onclick="loadReports()">產生報表</button>
+                    </div>
+
+                    <div id="report-content" class="hidden">
+                        <div class="stat-cards">
+                            <div class="stat-card">
+                                <div class="stat-icon primary"><i class="fas fa-chart-line"></i></div>
+                                <div class="stat-info">
+                                    <h4>總營收 (銷貨)</h4>
+                                    <p id="rep-revenue">$0</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon danger"><i class="fas fa-shopping-cart"></i></div>
+                                <div class="stat-info">
+                                    <h4>總成本 (進貨)</h4>
+                                    <p id="rep-cost">$0</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon success"><i class="fas fa-balance-scale"></i></div>
+                                <div class="stat-info">
+                                    <h4>虛淨利 (毛利)</h4>
+                                    <p id="rep-profit">$0</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon warning"><i class="fas fa-percentage"></i></div>
+                                <div class="stat-info">
+                                    <h4>毛利率</h4>
+                                    <p id="rep-margin">0%</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="card">
+                                <div class="card-header"><h3>客戶 ABC 分析 (營收貢獻)</h3></div>
+                                <div class="card-body" style="max-height: 400px; overflow-y: auto;">
+                                    <table class="table" id="rep-customer-abc">
+                                        <thead><tr><th>客戶</th><th>總金額</th><th>等級</th></tr></thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header"><h3>廠商 ABC 分析 (進貨佔比)</h3></div>
+                                <div class="card-body" style="max-height: 400px; overflow-y: auto;">
+                                    <table class="table" id="rep-vendor-abc">
+                                        <thead><tr><th>廠商</th><th>總金額</th><th>等級</th></tr></thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 11. SETTINGS SECTION (權限設定) -->
+                <section id="settings-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>員工權限設定 (僅老闆可見)</h3>
+                        <button class="btn btn-primary" onclick="savePermissions()"><i class="fas fa-save"></i> 儲存設定</button>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="mb-4 text-muted">請勾選「員工帳號 (staff)」登入時，可以看見並操作的側邊欄模組。未勾選的模組將被隱藏且無法存取。</p>
+                            
+                            <form id="permissions-form" class="form-grid-3">
+                                <div><label><input type="checkbox" name="perm_menu" value="sales-section"> 出貨單</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="quotes-section"> 報價單</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="inventory-section"> 庫存表</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="purchases-section"> 進貨單</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="customers-section"> 客戶資料</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="vendors-section"> 廠商資料</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="ar-section"> 應收帳款</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="ap-section"> 應付帳款</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="notes-section"> 票據管理</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="reports-section"> 損益報表</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="payroll-section"> 人事薪資</label></div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 12. PAYROLL SECTION (人事薪資) -->
+                <section id="payroll-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>人事薪資管理</h3>
+                    </div>
+                    <div class="tabs mb-4">
+                        <div class="tab active" id="pr-emp-tab" onclick="switchPayrollTab('emp')">員工資料維護</div>
+                        <div class="tab" id="pr-salary-tab" onclick="switchPayrollTab('salary')">每月薪資結算</div>
+                    </div>
+                    
+                    <div id="pr-emp-content">
+                        <button class="btn btn-primary mb-3" onclick="openEmployeeModal()"><i class="fas fa-user-plus"></i> 新增員工</button>
+                        <table class="table" id="emp-table">
+                            <thead><tr><th>員工編號</th><th>姓名</th><th>到職日</th><th>底薪</th><th>狀態</th><th>操作</th></tr></thead>
+                            <tbody></tbody>
                         </table>
                     </div>
-                </div>
-            </section>
 
-            <!-- Products Section -->
-            <section id="products-section" class="content-section hidden">
-                <div class="table-card">
-                    <div class="card-header">
-                        <div class="search-bar">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <input type="text" id="product-search" placeholder="搜尋規格、花紋、產品代碼、品牌...">
+                    <div id="pr-salary-content" class="hidden">
+                        <div class="filters mb-3">
+                            <input type="number" id="pr-year" class="form-control" placeholder="年 (例: 2026)" value="2026">
+                            <input type="number" id="pr-month" class="form-control" placeholder="月 (例: 6)" value="6">
+                            <button class="btn btn-secondary" onclick="loadPayroll()">查詢</button>
+                            <button class="btn btn-primary" onclick="openPayrollModal()">新增本月薪資單</button>
                         </div>
-                        <button class="btn btn-primary" onclick="openProductModal()">
-                            <i class="fa-solid fa-plus"></i> 新增產品
-                        </button>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="data-table">
-                            <thead>
-                                <tr>
-                                    <th>產品代碼</th>
-                                    <th>品牌</th>
-                                    <th>規格</th>
-                                    <th>花紋</th>
-                                    <th>類別</th>
-                                    <th>庫存數量</th>
-                                    <th>操作人員</th>
-                                    <th>最後修改時間</th>
-                                    <th>操作</th>
-                                </tr>
-                            </thead>
-                            <tbody id="products-table-body">
-                                <!-- Loaded dynamically -->
-                            </tbody>
+                        <table class="table" id="payroll-table">
+                            <thead><tr><th>年月</th><th>員工姓名</th><th>底薪</th><th>獎金/加給</th><th>扣款</th><th>實發薪資</th><th>狀態</th><th>操作</th></tr></thead>
+                            <tbody></tbody>
                         </table>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Sales Orders Section -->
-            <section id="sales-section" class="content-section hidden">
-                <div class="table-card">
-                    <div class="card-header">
-                        <div class="search-bar">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <input type="text" id="sales-search" placeholder="搜尋出貨單號、客戶編號...">
-                        </div>
-                        <button class="btn btn-primary" onclick="openSalesModal()">
-                            <i class="fa-solid fa-plus"></i> 新增出貨單
-                        </button>
+                <!-- 12.5. USERS SECTION (ACCOUNT MANAGEMENT) -->
+                <section id="users-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h2 class="card-title">帳號管理</h2>
+                        <p class="text-secondary" style="font-size: 0.9rem;">管理系統登入帳號、修改密碼與停用帳號</p>
                     </div>
-                    <div class="table-responsive">
-                        <table class="data-table">
-                            <thead>
-                                <tr>
-                                    <th>出貨單號</th>
-                                    <th>部門</th>
-                                    <th>日期</th>
-                                    <th>客戶編號</th>
-                                    <th>車牌號碼</th>
-                                    <th>總金額</th>
-                                    <th>操作人</th>
-                                    <th>操作</th>
-                                </tr>
-                            </thead>
-                            <tbody id="sales-table-body">
-                                <!-- Loaded dynamically -->
-                            </tbody>
-                        </table>
+                    <div class="filters mb-3">
+                        <button class="btn btn-primary" onclick="openUserModal()"><i class="fas fa-user-plus"></i> 新增帳號</button>
                     </div>
-                </div>
-            </section>
+                    <table class="table" id="users-table">
+                        <thead>
+                            <tr>
+                                <th>帳號名稱 (Username)</th>
+                                <th>角色 (Role)</th>
+                                <th>狀態</th>
+                                <th>建立時間</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </section>
+
+                <!-- 13. SYSTEM LOGS SECTION -->
+                <section id="logs-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>系統操作日誌</h3>
+                    </div>
+                    <div class="filters-bar">
+                        <input type="text" id="logs-filter-user" class="form-control" placeholder="輸入帳號搜尋..." style="width:200px;">
+                        <button class="btn btn-secondary" onclick="loadLogs()">查詢</button>
+                    </div>
+                    <table class="table mt-3" id="logs-table">
+                        <thead>
+                            <tr>
+                                <th>時間</th>
+                                <th>操作帳號</th>
+                                <th>動作</th>
+                                <th>對象</th>
+                                <th>詳細內容</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </section>
+
+            </div>
         </main>
     </div>
 
-    <!-- ================= MODALS ================= -->
+    <!-- ==================== MODALS ==================== -->
 
-    <!-- Customer Modal -->
-    <div id="customer-modal" class="modal hidden">
-        <div class="modal-content">
+    <!-- Universal Order/Quote Modal -->
+    <div id="order-modal" class="modal-overlay">
+        <div class="modal-content modal-lg">
             <div class="modal-header">
-                <h3 id="customer-modal-title">新增客戶資料</h3>
-                <span class="close-modal" onclick="closeCustomerModal()">&times;</span>
+                <h3 id="order-modal-title">新增單據</h3>
+                <button class="btn btn-icon" onclick="closeModal('order-modal')"><i class="fas fa-times"></i></button>
             </div>
-            <form id="customer-form">
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="c_id">客戶編號</label>
-                        <input type="text" id="c_id" required>
+            <div class="modal-body">
+                <form id="order-form">
+                    <input type="hidden" id="order-type">
+                    <input type="hidden" id="order-id-input">
+                    
+                    <!-- Top section: Selectors and Dates -->
+                    <div class="form-grid-3 mb-4">
+                        <div class="form-group">
+                            <label>單號 (自動/手動)</label>
+                            <input type="text" id="order-num" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>日期</label>
+                            <input type="date" id="order-date" class="form-control" required>
+                        </div>
+                        <div class="form-group" id="order-dept-wrapper">
+                            <label>部門分類</label>
+                            <select id="order-dept" class="form-control">
+                                <option value="大車店內">大車店內</option>
+                                <option value="大車批發">大車批發</option>
+                                <option value="轎車店內">轎車店內</option>
+                                <option value="轎車批發">轎車批發</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="form-group col-6">
-                        <label for="c_name">客戶名稱</label>
-                        <input type="text" id="c_name" required>
+
+                    <!-- Party Info (Customer/Vendor 13 fields / 6 fields) -->
+                    <div class="card mb-4">
+                        <div class="card-header" style="background:#f8fafc; padding:0.75rem 1rem;">
+                            <h4 id="order-party-title" style="margin:0; font-size:1rem;">客戶/廠商資料</h4>
+                            <div class="autocomplete-wrapper" style="width: 250px;">
+                                <input type="text" id="order-party-search" class="form-control" placeholder="搜尋並帶入資料...">
+                                <div id="order-party-list" class="autocomplete-list"></div>
+                            </div>
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="form-grid-4">
+                                <div class="form-group"><label>編號</label><input type="text" id="op-id" class="form-control" required></div>
+                                <div class="form-group"><label>名稱</label><input type="text" id="op-name" class="form-control" required></div>
+                                <div class="form-group"><label>統編</label><input type="text" id="op-taxid" class="form-control"></div>
+                                <div class="form-group"><label>電話</label><input type="text" id="op-phone" class="form-control"></div>
+                                <div class="form-group" style="grid-column: span 2;"><label>地址</label><input type="text" id="op-address" class="form-control"></div>
+                                <div class="form-group" id="op-plate-wrapper"><label>車號</label><input type="text" id="op-plate" class="form-control"></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="c_phone">聯絡電話</label>
-                        <input type="text" id="c_phone">
+
+                    <!-- Line Items -->
+                    <div class="card mb-4">
+                        <div class="card-header" style="background:#f8fafc; padding:0.75rem 1rem;">
+                            <h4 style="margin:0; font-size:1rem;">明細品項</h4>
+                            <div class="flex gap-2">
+                                <button type="button" class="btn btn-secondary btn-sm" onclick="openTireSelector()"><i class="fas fa-car"></i> 選擇輪胎部位</button>
+                                <button type="button" class="btn btn-primary btn-sm" onclick="addLineItem()"><i class="fas fa-plus"></i> 新增一列</button>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table line-items-table" id="line-items-table">
+                                <thead>
+                                    <tr>
+                                        <th>商品編碼 (搜尋帶入)</th>
+                                        <th>品名/規格/花紋</th>
+                                        <th style="width:80px;">數量</th>
+                                        <th style="width:100px;">單價</th>
+                                        <th style="width:100px;">金額</th>
+                                        <th>部位/維修</th>
+                                        <th style="width:50px;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="line-items-body">
+                                    <!-- JS populated -->
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div class="form-group col-6">
-                        <label for="c_uniform">統一編號</label>
-                        <input type="text" id="c_uniform">
+
+                    <!-- Footer Totals -->
+                    <div class="form-grid-4">
+                        <div class="form-group">
+                            <label>付款狀態/條件</label>
+                            <select id="order-payment" class="form-control">
+                                <option value="收現">收現</option>
+                                <option value="應收貨款">應收貨款 / 應付帳款</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>發票號碼</label>
+                            <input type="text" id="order-invoice" class="form-control">
+                        </div>
+                        <div class="form-group" style="grid-column: span 2; display: flex; flex-direction: column; align-items: flex-end;">
+                            <div class="text-right">
+                                <div>未稅金額: <span id="order-subtotal">0</span></div>
+                                <div>稅額 (5%): <span id="order-tax">0</span></div>
+                                <div style="font-size: 1.25rem; font-weight: bold; color: var(--primary); margin-top: 0.5rem;">
+                                    總計: <span id="order-grandtotal">0</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="c_address">通訊地址</label>
-                    <input type="text" id="c_address">
-                </div>
-                <div class="form-group">
-                    <label for="c_vehicle">關聯車牌 (選填，格式如: 123-Q2)</label>
-                    <input type="text" id="c_vehicle" placeholder="例如: 123-Q2">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline" onclick="closeCustomerModal()">取消</button>
-                    <button type="submit" class="btn btn-primary">儲存資料</button>
-                </div>
-            </form>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal('order-modal')">取消</button>
+                <button class="btn btn-primary" onclick="saveOrder()"><i class="fas fa-save"></i> 儲存</button>
+            </div>
         </div>
     </div>
 
-    <!-- Product Modal -->
-    <div id="product-modal" class="modal hidden">
-        <div class="modal-content">
+    <!-- Tire Position Selector Modal (SVG) -->
+    <div id="tire-modal" class="modal-overlay" style="z-index: 1060;">
+        <div class="modal-content modal-sm">
             <div class="modal-header">
-                <h3 id="product-modal-title">新增產品資料</h3>
-                <span class="close-modal" onclick="closeProductModal()">&times;</span>
+                <h3>選擇輪胎部位</h3>
+                <button class="btn btn-icon" onclick="closeModal('tire-modal')"><i class="fas fa-times"></i></button>
             </div>
-            <form id="product-form">
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="p_code">產品代碼</label>
-                        <input type="text" id="p_code" required>
-                    </div>
-                    <div class="form-group col-6">
-                        <label for="p_brand">品牌</label>
-                        <input type="text" id="p_brand" required>
-                    </div>
+            <div class="modal-body text-center">
+                <div class="mb-4">
+                    <label class="mr-4"><input type="radio" name="vehicle_type" value="sedan" checked onchange="renderTireSvg()"> 轎車 (4輪)</label>
+                    <label class="mr-4"><input type="radio" name="vehicle_type" value="truck" onchange="renderTireSvg()"> 卡車 (10輪)</label>
+                    <label><input type="radio" name="vehicle_type" value="truck12" onchange="renderTireSvg()"> 大卡車 (12輪)</label>
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="p_spec">規格</label>
-                        <input type="text" id="p_spec" required>
-                    </div>
-                    <div class="form-group col-6">
-                        <label for="p_pattern">花紋</label>
-                        <input type="text" id="p_pattern" required>
-                    </div>
+                <div id="tire-svg-container" class="tire-selector-container">
+                    <!-- SVG injected by JS -->
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-4">
-                        <label for="p_category">類別</label>
-                        <select id="p_category" required>
-                            <option value="轎車胎">轎車胎</option>
-                            <option value="卡車胎">卡車胎</option>
-                            <option value="翻修胎">翻修胎</option>
+                <div class="mt-4 text-left">
+                    <label>已選部位：</label>
+                    <input type="text" id="selected-tire-positions" class="form-control" readonly>
+                </div>
+                <div class="mt-2 text-left">
+                    <label>維修內容 (選填)：</label>
+                    <select id="tire-service-type" class="form-control">
+                        <option value="">無</option>
+                        <option value="換新胎">換新胎</option>
+                        <option value="換中古胎">換中古胎</option>
+                        <option value="翻修胎">翻修胎</option>
+                        <option value="定位">定位</option>
+                        <option value="補胎">補胎</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="confirmTireSelection()">確定</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment / Reconciliation Modal -->
+    <div id="payment-modal" class="modal-overlay">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3 id="payment-modal-title">新增沖帳</h3>
+                <button class="btn btn-icon" onclick="closeModal('payment-modal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="payment-form">
+                    <input type="hidden" id="pay-type">
+                    <input type="hidden" id="pay-ref-id">
+                    
+                    <div class="form-group">
+                        <label>對象名稱</label>
+                        <input type="text" id="pay-party-name" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>未沖銷餘額</label>
+                        <input type="text" id="pay-balance" class="form-control" readonly style="color:var(--danger); font-weight:bold;">
+                    </div>
+                    <div class="form-group">
+                        <label>本次沖帳金額</label>
+                        <input type="number" id="pay-amount" class="form-control" required min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>付款方式</label>
+                        <select id="pay-method" class="form-control">
+                            <option value="現金">現金</option>
+                            <option value="匯款轉帳">匯款轉帳</option>
+                            <option value="票據">票據</option>
                         </select>
                     </div>
-                    <div class="form-group col-4">
-                        <label for="p_stock">初始庫存</label>
-                        <input type="number" id="p_stock" value="0" min="0">
-                    </div>
-                    <div class="form-group col-4">
-                        <label for="p_price">售價</label>
-                        <input type="number" id="p_price" value="0" min="0">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline" onclick="closeProductModal()">取消</button>
-                    <button type="submit" class="btn btn-primary">儲存資料</button>
-                </div>
-            </form>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal('payment-modal')">取消</button>
+                <button class="btn btn-primary" onclick="submitPayment()">確認沖帳</button>
+            </div>
         </div>
     </div>
 
-    <!-- Sales Order Modal -->
-    <div id="sales-modal" class="modal hidden">
+    <!-- Stock Adjustment Modal -->
+    <div id="stock-adjust-modal" class="modal-overlay">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>調整庫存</h3>
+                <button class="btn btn-icon" onclick="closeModal('stock-adjust-modal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="stock-adjust-form" onsubmit="event.preventDefault(); submitStockAdjustment();">
+                    <div class="form-group">
+                        <label>商品編碼</label>
+                        <input type="text" id="adjust-product-code" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>目前庫存</label>
+                        <input type="text" id="adjust-current-qty" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>增減數量 (可填正數或負數)</label>
+                        <input type="number" id="adjust-qty" class="form-control" placeholder="例如: 5 或 -3" required>
+                    </div>
+                    <div class="form-group">
+                        <label>調整原因</label>
+                        <input type="text" id="adjust-reason" class="form-control" placeholder="盤點 / 損耗 / 手動修正" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal('stock-adjust-modal')">取消</button>
+                <button class="btn btn-primary" onclick="submitStockAdjustment()">確認調整</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer/Vendor Modal -->
+    <div id="party-modal" class="modal-overlay">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>新增出貨單</h3>
-                <span class="close-modal" onclick="closeSalesModal()">&times;</span>
+                <h3 id="party-modal-title">新增/編輯 資料</h3>
+                <button class="btn btn-icon" onclick="closeModal('party-modal')"><i class="fas fa-times"></i></button>
             </div>
-            <form id="sales-form">
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="s_order_id">出貨單號</label>
-                        <input type="text" id="s_order_id" required>
+            <div class="modal-body">
+                <form id="party-form">
+                    <input type="hidden" id="party-type">
+                    <div class="form-grid-2">
+                        <div class="form-group"><label>編號 *</label><input type="text" id="pt-id" class="form-control" required></div>
+                        <div class="form-group"><label>名稱 *</label><input type="text" id="pt-name" class="form-control" required></div>
+                        <div class="form-group"><label>統一編號</label><input type="text" id="pt-taxid" class="form-control"></div>
+                        <div class="form-group"><label>聯絡電話</label><input type="text" id="pt-phone" class="form-control"></div>
+                        <div class="form-group" style="grid-column: span 2;"><label>地址</label><input type="text" id="pt-address" class="form-control"></div>
                     </div>
-                    <div class="form-group col-6">
-                        <label for="s_dept">出貨部門</label>
-                        <select id="s_dept" required>
-                            <option value="sedan">轎車部</option>
-                            <option value="truck">卡車部</option>
-                        </select>
+                    
+                    <h4 class="mt-4 mb-2 border-b">郵件標籤維護 (Mailing Info)</h4>
+                    <div class="form-grid-3">
+                        <div class="form-group"><label>信封袋名稱</label><input type="text" id="pt-env" class="form-control"></div>
+                        <div class="form-group"><label>回郵信封名稱</label><input type="text" id="pt-renv" class="form-control"></div>
+                        <div class="form-group"><label>大宗郵件名稱</label><input type="text" id="pt-bulk" class="form-control"></div>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="s_cust_id">客戶編號</label>
-                        <input type="text" id="s_cust_id" placeholder="例如: 2-0001" required>
-                    </div>
-                    <div class="form-group col-6">
-                        <label for="s_plate">出車車牌</label>
-                        <input type="text" id="s_plate" placeholder="例如: 123-Q2">
-                    </div>
-                </div>
-                <hr>
-                <h4>產品品項</h4>
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="s_prod_code">選擇產品代碼</label>
-                        <input type="text" id="s_prod_code" placeholder="輸入產品代碼" required>
-                    </div>
-                    <div class="form-group col-3">
-                        <label for="s_qty">數量</label>
-                        <input type="number" id="s_qty" value="1" min="1">
-                    </div>
-                    <div class="form-group col-3">
-                        <label for="s_price">單價</label>
-                        <input type="number" id="s_price" value="0" min="0">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline" onclick="closeSalesModal()">取消</button>
-                    <button type="submit" class="btn btn-primary">確認出貨</button>
-                </div>
-            </form>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal('party-modal')">取消</button>
+                <button class="btn btn-primary" onclick="saveParty()">儲存</button>
+            </div>
         </div>
     </div>
 
-    <!-- Scripts -->
-    <script src="app.js"></script>
+    <!-- Print Preview Overlay -->
+    <div id="print-preview" class="print-preview-overlay">
+        <div class="print-toolbar">
+            <div>
+                <button class="btn btn-secondary btn-sm" onclick="closePrintPreview()"><i class="fas fa-arrow-left"></i> 返回</button>
+            </div>
+            <h3>列印預覽</h3>
+            <div>
+                <button class="btn btn-primary btn-sm" onclick="executePrint()"><i class="fas fa-print"></i> 正式列印</button>
+            </div>
+        </div>
+        <div class="print-paper-container">
+            <div id="print-paper" class="print-paper">
+                <!-- Template injected by JS -->
+            </div>
+        </div>
+    </div>
+
+        <!-- Employee Modal -->
+        <div id="employee-modal" class="modal-overlay">
+            <div class="modal-content" style="max-width:500px;">
+                <div class="modal-header">
+                    <h3 id="employee-modal-title">新增員工</h3>
+                    <button class="btn btn-icon btn-secondary" onclick="closeModal('employee-modal')"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form id="employee-form" onsubmit="saveEmployee(event)">
+                        <div class="form-grid-2 mb-3">
+                            <div>
+                                <label>員工編號</label>
+                                <input type="text" class="form-control" id="emp-id" required placeholder="例如: E001">
+                            </div>
+                            <div>
+                                <label>姓名</label>
+                                <input type="text" class="form-control" id="emp-name" required>
+                            </div>
+                            <div>
+                                <label>聯絡電話</label>
+                                <input type="text" class="form-control" id="emp-phone">
+                            </div>
+                            <div>
+                                <label>到職日</label>
+                                <input type="date" class="form-control" id="emp-date" required>
+                            </div>
+                            <div>
+                                <label>基本底薪</label>
+                                <input type="number" class="form-control" id="emp-salary" required min="0">
+                            </div>
+                            <div>
+                                <label>狀態</label>
+                                <select class="form-control" id="emp-status">
+                                    <option value="active">在職</option>
+                                    <option value="resigned">離職</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="closeModal('employee-modal')">取消</button>
+                            <button type="submit" class="btn btn-primary">儲存員工</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payroll Modal -->
+        <div id="payroll-modal" class="modal-overlay">
+            <div class="modal-content" style="max-width:500px;">
+                <div class="modal-header">
+                    <h3 id="payroll-modal-title">新增本月薪資單</h3>
+                    <button class="btn btn-icon btn-secondary" onclick="closeModal('payroll-modal')"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form id="payroll-form" onsubmit="savePayrollRecord(event)">
+                        <div class="form-grid-2 mb-3">
+                            <div>
+                                <label>年份</label>
+                                <input type="number" class="form-control" id="pr-rec-year" required value="2026">
+                            </div>
+                            <div>
+                                <label>月份</label>
+                                <input type="number" class="form-control" id="pr-rec-month" required value="6">
+                            </div>
+                            <div style="grid-column: span 2;">
+                                <label>選擇員工</label>
+                                <select class="form-control" id="pr-rec-emp" required onchange="populatePayrollBase()"></select>
+                            </div>
+                            
+                            <div>
+                                <label>基本底薪</label>
+                                <input type="number" class="form-control" id="pr-rec-base" required min="0" oninput="calcNetPay()">
+                            </div>
+                            <div>
+                                <label>提成 (Commission)</label>
+                                <input type="number" class="form-control" id="pr-rec-comm" value="0" min="0" oninput="calcNetPay()">
+                            </div>
+                            <div>
+                                <label>業務獎金 (Bonus)</label>
+                                <input type="number" class="form-control" id="pr-rec-bonus" value="0" min="0" oninput="calcNetPay()">
+                            </div>
+                            <div>
+                                <label>加班費 (Overtime)</label>
+                                <input type="number" class="form-control" id="pr-rec-overtime" value="0" min="0" oninput="calcNetPay()">
+                            </div>
+                            <div>
+                                <label>扣款 (請假/勞健保)</label>
+                                <input type="number" class="form-control" id="pr-rec-deduct" value="0" min="0" oninput="calcNetPay()">
+                            </div>
+                            <div>
+                                <label>實發薪資</label>
+                                <input type="number" class="form-control" id="pr-rec-net" readonly style="font-weight:bold; color:var(--primary);">
+                            </div>
+                            <div style="grid-column: span 2;">
+                                <label>備註</label>
+                                <input type="text" class="form-control" id="pr-rec-note">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="closeModal('payroll-modal')">取消</button>
+                            <button type="submit" class="btn btn-primary">產生薪資單</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Note Modal -->
+        <div id="note-modal" class="modal-overlay">
+            <div class="modal-content" style="max-width:500px;">
+                <div class="modal-header">
+                    <h3 id="note-modal-title">新增票據</h3>
+                    <button class="btn btn-icon btn-secondary" onclick="closeModal('note-modal')"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form id="note-form" onsubmit="saveNote(event)">
+                        <div class="form-grid-2 mb-3">
+                            <div>
+                                <label>種類</label>
+                                <select class="form-control" id="note-type" required>
+                                    <option value="receivable">應收票據</option>
+                                    <option value="payable">應付票據</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>票號</label>
+                                <input type="text" class="form-control" id="note-number" required>
+                            </div>
+                            <div>
+                                <label>對象 (客戶/廠商)</label>
+                                <input type="text" class="form-control" id="note-party">
+                            </div>
+                            <div>
+                                <label>金額</label>
+                                <input type="number" class="form-control" id="note-amount" required min="0">
+                            </div>
+                            <div>
+                                <label>到期日</label>
+                                <input type="date" class="form-control" id="note-due-date" required>
+                            </div>
+                            <div>
+                                <label>備註</label>
+                                <input type="text" class="form-control" id="note-desc">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="closeModal('note-modal')">取消</button>
+                            <button type="submit" class="btn btn-primary">儲存票據</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- USER MANAGEMENT MODALS -->
+        <div id="user-modal" class="modal-overlay">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="user-modal-title">新增帳號</h3>
+                        <button class="btn btn-icon" onclick="closeModal('user-modal')"><i class="fas fa-times"></i></button>
+                    </div>
+                    <form id="user-form" onsubmit="event.preventDefault(); saveUser();">
+                        <div class="modal-body" style="display: grid; gap: 15px;">
+                            <div>
+                                <label>帳號 (Username)</label>
+                                <input type="text" class="form-control" id="u-username" required>
+                            </div>
+                            <div>
+                                <label>密碼 (Password)</label>
+                                <input type="password" class="form-control" id="u-password" required>
+                            </div>
+                            <div>
+                                <label>角色 (Role)</label>
+                                <select class="form-control" id="u-role">
+                                    <option value="staff">員工 (Staff)</option>
+                                    <option value="owner">老闆 (Owner)</option>
+                                    <option value="manager">經理 (Manager)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="closeModal('user-modal')">取消</button>
+                            <button type="submit" class="btn btn-primary">建立帳號</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="user-pw-modal" class="modal-overlay">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">修改密碼</h3>
+                        <button class="btn btn-icon" onclick="closeModal('user-pw-modal')"><i class="fas fa-times"></i></button>
+                    </div>
+                    <form id="user-pw-form" onsubmit="event.preventDefault(); saveUserPassword();">
+                        <input type="hidden" id="pw-username">
+                        <div class="modal-body" style="display: grid; gap: 15px;">
+                            <p>正在為帳號 <strong id="pw-username-display"></strong> 修改密碼：</p>
+                            <div>
+                                <label>新密碼</label>
+                                <input type="password" class="form-control" id="pw-new" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="closeModal('user-pw-modal')">取消</button>
+                            <button type="submit" class="btn btn-danger">強制變更</button>
+                        </div>
+                    </form>
+                </div>
+            <!-- Announcement Modal -->
+    <div id="announcement-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 500px;">
+            <div class="modal-header">
+                <h3>系統更新公告</h3>
+                <button class="btn btn-icon" onclick="closeModal('announcement-modal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>公告內容</label>
+                    <textarea id="announcement-text" class="form-control" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal('announcement-modal')">取消</button>
+                <button class="btn btn-primary" onclick="saveAnnouncement()">發佈公告</button>
+            </div>
+        </div>
+    </div>
+        </div>
+
+    <script src="app.js?v=9"></script>
 </body>
 </html>

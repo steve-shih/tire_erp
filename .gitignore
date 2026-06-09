@@ -4,3 +4,11 @@
 
 # macOS system files
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary scratch folder
+scratch/
+database_backup/
