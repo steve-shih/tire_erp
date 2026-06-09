@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中華全佑 ERP 員工操作手冊</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f8fafc; }
+        .header { text-align: center; margin-bottom: 40px; padding-bottom: 20px; border-bottom: 2px solid #e2e8f0; }
+        .header h1 { color: #2d3748; }
+        .section { background: white; padding: 20px 30px; margin-bottom: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .section h2 { color: #3182ce; border-bottom: 1px solid #edf2f7; padding-bottom: 10px; }
+        .section h3 { color: #2b6cb0; margin-top: 20px; }
+        .step { margin-bottom: 15px; }
+        .icon { color: #4299e1; width: 24px; text-align: center; margin-right: 8px; }
+        .note { background: #ebf8ff; border-left: 4px solid #3182ce; padding: 10px 15px; margin: 15px 0; border-radius: 0 4px 4px 0; }
+        img { max-width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1><i class="fas fa-truck-moving"></i> 中華全佑 ERP - 員工操作手冊</h1>
+        <p>提供給全體門市、倉庫與行政員工的系統使用指南</p>
+    </div>
+
+    <div class="section">
+        <h2><i class="fas fa-sign-in-alt icon"></i> 1. 登入系統</h2>
+        <div class="step">
+            <p>1. 打開瀏覽器，輸入公司指定的網址 (例如 <code>https://zhqy.ngrok.pro</code>)。</p>
+            <p>2. 輸入主管發放給您的 <strong>帳號</strong> 與 <strong>密碼</strong>，點擊「登入」。</p>
+            <div class="note">
+                <strong>注意事項：</strong> 如果忘記密碼，請聯繫店長或老闆從「帳號管理」中為您重新設定。
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i class="fas fa-file-invoice-dollar icon"></i> 2. 建立出貨單 (銷售)</h2>
+        <p>當有客戶來店安裝輪胎或批發出貨時，請依循以下步驟建立單據：</p>
+        <div class="step">
+            <h3>Step 1: 新增單據</h3>
+            <p>在左側選單點擊 <strong>出貨單</strong>，接著點擊畫面右上的 <button style="background:#3182ce;color:white;border:none;padding:5px 10px;border-radius:4px;"><i class="fas fa-plus"></i> 新增出貨單</button>。</p>
+        </div>
+        <div class="step">
+            <h3>Step 2: 帶入客戶資料</h3>
+            <p>在彈出的視窗中，使用右上角的 <strong>搜尋框</strong> 輸入客戶姓名、車號或電話。點擊搜尋結果後，系統會自動填入客戶的所有資料（統編、電話、地址）。</p>
+        </div>
+        <div class="step">
+            <h3>Step 3: 選擇輪胎與項目</h3>
+            <p>點擊 <strong>選擇輪胎部位</strong> 按鈕，這會打開快速車輛部位圖。您可以直接點選左前輪、右前輪等部位，並在跳出的視窗搜尋庫存品項，系統會自動將您選的輪胎加入到明細中，並扣除庫存。</p>
+        </div>
+        <div class="step">
+            <h3>Step 4: 確認金額與存檔</h3>
+            <p>確認單價與數量無誤後，選擇客戶的 <strong>付款狀態</strong> (收現、匯款或應收貨款)。最後點擊右下角的 <strong>儲存</strong>。如果您需要印給客戶，可以直接點選 <strong>儲存並下載 Excel</strong> 列印。</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i class="fas fa-boxes icon"></i> 3. 查詢庫存表</h2>
+        <div class="step">
+            <p>在左側選單點選 <strong>庫存表</strong>。</p>
+            <p>您可以在上方輸入 <strong>規格、品牌或花紋</strong> 進行快速搜尋。</p>
+            <p>透過上方的分頁，可以切換查看 <strong>大車</strong> 或 <strong>轎車</strong> 的分類庫存。</p>
+            <div class="note">
+                <strong>盤點提醒：</strong> 您可以隨時點擊右上角的「列印當前庫存表」將畫面印出來，方便拿去倉庫進行實體盤點。
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i class="fas fa-hand-holding-usd icon"></i> 4. 處理應收帳款 (收款沖帳)</h2>
+        <p>當月結客戶匯款或拿現金來結清之前「應收貨款」的帳單時：</p>
+        <div class="step">
+            <p>1. 進入左側選單的 <strong>應收帳款</strong> 模組。</p>
+            <p>2. 點擊 <strong>新增收款沖帳</strong>。</p>
+            <p>3. 選擇付款的 <strong>客戶</strong>，系統會列出他所有還沒付清的單據。</p>
+            <p>4. 輸入客戶這次給的總金額，系統會自動幫您從最舊的帳單開始依序沖銷 (也可手動調整沖帳金額)。</p>
+            <p>5. 點擊 <strong>確認沖帳</strong>，帳款就會結清。</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i class="fas fa-users icon"></i> 5. 客戶與車輛管理</h2>
+        <div class="step">
+            <p>進入 <strong>客戶資料</strong> 模組，您可以管理所有來店客與批發客。</p>
+            <p>點擊客戶列右方的 <strong>編輯</strong> 按鈕，可以在客戶資料內新增他的「車號」。當他在出貨單搜尋時，可以直接用車號找到該客戶。</p>
+            <p>每逢年節或促銷，您可以利用上方的 <strong>列印信封</strong> 與 <strong>列印地址貼</strong> 功能，一次把所有客戶的聯絡資訊印出來寄送 DM。</p>
+        </div>
+    </div>
+
+    <div class="section" style="text-align: center; color: #718096; font-size: 0.9em;">
+        <p>如果遇到系統錯誤或有操作疑問，請洽詢主管協助。</p>
+        <p>Copyright &copy; 中華全佑 ERP System</p>
+    </div>
+
+</body>
+</html>

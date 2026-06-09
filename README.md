@@ -4,6 +4,44 @@
 
 ---
 
+## 🚀 目前部署環境狀態 (Current Deployment Status)
+
+此系統已經在此伺服器上架設完畢，目前的運行狀態與連線資訊如下：
+
+### 1. 伺服器與架構配置
+- **資料庫 (MongoDB)**: 已安裝為 Windows 服務，監聽 Port 27017。
+- **後端 API (FastAPI)**: 使用 **PM2** 常駐運行，進程名稱為 `tire-erp-backend`，監聽 Port 8000。
+- **前端代理 (Nginx)**: 監聽 Port 80，並反向代理至 Port 8000。
+
+### 2. 外部連線網址
+系統已設定 **ngrok** 隧道服務進行穿透，可透過以下專屬網址從外部存取 ERP 系統：
+👉 **https://zhqy.ngrok.pro**
+
+*(本機端存取請使用 http://localhost 或 http://127.0.0.1)*
+
+### 3. 系統預設帳號與密碼
+系統還原後已包含以下預設帳號：
+
+**👑 最高權限管理者 (Owner)** (擁有所有權限)：
+- `owner1` / `owner123`
+- `owner2` / `owner123`
+
+**🧑‍💼 一般員工 / 分店帳號 (Staff)**：
+- `staff1` / `staff123`
+- `staff2` / `staff123`
+- `branch_taichung` / `taichung123`
+- `branch_miaoli` / `miaoli123`
+- `branch_hsinchu` / `hsinchu123`
+
+### 4. 資料庫已載入之歷史資料概況
+- **產品庫存 (products)**：2913 筆
+- **客戶資料 (customers)**：3289 筆
+- **進貨廠商 (vendors)**：333 筆
+- **使用者帳號 (users)**：7 筆
+- 其他包含出貨單、進貨單、報價單等資料均已完整還原。
+
+---
+
 ## 系統架構簡介
 - **前端 (Frontend)**: 原生 HTML + Vanilla CSS + Javascript (`frontend/` 目錄)
 - **後端 (Backend)**: Python FastAPI 框架 (`backend/` 目率)
