@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "6a28264f68e923f83896df1d"
+    },
+    "username": "owner1",
+    "action": "UPDATE",
+    "entity": "user",
+    "description": "Changed password for staff1",
+    "timestamp": {
+      "$date": "2026-06-09T14:42:23.673Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a28264f68e923f83896df1e"
+    },
+    "username": "owner1",
+    "action": "DELETE",
+    "entity": "user",
+    "description": "Deleted user staff1",
+    "timestamp": {
+      "$date": "2026-06-09T14:42:23.936Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a282ee18f8089865a1b7b5c"
+    },
+    "username": "owner1",
+    "action": "CREATE",
+    "entity": "purchase_order",
+    "description": "Created order PO-20260609-843",
+    "timestamp": {
+      "$date": "2026-06-09T15:18:57.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2838b8828bf9e7eb49c81f"
+    },
+    "username": "owner1",
+    "action": "CREATE",
+    "entity": "quote",
+    "description": "Created quote Q-20260609-370",
+    "timestamp": {
+      "$date": "2026-06-09T16:00:56.676Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2838f6828bf9e7eb49c821"
+    },
+    "username": "owner1",
+    "action": "CONVERT",
+    "entity": "quote",
+    "description": "Converted quote Q-20260609-370 to order SO-Q-20260609-370",
+    "timestamp": {
+      "$date": "2026-06-09T16:01:58.130Z"
+    }
+  }
+]

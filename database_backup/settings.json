@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "permissions",
+    "staff_visible_menus": [
+      "sales-section",
+      "quotes-section",
+      "inventory-section",
+      "purchases-section",
+      "customers-section",
+      "vendors-section"
+    ]
+  }
+]

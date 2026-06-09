@@ -1,0 +1,12 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2812957e45911ab378cc06"
+    },
+    "content": "\u6b61\u8fce\u5149\u81e8\uff01\u672c\u516c\u53f8\u63d0\u4f9b\u5404\u5f0f\u8f2a\u80ce\u96f6\u552e\u6279\u767c\u3001\u5b9a\u4f4d\u4fdd\u990a\u3001\u7ffb\u4fee\u80ce\u52a0\u5de5\uff0c\u54c1\u8cea\u4fdd\u8b49\uff0c\u670d\u52d9\u81f3\u4e0a\uff01",
+    "updated_by": "system_setup",
+    "updated_at": {
+      "$date": "2026-06-09T13:18:13.569Z"
+    }
+  }
+]

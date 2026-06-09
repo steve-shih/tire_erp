@@ -1,0 +1,132 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2824205bdcabd2e9630df8"
+    },
+    "username": "owner1",
+    "hashed_password": "$2b$12$b3zMaicbwZj4uUeSMBDb6uGel.vZHdsCK4YIL0U4OS/fkt43wrGxi",
+    "role": "owner",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:04.629Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2824205bdcabd2e9630df9"
+    },
+    "username": "owner2",
+    "hashed_password": "$2b$12$dgHZs9cCPcokDzmTJFMjsu7fYp2qU9zQrkByXbEPfXAozLqs2aI4u",
+    "role": "owner",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:04.892Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2824215bdcabd2e9630dfa"
+    },
+    "username": "staff1",
+    "hashed_password": "$2b$12$nJ1.82fPDA.fsjT/Nzc1JesWgfCoHTMiaY6DmChLH4.Peo12ruBA.",
+    "role": "staff",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:05.140Z"
+    },
+    "is_deleted": true,
+    "updated_by": "owner1",
+    "updated_at": {
+      "$date": "2026-06-09T14:42:23.672Z"
+    },
+    "deleted_by": "owner1",
+    "deleted_at": {
+      "$date": "2026-06-09T14:42:23.935Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2824215bdcabd2e9630dfb"
+    },
+    "username": "staff2",
+    "hashed_password": "$2b$12$65cFmRQR9KzXz61RluyVmOE3NRWIAs4QbV2pAaaU03aGAO3JWXINO",
+    "role": "staff",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:05.393Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2824215bdcabd2e9630dfc"
+    },
+    "username": "branch_taichung",
+    "hashed_password": "$2b$12$x96N0YnUp4QQ.wF9qPIZy.LcTidZ2sY0BdGkC08R47Tmdp0fdV6S.",
+    "role": "staff",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:05.642Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2824215bdcabd2e9630dfd"
+    },
+    "username": "branch_miaoli",
+    "hashed_password": "$2b$12$WNuPHj32I4j1ivlFEiuTJOP8kDnGYdzjXTPNSlR7F4YClvzyT2meS",
+    "role": "staff",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:05.893Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2824225bdcabd2e9630dfe"
+    },
+    "username": "branch_hsinchu",
+    "hashed_password": "$2b$12$LonfunbjrxS6R5gPQz/6Zein8yN9VzjjMB8DL3kU1d/0LGzi3AQ3K",
+    "role": "staff",
+    "is_active": true,
+    "created_by": "system_setup",
+    "created_at": {
+      "$date": "2026-06-09T14:33:06.141Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  }
+]

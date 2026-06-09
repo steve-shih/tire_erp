@@ -1,0 +1,93 @@
+[
+  {
+    "_id": {
+      "$oid": "6a28198fe503d82cb0c82d75"
+    },
+    "quote_id": "Q848500",
+    "quote_type": "customer",
+    "category": "\u8f4e\u8eca",
+    "date": {
+      "$date": "2026-06-09T13:47:59.502Z"
+    },
+    "party_id": "2",
+    "party_name": "\u672a\u77e5\u5c0d\u8c61",
+    "phone": "",
+    "uniform_number": "",
+    "address": "",
+    "plate_number": "1",
+    "items": [
+      {
+        "product_code": "1",
+        "brand": null,
+        "spec": null,
+        "pattern": null,
+        "qty": 1,
+        "price": 0.0,
+        "amount": 0.0,
+        "service_type": null,
+        "tire_position": null
+      }
+    ],
+    "total_amount": 0.0,
+    "tax_amount": 0.0,
+    "grand_total": 0.0,
+    "note": null,
+    "quoted_by": null,
+    "valid_until": null,
+    "created_by": "branch_taichung",
+    "created_at": {
+      "$date": "2026-06-09T13:47:59.510Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2838b8828bf9e7eb49c81e"
+    },
+    "quote_id": "Q-20260609-370",
+    "quote_type": "customer",
+    "category": "\u5927\u8eca\u5e97\u5167",
+    "date": {
+      "$date": "2026-06-09T00:00:00Z"
+    },
+    "party_id": "1-0162",
+    "party_name": "\u93b0\u52a0\u8ca8\u904b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "phone": "037-462621\uff1e0988-636087\u9673\u5929\u9001\uff1e\u50b3\u771f037-471892",
+    "uniform_number": "8977\uff1e3719\u93b0\u5609\uff1e8499\uff1e8577\u93b0\u5229\uff1e5006>5800>\u7af9\u5357\u6c7d\u8eca>\u542b\u7a05>\u4e2d\u83ef\u5168\u5a01\uff1e\u958b:\u93b0\u5609>\u93b0\u5229>\u7af9\u5357\u6c7d\u8eca>\u7e3d\u91d1\u984d\u52063\u5bb6",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5929\u6587\u91cc20\u9130\u9f8d\u6c5f\u8857298\u5df729\u865f\u3002",
+    "plate_number": "",
+    "items": [
+      {
+        "product_code": "500",
+        "brand": "",
+        "spec": "\u88dc\u80ce",
+        "pattern": "",
+        "qty": 1,
+        "price": 500.0,
+        "amount": 500.0,
+        "service_type": "",
+        "tire_position": ""
+      }
+    ],
+    "total_amount": 500.0,
+    "tax_amount": 25.0,
+    "grand_total": 525.0,
+    "note": "(\u5df2\u8f49\u51fa\u8ca8\u55ae SO-Q-20260609-370) ",
+    "quoted_by": null,
+    "valid_until": null,
+    "is_converted": true,
+    "created_by": "owner1",
+    "created_at": {
+      "$date": "2026-06-09T16:00:56.675Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  }
+]

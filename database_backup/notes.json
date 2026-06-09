@@ -1,0 +1,37 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2818da2052738e459c6ae0"
+    },
+    "note_id": "TEST-NOTE-001",
+    "note_type": "receivable",
+    "note_number": "CHK123456",
+    "bank_name": null,
+    "amount": 10000.0,
+    "issue_date": {
+      "$date": "2026-06-09T13:44:58.403Z"
+    },
+    "due_date": {
+      "$date": "2026-06-09T13:44:58.403Z"
+    },
+    "party_id": "CUST-001",
+    "party_name": null,
+    "status": "cleared",
+    "cleared_date": {
+      "$date": "2026-06-09T13:44:58.408Z"
+    },
+    "created_by": "admin",
+    "created_at": {
+      "$date": "2026-06-09T13:44:58.405Z"
+    },
+    "is_deleted": true,
+    "updated_by": "admin",
+    "updated_at": {
+      "$date": "2026-06-09T13:44:58.408Z"
+    },
+    "deleted_by": "admin",
+    "deleted_at": {
+      "$date": "2026-06-09T13:44:58.412Z"
+    }
+  }
+]

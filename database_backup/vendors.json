@@ -1,0 +1,4997 @@
+[
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18df6"
+    },
+    "vendor_id": "1",
+    "name": "\u4e2d\u83ef\u5168\u4f51\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2791\uff1e1467\uff1e\u672a\u7a05",
+    "phone": "037-463990>037-463991>0932-528360\u8001\u95c6.\u80e1\u632f\u65b0>0952-360000\u8001\u95c6\u5a18.\u9673\u5a49\u73b2>\u50b3\u771f037-477953",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u4e2d\u7f8e\u91cc10\u9130\u4fdd\u5b89\u679752-10\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.782Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18df7"
+    },
+    "vendor_id": "2",
+    "name": "\u806f\u7def\u6703\u8a08\u4e8b\u52d9\u6240",
+    "uniform_number": "3519\uff1e0441\uff1e\u672a\u7a05",
+    "phone": "03-6673668#212\u9673\u5c0f\u59d0>0933-177967\u8001\u95c6.\u5442\u4ec1\u7426>0933-670646\u8001\u95c6\u5a18.\u912d\u79cb\u6708>\u50b3\u771f03-6672096",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5dff\u52dd\u5229\u4e09\u885777\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.787Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18df8"
+    },
+    "vendor_id": "3",
+    "name": "\u6771\u5927\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "3519\uff1e0441\uff1e\u672a\u7a05",
+    "phone": "02-22028666>\u50b3\u771f02-22028662",
+    "address": "\u53f0\u5317\u7e23\u65b0\u838a\u5dff\u5efa\u570b\u4e8c\u8def87\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.788Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18df9"
+    },
+    "vendor_id": "4",
+    "name": "\u5efa\u767c\u6a61\u81a0\u5de5\u5ee0\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "7534\uff1e9375\uff1e\u542b\u7a05",
+    "phone": "037-922063>07-7312191>0933-195284\u90b1\u570b\u6b63",
+    "address": "\u82d7\u6817\u7e23\u897f\u6e56\u9109\u91d1\u7345\u67518\u91301\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.788Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18dfa"
+    },
+    "vendor_id": "5",
+    "name": "\u7c73\u5176\u6797\u5fe0\u6b23\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5927\u80ce",
+    "uniform_number": "7035\uff1e7185\uff1e\u542b\u7a05(\u767c\u7968\u958b\u5168\u5a01\u4f01\u696d\u793e)",
+    "phone": "\u8a02\u8ca8\u5c08\u7dda>02-26976222>02-8647222#712\u9673\u5c0f\u59d0>02-26976111(\u7e3d\u6a5f)>\u5927\u80ce\u696d\u52d90928-608677\u5353\u5ca9\u826f>\u50b3\u771f02-26972763>\u8a02\u8ca8\u50b3\u771f0800-000-275>02-26976111#156\u6703\u8a08(\u767c\u7968).#151\u6703\u8a08(\u5c0d\u5e33)",
+    "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u65b0\u53f0\u4e94\u8def\u4e00\u6bb597\u865f31\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.789Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18dfb"
+    },
+    "vendor_id": "6",
+    "name": "\u7c73\u5176\u6797\u5fe0\u6b23\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u80ce",
+    "uniform_number": "7035\uff1e7185\uff1e\u542b\u7a05(\u767c\u7968\u958b\u5168\u5a01\u4f01\u696d\u793e)",
+    "phone": "\u8a02\u8ca8\u5c08\u7dda>02-26976222>02-8647222#712\u9673\u5c0f\u59d0>02-26976111(\u7e3d\u6a5f)>\u50b3\u771f02-26972763>\u8a02\u8ca8\u50b3\u771f0800-000-275",
+    "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u65b0\u53f0\u4e94\u8def\u4e00\u6bb597\u865f31\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.790Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18dfc"
+    },
+    "vendor_id": "7",
+    "name": "\u7c73\u5176\u6797\u5fe0\u6b23\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5c0f\u80ce",
+    "uniform_number": "7035\uff1e7185\uff1e\u542b\u7a05(\u767c\u7968\u958b\u5168\u5a01\u4f01\u696d\u793e)",
+    "phone": "\u8a02\u8ca8\u5c08\u7dda>02-26976222>02-8647222#712\u9673\u5c0f\u59d0>02-26976111(\u7e3d\u6a5f)>\u50b3\u771f02-26972763>\u8a02\u8ca8\u50b3\u771f0800-000-275>0937-543817>\u5c0f\u80ce\u696d\u52d9",
+    "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u65b0\u53f0\u4e94\u8def\u4e00\u6bb597\u865f31\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.791Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18dfd"
+    },
+    "vendor_id": "8",
+    "name": "\u5fe0\u4fe1\u5be6\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1138\uff1e3200\uff1e\u542b\u7a05",
+    "phone": "02-26348556>0935-557065\u8607\u5009\u5b8f>\u50b3\u771f02-26306797",
+    "address": "\u53f0\u5317\u5dff\u6c11\u6b0a\u6771\u8def\u516d\u6bb5272\u865f10\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.792Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18dfe"
+    },
+    "vendor_id": "9",
+    "name": "\u5229\u5764\u8f2a\u80ce\u6709\u9650\u516c\u53f8(\u4e0a\u773e)",
+    "uniform_number": "8987\uff1e8729\uff1e\u542b\u7a05",
+    "phone": "03-5519420>0935-628652\u5b98\u4e16\u5f37>\u50b3\u771f03-5553591",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5dff\u6eaa\u5dde\u8def345\u865fA\u68df\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.793Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18dff"
+    },
+    "vendor_id": "10",
+    "name": "\u5409\u5586\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-25856155>02-25868003>\u50b3\u771f:02-25860909",
+    "address": "\u53f0\u5317\u5e02\u5fb7\u60e0\u8857161\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.794Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e00"
+    },
+    "vendor_id": "11",
+    "name": "\u53f0\u5317\u5357\u9d3b\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8426\uff1e3300\uff1e\u542b\u7a05",
+    "phone": "037-725798>\u50b3\u771f037-733032",
+    "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u4e2d\u83ef\u8def134\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.794Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e01"
+    },
+    "vendor_id": "12",
+    "name": "\u5bcc\u4fe1\u884c\u6709\u9650\u516c\u53f8>\u4e92\u4fe1\u884c\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1231\uff1e5075\uff1e\u542b\u7a05",
+    "phone": "02-26583747>0932-023311\u5f90\u76db\u9686>\u50b3\u771f02-26584870",
+    "address": "\u53f0\u5317\u5dff\u5167\u6e56\u5340\u6c5f\u5357\u8857117-1\u865f1\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.795Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e02"
+    },
+    "vendor_id": "13",
+    "name": "\u5927\u52c1\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5378\uff1e9792\uff1e\u542b\u7a05",
+    "phone": "03-5568099>>\u50b3\u771f03-5564439",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5dff\u767d\u5730\u91cc\u9577\u9752\u8def\u4e00\u6bb5243\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.796Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e03"
+    },
+    "vendor_id": "14",
+    "name": "\u798f\u8f2a\u6c7d\u8eca\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e2d\u58e2\u5206\u516c\u53f8",
+    "uniform_number": "2906\uff1e0435\uff1e\u542b\u7a05",
+    "phone": "03-4332257>\u50b3\u771f03-4514654",
+    "address": "\u6843\u5712\u7e23\u4e2d\u58e2\u5dff\u6c38\u798f\u91cc\u897f\u5712\u8def101\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.796Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e04"
+    },
+    "vendor_id": "15",
+    "name": "\u68cb\u90a6\u6709\u9650\u516c\u53f8(\u5efa\u5927)",
+    "uniform_number": "8060\uff1e3860\uff1e\u542b\u7a05",
+    "phone": "037-233095>03-5368779>\u50b3\u771f03-5369646",
+    "address": "\u82d7\u6817\u7e23\u516c\u9928\u9109\u7389\u8c37\u675114\u9130115-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.797Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e05"
+    },
+    "vendor_id": "16",
+    "name": "\u53f0\u65b0\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8060\uff1e3860\uff1e\u542b\u7a05",
+    "phone": "03-5341234>\u50b3\u771f:03-5341235>0932-939361\u9b4f\u660e\u798f",
+    "address": "\u65b0\u7af9\u5e02\u516c\u9053\u4e94\u8def\u4e09\u6bb5589\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.798Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e06"
+    },
+    "vendor_id": "17",
+    "name": "\u842c\u5168\u92fc\u5708\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8059\uff1e4898\uff1e\u542b\u7a05",
+    "phone": "03-5762990>03-5204535>0918-657372\u8449\u5efa\u7537>\u50b3\u771f03-5762950",
+    "address": "\u65b0\u7af9\u5dff\u7e23\u5bf6\u5c71\u9109\u96d9\u6797\u8def\u4e8c\u6bb5168\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.799Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e07"
+    },
+    "vendor_id": "18",
+    "name": "\u7cbe\u8f2a\u8f2a\u80ce\u4f01\u696d\u793e>\u91d1\u8f2a\u570b\u969b\u5be6\u696d\u793e>\u806f\u78a9\u8f2a\u696d\u6709\u9650\u516c\u53f8>\u7cbe\u8f2a\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1920\uff1e0443\uff1e\u542b\u7a05",
+    "phone": "037-586435\u5de5\u5ee0\uff1e0932-111132\u5009\u7ba1\u8cf4\u5148\u751f>0912-618690\u8001\u95c6.\u9ec3\u58eb\u90ce\uff1e0922-413801\u8001\u95c6\u5a18.\u9673\u984f\u742a>\u50b3\u771f037-585186>0911-397286\u5916\u52d9\u7f85\u5148\u751f",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5d0e\u9802\u91cc15\u9130\u5c16\u5c71101\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.799Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e08"
+    },
+    "vendor_id": "19",
+    "name": "\u7acb\u57ce\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5983211>0988-322812\u5f6d\u5fd7\u826f>\u50b3\u771f03-5983215",
+    "address": "\u65b0\u7af9\u5e02\u65b0\u7af9\u5de5\u696d\u5340\u5be6\u8e10\u8def33\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.800Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e09"
+    },
+    "vendor_id": "20",
+    "name": "\u5927\u57ce\u8f2a\u80ce\u6a5f\u68b0\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4712\uff1e2503\uff1e\u542b\u7a05",
+    "phone": "03-5983211>0988-322812\u5f6d\u5fd7\u826f>\u50b3\u771f03-5983215",
+    "address": "\u65b0\u7af9\u5e02\u65b0\u7af9\u5de5\u696d\u5340\u5be6\u8e10\u8def33\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.801Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e0a"
+    },
+    "vendor_id": "21",
+    "name": "\u6b50\u5cf0\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2815\uff1e2695\uff1e\u672a\u7a05",
+    "phone": "037-696247>037-696248>0910-388260\u7fc1\u65b0\u96c4>\u50b3\u771f037-696173",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6210\u529f\u91cc\u6210\u529f\u8def51\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.801Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e0b"
+    },
+    "vendor_id": "22",
+    "name": "\u7d71\u5bcc\u6c7d\u8eca\u6750\u6599",
+    "uniform_number": "1733\uff1e7696\uff1e\u672a\u7a05",
+    "phone": "037-661400>037-595468\u59dc\u6176\u5dbd",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4fe1\u6771\u8def270\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.802Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e0c"
+    },
+    "vendor_id": "23",
+    "name": "\u6b23\u8446\u8208\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8442\uff1e0337\uff1e\u672a\u7a05",
+    "phone": "04-26810729>037-733889>0922-259998\u6797\u7d20\u4f0a",
+    "address": "\u53f0\u4e2d\u7e23\u5927\u7532\u93ae\u9285\u5b89\u91cc\u9577\u58fd\u8def51-8\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.803Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e0d"
+    },
+    "vendor_id": "24",
+    "name": "\u5149\u4e00\u6c7d\u8eca\u6750\u6599\u884c",
+    "uniform_number": "4973\uff1e9785\uff1e\u672a\u7a05",
+    "phone": "037-668085>0932-614477\u8303\u9806\u5149>\u50b3\u771f037-688451",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u83ef\u8def1119\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.803Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e0e"
+    },
+    "vendor_id": "25",
+    "name": "\u5149\u806f\u6c7d\u8eca\u6750\u6599\u884c",
+    "uniform_number": "4973\uff1e9785\uff1e\u672a\u7a05",
+    "phone": "037-620889>\u50b3\u771f037-623002",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6c38\u8c9e\u8def\u4e00\u6bb5161\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.804Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e0f"
+    },
+    "vendor_id": "26",
+    "name": "\u806f\u76db\u6c7d\u8eca\u6750\u6599\u884c",
+    "uniform_number": "5053\uff1e8343\uff1e\u672a\u7a05",
+    "phone": "037-631352>037-666512>0937-223669\u675c\u660e\u751f>\u50b3\u771f037-627510",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6c11\u65cf\u8def516\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.805Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e10"
+    },
+    "vendor_id": "27",
+    "name": "\u798f\u58eb\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2343\uff1e0002\uff1e\u542b\u7a05",
+    "phone": "037-721100>02-26017701>0970-423268\u6e38\u821c\u5b87>\u50b3\u771f037-732299>02-26017702",
+    "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u539d\u52dd\u8def205-33\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.805Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e11"
+    },
+    "vendor_id": "28",
+    "name": "\u6fb3\u5546\u74b0\u7403\u514b\u6797\u80a1\u4efd\u6709\u9650\u516c\u53f8\u53f0\u7063\u5206\u516c\u53f8",
+    "uniform_number": "2725\uff1e5005\uff1e\u542b\u7a05",
+    "phone": "02-29698201>04-23863122>0972-078298\u9673\u5609\u9032>\u50b3\u771f02-29698163",
+    "address": "\u53f0\u5317\u7e23\u677f\u6a4b\u5dff\u6587\u5316\u8def\u4e00\u6bb546\u5df737\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.806Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e12"
+    },
+    "vendor_id": "29",
+    "name": "\u660c\u6a3a\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8481\uff1e0047\uff1e\u672a\u7a05",
+    "phone": "037-689708>037-689709>\u50b3\u771f037-689710",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u592e\u8def570\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.807Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e13"
+    },
+    "vendor_id": "30",
+    "name": "\u79c0\u548c\u8eca\u6750\u5be6\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1316\uff1e0401\uff1e\u672a\u7a05",
+    "phone": "07-6511546>0919-263809\u9f8d\u6e90\u6e56>\u50b3\u771f07-6525403",
+    "address": "\u9ad8\u96c4\u7e23\u5927\u6a39\u9109\u7af9\u5bee\u8def324\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.807Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e14"
+    },
+    "vendor_id": "31",
+    "name": "\u5cf0\u63ee\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "07-5856868>0937-320320\u9673\u9805\u96e8>\u50b3\u771f07-5825959",
+    "address": "\u9ad8\u96c4\u5dff\u9f13\u5c71\u5340\u9298\u50b3\u8def99\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.808Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e15"
+    },
+    "vendor_id": "32",
+    "name": "\u9280\u738b\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5479\uff1e8714\uff1e\u542b\u7a05",
+    "phone": "04-8291863>04-8282084\u5f35\u5982\u7f8e>>\u50b3\u771f04-8296513",
+    "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u74e6\u5357\u6751\u897f\u5b89\u5357\u8def245\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.809Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e16"
+    },
+    "vendor_id": "33",
+    "name": "\u53f0\u4e00\u8f2a\u80ce\u884c(\u5be6\u5fc3\u80ce)",
+    "uniform_number": "1718\uff1e9479\uff1e\u672a\u7a05",
+    "phone": "0932-547205\u5433\u6176\u5802>04-24523234",
+    "address": "\u53f0\u4e2d\u7e23\u5927\u96c5\u90f5\u653f22-174\u865f\u4fe1\u7bb1\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.810Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e17"
+    },
+    "vendor_id": "34",
+    "name": "\u5929\u7db8\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2125\uff1e5464\uff1e\u542b\u7a05",
+    "phone": "02-27639408>0936-251378\u8001\u95c6\u5a18.\u9673\u592a\u592a\uff1e0931-236926\u5c0f\u8001\u95c6.\u9673\u535a\u502b>0958-700000\u6797\u80b2\u8ce2\uff1e0925-822115\u6797\u80b2\u8ce2\uff1e0937-961970\u738b*\u878d(\u963f\u878d)\uff1e0922-899519\u5f35\u6c38\u5e74>\u50b3\u771f02-27646663",
+    "address": "\u53f0\u5317\u5dff\u677e\u5c71\u5340\u5357\u4eac\u6771\u8def\u4e94\u6bb570\u865f10\u6a13\u4e4b1\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.811Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e18"
+    },
+    "vendor_id": "35",
+    "name": "\u53f0\u7063\u9053\u683c\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8927\uff1e5797\uff1e\u672a\u7a05",
+    "phone": "04-22153165>04-22153265>0987-087529\u5f35\u8000\u53cb>\u50b3\u771f04-22153786",
+    "address": "\u53f0\u4e2d\u5dff\u6771\u5340\u6771\u82f1\u4e8c\u8857122\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.812Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e19"
+    },
+    "vendor_id": "36",
+    "name": "\u7965\u5d34\u6cb9\u58d3\u4e94\u91d1\u884c",
+    "uniform_number": "4575\uff1e9035\uff1e\u672a\u7a05",
+    "phone": "037-633288>0960-577305\u9ece\u4fca\u4f51>\u50b3\u771f037-633278",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u5ee3\u8208\u91cc2\u9130\u5ee3\u820827-3\u865f1\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.813Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e1a"
+    },
+    "vendor_id": "37",
+    "name": "\u98db\u5f97\u529b\u570b\u969b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8628\uff1e4667\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "03-4603811\u6843\u5712\u71df\u696d\u6240>0988-715327\u5f35\u9865\u9a30>\u50b3\u771f03-4603850",
+    "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5feb\u901f\u8def2\u6bb53\u91305\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.814Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e1b"
+    },
+    "vendor_id": "38",
+    "name": "\u4e9e\u7375\u58eb\u822a\u592a\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2777\uff1e5786\uff1e\u542b\u7a05",
+    "phone": "06-5782151>0980-263111\u9673\u5efa\u8fb0",
+    "address": "\u53f0\u5357\u7e23\u5c71\u4e0a\u9109\u660e\u548c\u6751\u5317\u52ab\u6d3221-2\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.815Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e1c"
+    },
+    "vendor_id": "39",
+    "name": "\u4e09\u4e95\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5317\uff1e5555\uff1e\u672a\u7a05",
+    "phone": "037-591751\u674e\u6cf3\u9f8d>\u50b3\u771f037-665191",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u5fb7\u7fa9\u8def209\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.816Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e1d"
+    },
+    "vendor_id": "40",
+    "name": "\u4fe1\u5229\u6c7d\u8eca\u4e94\u91d1\u884c",
+    "uniform_number": null,
+    "phone": "03-4016686>0919-100777\u9112\u7acb\u5c71>\u50b3\u771f03-4010211",
+    "address": "\u65b0\u7af9\u5dff\u5ef6\u5e73\u8def\u4e8c\u6bb51481-1\u865f3\u6a13\u4e4b2\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.817Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e1e"
+    },
+    "vendor_id": "41",
+    "name": "\u653f\u5b8f\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1665\uff1e7874\uff1e\u672a\u7a05",
+    "phone": "04-8792359>0932-603167\u694a\u6176\u65fa>\u50b3\u771f04-8792524",
+    "address": "\u5f70\u5316\u7e23\u6eaa\u5dde\u9109\u69ae\u5149\u6751\u653f\u6c11\u8def170\u5df765\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.818Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e1f"
+    },
+    "vendor_id": "42",
+    "name": "\u76ca\u5fb7\u5370\u5237\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8057\uff1e8145\uff1e\u672a\u7a05",
+    "phone": "03-5182202>0958-451712\u694a\u9806\u4ec1>\u50b3\u771f03-5182205",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u83ef\u8def\u516d\u6bb567\u5df71-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.819Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e20"
+    },
+    "vendor_id": "43",
+    "name": "\u7a69\u9054\u958b\u767c\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2440\uff1e5831\uff1e\u672a\u7a05",
+    "phone": "04-24065516>0989-428106\u8a31\u6728\u6c34>\u50b3\u771f04-24061229",
+    "address": "\u53f0\u4e2d\u5dff\u5927\u809a\u5340\u904a\u5712\u8def\u4e8c\u6bb538\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.820Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e21"
+    },
+    "vendor_id": "44",
+    "name": "\u570b\u52dd\u9435\u5de5\u5ee0",
+    "uniform_number": null,
+    "phone": "04-26866490>0928-337829\u5f35\u6797\u91d1\u751f",
+    "address": "\u53f0\u4e2d\u7e23\u5927\u7532\u93ae\u9802\u5e97\u91cc\u4e2d\u5c71\u8def\u4e00\u6bb51299\u5df728\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.820Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e22"
+    },
+    "vendor_id": "45",
+    "name": "\u6a3a\u8072\u8cbf\u6613\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1292\uff1e9799\uff1e\u672a\u7a05",
+    "phone": "037-366377>0911-850570\u8f9c\u6c5f\u53f0>\u50b3\u771f037-366002",
+    "address": "\u82d7\u6817\u5dff\u82f1\u624d\u8def671-2\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.821Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e23"
+    },
+    "vendor_id": "46",
+    "name": "\u9f8d\u6bc5\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5308005>0920-065073\u5442\u632f\u5168>\u50b3\u771f03-5308010",
+    "address": "\u65b0\u7af9\u5dff\u7d93\u570b\u8def\u4e09\u6bb585\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.822Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e24"
+    },
+    "vendor_id": "47",
+    "name": "\u83ef\u8c50\u6a61\u81a0\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5976\uff1e0104\uff1e\u542b\u7a05",
+    "phone": "04-8520121\u4e8e\u5b50\u8d85>\u50b3\u771f04-8527704",
+    "address": "\u5f70\u5316\u7e23\u5927\u6751\u9109\u4e2d\u5c71\u8def\u4e8c\u6bb5300\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.823Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e25"
+    },
+    "vendor_id": "48",
+    "name": "\u6b50\u7279\u8010\u570b\u969b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1266\uff1e2709\uff1e\u542b\u7a05",
+    "phone": "02-25453499#103\u6703\u8a08>\u50b3\u771f02-25461399",
+    "address": "\u53f0\u5317\u5dff\u5fa9\u8208\u5317\u8def331\u865f7\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.824Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e26"
+    },
+    "vendor_id": "49",
+    "name": "\u81f3\u665f\u8cbf\u6613\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2820\uff1e1008\uff1e\u7a05\u5916",
+    "phone": "037-463360>0911-972579\u694a\u745e\u5e06>\u50b3\u771f037-473350",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u7167\u5357\u8def185\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.825Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e27"
+    },
+    "vendor_id": "50",
+    "name": "\u5929\u9f8d\u52a0\u6cb9\u7ad9\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1625\uff1e4893\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "037-612859",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u5c16\u8c50\u8def221\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.826Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e28"
+    },
+    "vendor_id": "51",
+    "name": "\u6c38\u76ca\u92fc\u5708\u6709\u9650\u516c\u53f8",
+    "uniform_number": "7648\uff1e1909\uff1e\u7a05\u5916",
+    "phone": "07-7516789>\u50b3\u771f04-23398908",
+    "address": "\u9ad8\u96c4\u5dff\u9cf3\u5c71\u5dff\u8f1c\u6c7d\u5317\u4e8c\u8def2\u865f\u4e4b2\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.827Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e29"
+    },
+    "vendor_id": "52",
+    "name": "\u5168\u529b\u4f01\u696d\u793e",
+    "uniform_number": "7648\uff1e1909\uff1e\u672a\u7a05",
+    "phone": "03-3676800>0910-665117\u718a\u4fee\u5b8f>\u50b3\u771f03-3676800",
+    "address": "\u6843\u5712\u7e23\u516b\u5fb7\u5dff\u5927\u52e4\u8857100\u5df718\u5f046\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.828Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e2a"
+    },
+    "vendor_id": "53",
+    "name": "\u6968\u5143\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8637\uff1e4055\uff1e\u542b\u7a05",
+    "phone": "04-25287268>0936-870211\u5f35\u6968\u5802>\u50b3\u771f04-25287167",
+    "address": "\u53f0\u4e2d\u5dff\u8c50\u539f\u5340\u6771\u5317\u885759\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.829Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e2b"
+    },
+    "vendor_id": "54",
+    "name": "\u7e09\u9e9f\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8467\uff1e9320\uff1e\u672a\u7a05",
+    "phone": "04-24967255>0928-318456\u90ed\u6587\u4e00>\u50b3\u771f04-24928497",
+    "address": "\u53f0\u4e2d\u5dff\u5927\u91cc\u5340\u5927\u5cf0\u8def293\u5df760\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.829Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e2c"
+    },
+    "vendor_id": "55",
+    "name": "\u8fb0\u967d\u6c23\u52d5\u5de5\u5177\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5348\uff1e4102\uff1e\u672a\u7a05",
+    "phone": "04-8530277>0927-101152\u8cf4\u5a01\u4ec1>\u50b3\u771f04-8530287",
+    "address": "\u5f70\u5316\u7e23\u5927\u6751\u9109\u7f8e\u6e2f\u6751\u7f8e\u6e2f\u6a6b\u5df710\u4e4b30\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.830Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e2d"
+    },
+    "vendor_id": "56",
+    "name": "\u826f\u5668\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2343\uff1e8068\uff1e\u7a05\u5916",
+    "phone": "03-3610806>\u50b3\u771f03-3610706",
+    "address": "\u6843\u5712\u7e23\u9f9c\u5c71\u9109\u5efa\u570b\u6771\u8def32-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.831Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e2e"
+    },
+    "vendor_id": "57",
+    "name": "\u5bf6\u55ac\u7fa4\u751f\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2729\uff1e3731\uff1e\u672a\u7a05",
+    "phone": "04-23390083>0937-228136\u6797\u5fd7\u946b>\u50b3\u771f04-23398908",
+    "address": "\u53f0\u4e2d\u5dff\u9727\u5cf0\u5340\u4e2d\u6b63\u8def329\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.832Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e2f"
+    },
+    "vendor_id": "58",
+    "name": "\u6e90\u9806\u5305\u88dd\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1692\uff1e6082\uff1e\u672a\u7a05",
+    "phone": "037-552930>037-460397>0918-801932>\u50b3\u771f037-481967",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u4e2d\u82f1\u91cc17\u9130\u5fa9\u8208\u8def621\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.833Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e30"
+    },
+    "vendor_id": "59",
+    "name": "\u53f0\u7063\u958b\u5229\u8010\u7279\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1295\uff1e0856\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "02-23515533#607\u8ca1\u52d9>02-23514460>0978-260879\u674e\u4fca\u9716>\u50b3\u771f02-23583131",
+    "address": "\u53f0\u5317\u5dff\u5fe0\u5b5d\u6771\u8def\u4e8c\u6bb588\u865f2\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.834Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e31"
+    },
+    "vendor_id": "60",
+    "name": "\u7af9\u5927\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4603\uff1e7000\uff1e\u542b\u7a05",
+    "phone": "037-338801>0912-268843\u6731\u5955\u748b>\u50b3\u771f037-338803",
+    "address": "\u82d7\u6817\u7e23\u6587\u767c\u8def833\u5df769\u865f\u4e4b1\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.835Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e32"
+    },
+    "vendor_id": "61",
+    "name": "\u8056\u806f\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "7049\uff1e1599\uff1e\u542b\u7a05",
+    "phone": "037-271151>\u50b3\u771f037-276095",
+    "address": "\u82d7\u6817\u5dff\u70ba\u516c\u8def514\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.836Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e33"
+    },
+    "vendor_id": "62",
+    "name": "\u53f0\u7063\u597d\u904b\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2785\uff1e6458\uff1e\u542b\u7a05",
+    "phone": "03-4900526>0915-050963\u8449\u5c11\u9752>\u50b3\u771f03-4900536",
+    "address": "\u6843\u5712\u7e23\u65b0\u5c4b\u9109\u982d\u6d32\u6751\u7281\u982d\u6d3220-6\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.837Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e34"
+    },
+    "vendor_id": "63",
+    "name": "\u53f0\u7063\u842c\u4ee3\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "0355\uff1e3315\uff1e\u542b\u7a05",
+    "phone": "03-4718805>03-4718807>\u50b3\u771f03-4717201",
+    "address": "\u6843\u5712\u7e23\u9f8d\u6f6d\u9109\u9285\u947c\u5708\u4e2d\u539f\u8def\u4e8c\u6bb5176\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.838Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e35"
+    },
+    "vendor_id": "64",
+    "name": "\u8c50\u8eca\u5be6\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8686\uff1e1225\uff1e\u542b\u7a05",
+    "phone": "02-28583505>02-28583789>\u8a79\u6dd1\u862d",
+    "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5187\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.839Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e36"
+    },
+    "vendor_id": "65",
+    "name": "\u798f\u70ab\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8606\uff1e9225\uff1e\u672a\u7a05",
+    "phone": "04-25343770>04-25343771>0953-100451\u8cf4\u6c38\u6770>\u50b3\u771f04-25344429",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u96c5\u5340\u4e09\u548c\u6751\u6e2f\u5c3e\u8def2\u4e4b8\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.840Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e37"
+    },
+    "vendor_id": "66",
+    "name": "\u6c38\u76ca\u5e03\u624b\u5957",
+    "uniform_number": null,
+    "phone": "037-751902>0926-394137\u5f35\u6c38\u660c",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.841Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e38"
+    },
+    "vendor_id": "67",
+    "name": "\u92d0\u8208\u79d1\u6280\u767c\u7968\u6a5f",
+    "uniform_number": "1640\uff1e4400\uff1e\u672a\u7a05",
+    "phone": "03-5152000>0986-080080>\u50b3\u771f03-5343000",
+    "address": "\u65b0\u7af9\u5dff\u570b\u83ef\u885757\u865f1\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.842Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e39"
+    },
+    "vendor_id": "68",
+    "name": "\u5beb\u96fb\u8166\u7a0b\u5f0f",
+    "uniform_number": null,
+    "phone": "03-4795017>0935-209989\u8303\u842c\u6b0a",
+    "address": "\u4f4f:\u6843\u5712\u7e23\u9f8d\u6f6d\u9109\u6c38\u8208\u67512\u9130\u4e2d\u8208\u8def685\u5df724\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.843Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e3a"
+    },
+    "vendor_id": "69",
+    "name": "\u79be\u7530\u5ee3\u544a\u7b46",
+    "uniform_number": "2370\uff1e1530\uff1e\u672a\u7a05",
+    "phone": "04-22874289>\u50b3\u771f04-22872614",
+    "address": "\u53f0\u4e2d\u5dff\u5357\u5340\u6c38\u6771\u885747\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.844Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e3b"
+    },
+    "vendor_id": "70",
+    "name": "\u5b8f\u7fd4\u670d\u98fe",
+    "uniform_number": null,
+    "phone": "03-230532>03-230927>0919-258083\u5433\u80b2\u7fd4",
+    "address": "\u65b0\u7af9\u5dff\u9577\u5b89\u885773\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.844Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e3c"
+    },
+    "vendor_id": "71",
+    "name": "GPS\u5b9a\u4f4d\u6a5f",
+    "uniform_number": null,
+    "phone": "04-23813988>\u4e2d\u5340\u7dad\u4fee\u90e8\u5c08\u7dda0926-938882>0986-379230\u8cf4\u5fd7\u52dd",
+    "address": "\u53f0\u4e2d\u5dff\u5357\u5c6f\u5340\u74b0\u4e2d\u8def\u56db\u6bb5698\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.845Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e3d"
+    },
+    "vendor_id": "72",
+    "name": "\u5c16\u7aef\u2027\u5c0f\u8303",
+    "uniform_number": null,
+    "phone": "037-676325>0936-492880\u8303\u5b8f\u660e",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5dff\u4e2d\u83ef\u8def831\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.846Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e3e"
+    },
+    "vendor_id": "73",
+    "name": "\u52a0\u5c3c\u8cc0\u88fd\u4f5c\u7db2\u7ad9",
+    "uniform_number": null,
+    "phone": "04-24613038>\u50b3\u771f0945-677278",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.847Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e3f"
+    },
+    "vendor_id": "74",
+    "name": "\u4e2d\u53cb\u5370\u5237\u5ee0",
+    "uniform_number": null,
+    "phone": "037-466056>E-mail:michael.abc1023@msa.hinet.net>0932-667366\u694a\u5143\u9686",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5927\u539d\u91cc16\u9130\u958b\u5143\u8def240\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.848Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e40"
+    },
+    "vendor_id": "75",
+    "name": "\u7af9\u65b0\u5316\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-537212>0912-328671\u65b9\u5148\u751f",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u83ef\u8def6\u6bb567\u5df73\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.849Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e41"
+    },
+    "vendor_id": "76",
+    "name": "\u5c55\u52ad\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-22341093",
+    "address": "\u53f0\u4e2d\u5dff\u5317\u5c6f\u5340\u6587\u660c\u6771\u4e09\u885789\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.850Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e42"
+    },
+    "vendor_id": "77",
+    "name": "\u654f\u9293\u5be6\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-29061197>0937-420177\u5433\u660e\u82b3",
+    "address": "\u53f0\u5317\u7e23\u6cf0\u5c71\u9109\u4e2d\u5c71\u8def\u4e8c\u6bb5730\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.850Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e43"
+    },
+    "vendor_id": "78",
+    "name": "\u6607\u9054\u6a61\u81a0\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "0766>0028>\u542b\u7a05",
+    "phone": "\u6703\u8a0802-25944185>\u696d\u52d90987-333949\u6797\u8056\u539f>03-4771616\u5206\u6a5f380\u53eb\u8ca8 >\u65b0\u80ce\u5206\u6a5f354\u674e\u5100\u5ba3>\u7ffb\u4fee\u80ce\u5206\u6a5f332\u8499\u5c0f\u59d0>\u5206\u6a5f331\u55ae\u50f9\u8a62\u554f>0932-107184\u674e\u5b97\u5178>\u50b3\u771f02-25924462",
+    "address": "\u7e3d\u516c\u53f8:\u53f0\u5317\u5dff\u627f\u5fb7\u8def\u4e09\u6bb566\u865f\u3002>\u5206\u516c\u53f8:\u5de5\u5ee0(\u6843\u5712)\u6843\u5712\u5e02\u65b0\u5c4b\u5340\u4e2d\u83ef\u5357\u8def2\u6bb5411\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.851Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e44"
+    },
+    "vendor_id": "79",
+    "name": "\u6771\u79be\u4f01\u696d\u793e",
+    "uniform_number": "1387\uff1e4147\uff1e\u672a\u7a05",
+    "phone": "03-5378459>0933-791932\u99ac\u9280\u4eae",
+    "address": "\u65b0\u7af9\u5dff\u9e7d\u6c34\u91cc\u4e2d\u83ef\u8def\u516d\u6bb596\u4e4b1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.852Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e45"
+    },
+    "vendor_id": "80",
+    "name": "\u516d\u53cb\u6c7d\u8eca\u4f01\u696d\u793e",
+    "uniform_number": "1421\uff1e3047\uff1e\u672a\u7a05",
+    "phone": "037-591291\u6c5f\u745e\u6ff1>\u50b3\u771f037-591279",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u5fe0\u5b5d\u4e8c\u8def150\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.853Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e46"
+    },
+    "vendor_id": "81",
+    "name": "\u5de8\u8f2a\u8208\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "07-6210505\u8607\u79cb\u6708>\u50b3\u771f07-6217575",
+    "address": "\u9ad8\u96c4\u5dff\u5ca1\u5c71\u5340\u5ca1\u5c71\u5317\u8def199\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.854Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e47"
+    },
+    "vendor_id": "82",
+    "name": "\u7d71\u7fa4\u6c7d\u8eca\u4fee\u8b77\u5ee0",
+    "uniform_number": null,
+    "phone": "037-622251>037-613973>0922-622251",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u516c\u9928\u91cc7\u91305-3\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.855Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e48"
+    },
+    "vendor_id": "83",
+    "name": "\u5357\u5b8f\u6c7d\u8eca\u96fb\u6a5f\u884c",
+    "uniform_number": null,
+    "phone": "037-552269>0925-994376\u5ed6\u5b8f\u7965",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u9f8d\u5c71\u8def\u4e8c\u6bb5265\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.856Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e49"
+    },
+    "vendor_id": "84",
+    "name": "\u97f6\u658c\u8f2a\u80ce\u884c",
+    "uniform_number": "2548\uff1e5620\uff1e\u672a\u7a05",
+    "phone": "0931-045993\u65bd\u660e\u5b8f",
+    "address": "\u96f2\u6797\u7e23\u864e\u5c3e\u93ae\u9802\u6e73\u8def64-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.857Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e4a"
+    },
+    "vendor_id": "85",
+    "name": "\u6b23\u627f\u4f01\u696d\u793e",
+    "uniform_number": "1055\uff1e9052\uff1e\u672a\u7a05",
+    "phone": "0934-322222\u5f6d\u5c55\u4fca",
+    "address": "\u6843\u5712\u5dff\u65b0\u5c4b\u5340\u5f8c\u6e56\u91cc\u5bf6\u6a39\u8def316\u5df796\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.858Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e4b"
+    },
+    "vendor_id": "86",
+    "name": "\u53f0\u7063\u4f73\u901a\u8f2a\u80ce\u7814\u767c\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2460\uff1e7273\uff1e\u542b\u7a05",
+    "phone": "03-4985612>0933-762501\u7f85\u5bb6\u58fd>\u50b3\u771f03-4985623",
+    "address": "\u6843\u5712\u5dff\u89c0\u97f3\u5340\u5fe0\u611b\u8def\u4e8c\u6bb5283\u865f\u6843\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.859Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e4c"
+    },
+    "vendor_id": "87",
+    "name": "\u7e41\u69ae\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "037-665749>0928-911308\u90b1\u7d0b\u751f>\u50b3\u771f037-680995",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u83ef\u8def865\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.860Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e4d"
+    },
+    "vendor_id": "88",
+    "name": "\u9f8d\u965e\u5c08\u696d\u6c7d\u8eca\u62f7\u6f06",
+    "uniform_number": null,
+    "phone": "037-638741>0937-992586\u9673\u58eb\u5091>\u50b3\u771f037-613003",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u5c16\u5c71\u91cc\u5c16\u8c50\u8def206\u5df7112\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.861Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e4e"
+    },
+    "vendor_id": "89",
+    "name": "\u4eac\u5fbd\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-25651588>0922-952903\u5289\u662d\u752b",
+    "address": "\u53f0\u4e2d\u5dff\u5927\u96c5\u5340\u6e2f\u5c3e\u8def27\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.862Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e4f"
+    },
+    "vendor_id": "90",
+    "name": "\u6606\u7fd4\u570b\u969b\u80a1\u4efd\u6709\u9650\u516c\u53f8>\u516b\u4e00",
+    "uniform_number": "5453\uff1e2378\uff1e\u542b\u7a05",
+    "phone": "04-8372950>0932-546201\u6f58\u5efa\u5b8f>0988-978095\u8881\u5b50\u6770>\u50b3\u771f04-8239191",
+    "address": "\u5f70\u5316\u7e23\u54e1\u6797\u5dff\u60e0\u5b89\u88571\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.862Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e50"
+    },
+    "vendor_id": "91",
+    "name": "\u745e\u80fd>\u92d0\u967d\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2501\uff1e4635\uff1e\u542b\u7a05",
+    "phone": "03-5308018>0963-909378\u6797\u5c55\u8f1d>\u50b3\u771f03-5383218",
+    "address": "\u65b0\u7af9\u5dff\u725b\u57d4\u5357\u8def456\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.863Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e51"
+    },
+    "vendor_id": "92",
+    "name": "\u9d3b\u660c\u8fb2\u6a5f\u884c",
+    "uniform_number": "4973\uff1e2930\uff1e\u672a\u7a05",
+    "phone": "037-477038\u6797\u660c\u76db",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def470\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.864Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e52"
+    },
+    "vendor_id": "93",
+    "name": "\u6709\u5229\u6c7d\u52d5\u5de5\u5177\u7e3d\u532f",
+    "uniform_number": null,
+    "phone": "02-28488961>0939-330169\u674e\u5c0f\u5e73\uff1e0910-165393\u674e\u5c0f\u5e73",
+    "address": "\u53f0\u5317\u7e23\u85d8\u6d32\u5dff\u6c34\u6e73\u885723\u865f7\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.865Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e53"
+    },
+    "vendor_id": "94",
+    "name": "\u6dde\u6d0b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5361\uff1e3035\uff1e\u542b\u7a05",
+    "phone": "03-5510466>0978-100291\u5433\u6587\u541b>0955-204560\u5433\u6587\u541b>\u50b3\u771f03-5510436",
+    "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u570b\u5f37\u5341\u4e09\u885793\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.866Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e54"
+    },
+    "vendor_id": "95",
+    "name": "\u56de\u6536\u8cb7\u8ce3\u80ce\u5e95",
+    "uniform_number": null,
+    "phone": "0932-543271>0932-543271\u5289\u5148\u751f",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.867Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e55"
+    },
+    "vendor_id": "96",
+    "name": "\u5efa\u69ae-\u8cf4\u5efa\u5f6c-\u594e\u4f2f",
+    "uniform_number": null,
+    "phone": "0910-923323>0910-923323\u8cf4\u5efa\u5f6c",
+    "address": "\u82d7\u6817\u7e23\u897f\u6e56\u9109\u6e56\u6771\u67519\u913010-21\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.867Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e56"
+    },
+    "vendor_id": "97",
+    "name": "\u8d6b\u5fb7\u5229\u96c6\u5718-\u9802\u597d\u512a\u8cea\u6c34",
+    "uniform_number": null,
+    "phone": "02-22626000>02-22749421>0955-033980",
+    "address": "\u65b0\u5317\u5dff\u571f\u57ce\u5340\u6c38\u8c50\u8def195\u5df727\u5f0434\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.868Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e57"
+    },
+    "vendor_id": "98",
+    "name": "\u5c91\u7f8e\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8057\uff1e9088\uff1e\u672a\u7a05",
+    "phone": "03-5944851>0936-656293\u5e38\u664f\u6995>\u50b3\u771f03-5964150",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u6771\u93ae\u4e2d\u6b63\u5357\u8def102-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.869Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e58"
+    },
+    "vendor_id": "99",
+    "name": "\u5927\u5229\u5149\u96fb\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8>\u9298\u5ba5\u79d1\u6280\u5ee3\u544a\u5de5\u7a0b\u884c",
+    "uniform_number": "5493>5409>8262>8156",
+    "phone": "0910-660759\u8b5a\u5148\u751f",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u745e\u57ce\u91cc\u4e2d\u8208\u8def\u4e00\u6bb526\u5df793\u5f0415\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.870Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e59"
+    },
+    "vendor_id": "100",
+    "name": "\u6f22\u53ef\u56fa\u8f2a\u80ce\u6a5f\u68b0\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8486>7580\u672a\u7a05",
+    "phone": "03-4520955",
+    "address": "\u4e2d\u58e2\u5dff\u5167\u5b9a16\u8857327-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.871Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e5a"
+    },
+    "vendor_id": "101",
+    "name": "\u5927\u4f86\u6703\u8a08\u4e8b\u52d9\u6240",
+    "uniform_number": null,
+    "phone": "03-5251081>03-5238728>0922-885336\u738b\u9e97\u96ea>\u50b3\u771f03-5280338",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u6b63\u8def107\u865f9\u6a139\u5ba4\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.871Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e5b"
+    },
+    "vendor_id": "102",
+    "name": "\u6c38\u5229\u4ed6\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5488\uff1e2254\uff1e\u542b\u7a05",
+    "phone": "04-23362677>0911-371329\u856d\u744b\u931a>\u50b3\u771f04-23362582",
+    "address": "\u53f0\u4e2d\u5dff\u70cf\u65e5\u5340\u65b0\u8208\u8def177\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.872Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e5c"
+    },
+    "vendor_id": "103",
+    "name": "\u7fca\u8c50\u901a\u98a8\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "049-2330808>0914-000707\u6797\u58eb\u5091>\u50b3\u771f049-2330303",
+    "address": "\u5357\u6295\u7e23\u8349\u5c6f\u93ae\u77f3\u5ddd\u91cc\u77f3\u5ddd\u8def47-9\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.873Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e5d"
+    },
+    "vendor_id": "104",
+    "name": "\u6607\u5a01\u96fb\u6a5f\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8676\uff1e3961\uff1e\u672a\u7a05",
+    "phone": "037-460951>0910-178739\u6797\u5efa\u8208>\u50b3\u771f037-460692",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5929\u6587\u91cc\u9f8d\u5c71\u8def\u4e8c\u6bb5190\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.874Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e5e"
+    },
+    "vendor_id": "105",
+    "name": "\u5bcc\u7f8e\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "037-783229>0923-137750\u90b1\u5fb7\u5bcc",
+    "address": "\u82d7\u6817\u7e23\u901a\u9704\u93ae\u57ce\u5357\u91cc7\u913097\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.875Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e5f"
+    },
+    "vendor_id": "106",
+    "name": "\u52dd\u92fc\u4f01\u696d\u6709\u9650\u516c\u53f8>\u8c50\u9a5b\u4f01\u696d\u793e",
+    "uniform_number": "1290\uff1e3860\uff1e\u672a\u7a05",
+    "phone": "03-4909816>0910-179191\u9673\u5bcc\u7965>\u50b3\u771f03-4905156",
+    "address": "\u4e2d\u58e2\u5dff\u798f\u5dba\u8def\u4e00\u6bb5188\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.876Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e60"
+    },
+    "vendor_id": "107",
+    "name": "\u5eb7\u6046\u96fb\u8166\u8edf\u9ad4\u8a2d\u8a08\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2911\uff1e9457\uff1e\u672a\u7a05",
+    "phone": "037-672077>0923-366227\u8a31\u5148\u751f\u5c0f\u8001\u95c6>0932-955352\u937e\u5b50\u6d69>\u50b3\u771f037-672284",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u6b63\u8def260\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.877Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e61"
+    },
+    "vendor_id": "108",
+    "name": "\u4ef2\u8eca\u574a",
+    "uniform_number": null,
+    "phone": "03-4802378>0937-238928\u5433\u570b\u7fa9>\u50b3\u771f03-4803425",
+    "address": "\u5712\u7e23\u9f8d\u6f6d\u9109\u5efa\u6797\u6751\u5efa\u570b\u8def127\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.878Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e62"
+    },
+    "vendor_id": "109",
+    "name": "\u6536\u5ee2\u5167\u80ce",
+    "uniform_number": null,
+    "phone": "04-492351215>0958-858075\u738b\u8a3c\u5f65",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.879Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e63"
+    },
+    "vendor_id": "110",
+    "name": "\u4e0a\u9f0e\u7167\u660e",
+    "uniform_number": null,
+    "phone": "037-550855>\u50b3\u771f037-550799",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u535a\u611b\u8857336\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.879Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e64"
+    },
+    "vendor_id": "111",
+    "name": "\u5317\u5fb7\u6587\u6709\u9650\u516c\u53f8",
+    "uniform_number": "7061\uff1e7056\uff1e\u542b\u7a05",
+    "phone": "03-4813866\u6843\u5712>02-82950035\u53f0\u5317>0912-912758\u912d\u7d39\u70ab>\u50b3\u771f03-4813867\u6843\u5712. 02-82950038\u53f0\u5317",
+    "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u65b0\u8fb2\u88572\u6bb5161\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.880Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e65"
+    },
+    "vendor_id": "112",
+    "name": "\u8d85\u8d8a\u7fa4\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-3285120>\u50b3\u771f03-3274973",
+    "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u8208\u83ef2\u885728\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.881Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e66"
+    },
+    "vendor_id": "113",
+    "name": "\u6536\u5ee2\u80ce\u53f0\u4e2d",
+    "uniform_number": null,
+    "phone": null,
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.882Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e67"
+    },
+    "vendor_id": "114",
+    "name": "\u6536\u5ee2\u6a5f\u6cb9",
+    "uniform_number": null,
+    "phone": "0932-666036\u8b1d\u660e\u5fd7",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5d0e\u9802\u4ec1\u611b\u8def1439\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.883Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e68"
+    },
+    "vendor_id": "115",
+    "name": "\u52dd\u6679\u6c7d\u6a5f\u8eca\u6750\u6599\u884c",
+    "uniform_number": null,
+    "phone": "04-7621779>0923-168573\u67ef\u5b97\u660e",
+    "address": "\u5f70\u5316\u7e23\u548c\u7f8e\u93ae\u5f70\u8349\u8def2\u6bb5126\u5df79\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.884Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e69"
+    },
+    "vendor_id": "116",
+    "name": "\u5168\u65b9\u4f4d\u4e8b\u52d9\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-24824945>04-24824578>0980-361721\u8303\u745e\u7d1c",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u897f\u69ae\u8def289\u865f1F\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.885Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e6a"
+    },
+    "vendor_id": "117",
+    "name": "\u4f73\u8c6a\u571f\u6728\u5305\u5de5\u696d",
+    "uniform_number": "3881\uff1e2458\uff1e\u672a\u7a05",
+    "phone": "037-229095>0912-330109\u8449\u5f90\u777f>\u50b3\u771f037-237095",
+    "address": "\u82d7\u6817\u7e23\u516c\u9928\u9109\u7389\u8c37\u67516\u9130159-3\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.886Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e6b"
+    },
+    "vendor_id": "118",
+    "name": "\u8d8a\u5927\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2467\uff1e7039\uff1e\u672a\u7a05",
+    "phone": "07-6266385>0937-676265\u9673\u6b63\u5f6c>\u50b3\u771f07-6268138",
+    "address": "\u9ad8\u96c4\u5dff\u5ca1\u5c71\u5340\u5927\u907c\u91cc\u4ecb\u58fd\u6771\u8def91-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.886Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e6c"
+    },
+    "vendor_id": "119",
+    "name": "\u654f\u9293\u8f2a\u80ce\u884c",
+    "uniform_number": "3780\uff1e5227\uff1e\u672a\u7a05",
+    "phone": "03-3710217>0980-760625\u937e\u5bf6\u9f8d>\u50b3\u771f03-3710218",
+    "address": "\u6843\u5712\u5dff\u516b\u5fb7\u5340\u5ee3\u798f\u8def656\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.887Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e6d"
+    },
+    "vendor_id": "120",
+    "name": "\u798f\u6d77\u8f2a\u80ce\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2807\uff1e5537\uff1e\u672a\u7a05",
+    "phone": "02-24974500>0937-053500>\u50b3\u771f02-24973272",
+    "address": "\u65b0\u7af9\u5dff\u745e\u82b3\u5340\u5efa\u57fa\u8def\u4e00\u6bb5\u56db\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.888Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e6e"
+    },
+    "vendor_id": "121",
+    "name": "\u529b\u74bd\u5de5\u7a0b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1292\uff1e8623\uff1e\u672a\u7a05",
+    "phone": "037-911929>0932-525705\u9673\u5fd7\u5fe0",
+    "address": "\u82d7\u6817\u7e23\u82d7\u6817\u5dff\u5357\u52e2\u91cc\u5357\u52e220-7\u865f\uff1e\u767b:\u82d7\u6817\u7e23\u516c\u9928\u9109\u7389\u6cc9\u675116\u9130248\u4e4b7\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.889Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e6f"
+    },
+    "vendor_id": "122",
+    "name": "\u9806\u5049\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5337\uff1e8073\uff1e\u672a\u7a05",
+    "phone": "04-26398656>0937-735325\u694a\u91d1\u9f8d",
+    "address": "\u53f0\u4e2d\u5dff\u68a7\u68f2\u5340\u81ea\u7acb\u8def21\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.890Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e70"
+    },
+    "vendor_id": "123",
+    "name": "\u6c38\u9806\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "037-872486>037-870286",
+    "address": "\u82d7\u6817\u7e23\u4e09\u7fa9\u9109\u897f\u6e56\u6751\u4e0b\u6e565-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.890Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e71"
+    },
+    "vendor_id": "124",
+    "name": "\u65e5\u4ea8\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-4828593",
+    "address": "\u6843\u5712\u7e23\u6843\u5712\u5dff",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.891Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e72"
+    },
+    "vendor_id": "125",
+    "name": "\u52c7\u548c\u8208\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "02-22633375>0961-161088",
+    "address": "\u65b0\u5317\u5dff\u4e09\u5cfd\u5340\u4f73\u8208\u8def3\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.892Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e73"
+    },
+    "vendor_id": "126",
+    "name": "\u9806\u6689>\u9806\u8f1d\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "037-747535>0932-524783",
+    "address": "\u82d7\u6817\u7e23\u82d1\u88e1\u93ae\u5c71\u67d1\u91cc6\u913065-33\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.893Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e74"
+    },
+    "vendor_id": "127",
+    "name": "\u9023\u8c50\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "04-22878230>04-22871718>0933-405633\u77f3\u6587\u6c38",
+    "address": "\u53f0\u4e2d\u5dff\u5357\u5340\u5efa\u6210\u8def1132\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.894Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e75"
+    },
+    "vendor_id": "128",
+    "name": "\u6b63\u92fc\u5c08\u696d\u6c7d\u8eca\u624b\u5de5\u5177",
+    "uniform_number": null,
+    "phone": "0932-135412\u912d\u525b",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.895Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e76"
+    },
+    "vendor_id": "129",
+    "name": "\u5927\u9806\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "03-5693437>03-5693439>0937-949847",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.896Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e77"
+    },
+    "vendor_id": "130",
+    "name": "\u7def\u9054\u8f2a\u80ce\u884c",
+    "uniform_number": "1335\uff1e6334\uff1e\u672a\u7a05",
+    "phone": "037-672298>0922-602112\u7f85\u6587\u6a19",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5dff\u982d\u4efd\u91cc2\u9130\u4e2d\u6b63\u8def291\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.896Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e78"
+    },
+    "vendor_id": "131",
+    "name": "\u5ec8\u9580\u81ea\u52d5\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "86-592-3818088>\u50b3\u771f86-592-3818028>E-MAIL:sales@tiretec-lyndon.com",
+    "address": "\u4e2d\u570b\u798f\u5efa\u7701\u5ec8\u9580\u5dff\u6e58\u5317\u5340\u8208\u8208\u5de5\u696d\u5340\u5bcc\u8208\u8def451\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.897Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e79"
+    },
+    "vendor_id": "132",
+    "name": "\u592a\u539f\u6c23\u9ad4\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4970\uff1e3344\u592a\u539f\uff1e\u672a\u7a05",
+    "phone": "037-623340\uff1e037-625350\uff1e\u50b3\u771f037-620036",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u8606\u7af9\u91cc16\u9130\u4e2d\u83ef\u8def428\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.898Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e7a"
+    },
+    "vendor_id": "133",
+    "name": "\u99ff\u56fa>\u70cf\u65e5\u5927\u5730>\u674e\u51a0\u8f1d",
+    "uniform_number": "5480>5861\u99ff\u56fa>\u542b\u7a05",
+    "phone": "04-23370915>0932-640236>\u50b3\u771f04-23363906",
+    "address": "\u53f0\u4e2d\u5e02\u70cf\u65e5\u9109\u8208\u7965\u885741\u5df722\u865f6F",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.899Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e7b"
+    },
+    "vendor_id": "134",
+    "name": "\u51a0\u6cd3\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-7625699",
+    "address": "\u5f70\u5316\u5e02\u5f70\u9e7f\u8def120\u5df7275\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.900Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e7c"
+    },
+    "vendor_id": "135",
+    "name": "\u65b0\u6280\u8cc7\u8a0a\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2386>3719\u65b0\u6280>\u672a\u7a05",
+    "phone": "03-5219016>\u50b3\u771f03-5262986",
+    "address": "\u65b0\u7af9\u5e02\u52dd\u5229\u8def132\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.900Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e7d"
+    },
+    "vendor_id": "136",
+    "name": "\u718a\u5c4b\u5546\u5e97",
+    "uniform_number": null,
+    "phone": "02-89761568>02-89761568",
+    "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6cb3\u908a\u5317\u8857142\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.901Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e7e"
+    },
+    "vendor_id": "137",
+    "name": "\u7948\u661f\u5be6\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8627>9812>\u672a\u7a05",
+    "phone": "02-27117656>04-26818112>\u50b3\u771f04-26817382",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u7532\u5340\u901a\u5929\u8def4\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.902Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e7f"
+    },
+    "vendor_id": "138",
+    "name": "\u842c\u5927\u8f2a\u80ce",
+    "uniform_number": null,
+    "phone": "0919-075114",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u6c11\u65cf\u8def591\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.903Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e80"
+    },
+    "vendor_id": "139",
+    "name": "\u7ae0\u5316\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5382\uff1e9366\uff1e\u542b\u7a05\uff1e\u6551\u8eca\u672a\u7a05",
+    "phone": "03-4200125\uff1e0913-326115\u9673\u662d\u4efb",
+    "address": "\u6843\u5712\u7e23\u4e2d\u58e2\u5dff\u904e\u5dba\u91cc\u677e\u52e4\u8def101\u5df73\u865f1\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.903Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e81"
+    },
+    "vendor_id": "140",
+    "name": "\u5bcc\u5c71\u8f2a\u5708>\u4fe1\u6a3a\u660c\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "07-374-2555>06-266-2310",
+    "address": "\u9ad8\u96c4\u5e02\u4ec1\u6b66\u5340\u4ec1\u5fc3\u8def113\u5df749-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.904Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e82"
+    },
+    "vendor_id": "141",
+    "name": "\u4f91\u4eab\u8f2a\u696d\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": null,
+    "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u5927\u4e2d\u4e8c\u8def71\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.905Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e83"
+    },
+    "vendor_id": "142",
+    "name": "\u6e90\u4e00\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0932-177276\u6797\u76ca\u826f",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.905Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e84"
+    },
+    "vendor_id": "143",
+    "name": "\u7389\u5c71\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "05-2652176>05-2652231>0933-357732\u5c0d\u5e33\u674e\u5148\u751f>0932-525875\u8f2a\u80ce\u6536\u9001\u7f85\u5148\u751f",
+    "address": "\u5609\u7fa9\u7e23\u5927\u6797\u93ae\u660e\u83ef\u91cc\u4e2d\u6b63\u8def191\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.906Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e85"
+    },
+    "vendor_id": "144",
+    "name": "\u806f\u6615\u8208\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "037-620091>037-620093>037-620193",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6c38\u8c9e\u8def1\u6bb5336\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.907Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e86"
+    },
+    "vendor_id": "145",
+    "name": "\u4eac\u5c55\u8f2a\u5708\u6709\u9650\u516c\u53f8>\u4eac\u5c55\u4f01\u696d\u793e",
+    "uniform_number": "2913>4226>\u672a\u7a05",
+    "phone": "02-22966937\u6703\u8a08>02-22961987>\u50b3\u771f02-29093515>0939-652338\u674e\u5fd7\u5f37",
+    "address": "\u65b0\u5317\u5e02\u6cf0\u5c71\u5340\u6cf0\u6797\u8def\u4e8c\u6bb523-5\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.908Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e87"
+    },
+    "vendor_id": "146",
+    "name": "\u4e16\u5168\u8f2a\u80ce\u884c>\u76ca\u5168\u8f2a\u80ce\u9928",
+    "uniform_number": null,
+    "phone": null,
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.909Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e88"
+    },
+    "vendor_id": "147",
+    "name": "\u5141\u6210\u570b\u969b\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5587330>\u50b3\u771f:03-5586130>",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u7e23\u653f\u5341\u56db\u885736\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.910Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e89"
+    },
+    "vendor_id": "148",
+    "name": "\u4e16\u660e\u8f2a\u80ce",
+    "uniform_number": "3081>8047>\u672a\u7a05",
+    "phone": "04-8728380>\u50b3\u771f:04-8728379>0932598793\u5deb\u5b9c\u660e",
+    "address": "\u5f70\u5316\u7e23\u793e\u982d\u9109\u5f35\u539d\u6751\u4e09\u5df7170\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.911Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e8a"
+    },
+    "vendor_id": "149",
+    "name": "\u738b\u6631\u878d>\u7fd4\u4e00\u6c7d\u8eca\u6a5f\u68b0\u4e94\u91d1\u884c",
+    "uniform_number": null,
+    "phone": "0937-961970\u738b\u6631\u878d",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.912Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e8b"
+    },
+    "vendor_id": "150",
+    "name": "\u76c8\u9f0e\u6cf0\u6c7d\u8eca\u5546\u884c",
+    "uniform_number": "3881>8283>\u672a\u7a05",
+    "phone": "0989-800934-\u9673\u4fca\u7537",
+    "address": "\u82d7\u6817\u7e23\u9020\u6a4b\u9109\u8ac7\u6587\u67516\u9130\u6de1\u6587\u6e5656\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.913Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e8c"
+    },
+    "vendor_id": "151",
+    "name": "\u540c\u4e00\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2218\uff1e4636\uff1e\u542b\u7a05",
+    "phone": "02-29082110>0910-064123\u66fe\u6176\u7fa4>\u50b3\u771f02-29082112",
+    "address": "\u53f0\u5317\u7e23\u6cf0\u5c71\u9109\u4e2d\u592e\u8def5\u5df757-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.914Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e8d"
+    },
+    "vendor_id": "152",
+    "name": "\u6709\u52dd>\u6709\u7a0b\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-26580060>0906-960060\u674e\u666f\u7fd4>\u5927\u8eca04-26580220>\u50b3\u771f04-26582990>",
+    "address": "\u53f0\u4e2d\u5e02\u68a7\u68f2\u5340\u6e2f\u57e0\u8def\u4e00\u6bb51008\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.915Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e8e"
+    },
+    "vendor_id": "153",
+    "name": "\u8000\u9e92\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-8787-1379>\u50b3\u771f:02-8787-2659>\u696d\u52d9:\u6797\u4ecb\u96c4",
+    "address": "\u53f0\u5317\u5e02\u677e\u5c71\u5340\u5854\u60a0\u8def201\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.915Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e8f"
+    },
+    "vendor_id": "154",
+    "name": "\u8208\u6689\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-2778-0065>\u50b3\u771f:02-2778-2220>",
+    "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fe0\u5b5d\u6771\u8def\u56db\u6bb5299\u865f6\u6a13603\u5ba4",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.916Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e90"
+    },
+    "vendor_id": "155",
+    "name": "\u7fd4\u5a01\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8026>4382",
+    "phone": "02-2295-2668>\u50b3\u771f:02-2295-2665",
+    "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u6210\u6cf0\u8def\u4e09\u6bb542\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.918Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e91"
+    },
+    "vendor_id": "156",
+    "name": "\u6377\u529b\u5ba2\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0939-942949\u8a31\u6606\u751f",
+    "address": "\u6843\u5712\u5e02\u540c\u5fb7\u4e94\u8857276\u865f9\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.919Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e92"
+    },
+    "vendor_id": "157",
+    "name": "\u4e45\u4ee3\u6a5f\u68b0\u5546\u884c",
+    "uniform_number": null,
+    "phone": "04-7277666",
+    "address": "\u5f70\u5316\u5e02\u91d1\u99ac\u8def1\u6bb5252.256-3\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.920Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e93"
+    },
+    "vendor_id": "158",
+    "name": "\u5b8f\u6631\u8f2a\u696d.\u6d77\u6d5c\u5e55\u5f35\u6b23\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4511>4529>\u542b\u7a05",
+    "phone": "04-8850022>\u50b3\u771f:04-8818455",
+    "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u897f\u74b0\u8def583\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.921Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e94"
+    },
+    "vendor_id": "159",
+    "name": "\u6b63\u9d3b\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8429>5133>\u542b\u7a05",
+    "phone": "02-29003536>\u50b3\u771f:02-29003514>0972-799523>0910-070283 \u5f35\u5b78\u6f14",
+    "address": "\u65b0\u5317\u5e02\u6cf0\u5c71\u5340\u4e2d\u6e2f\u897f\u8def176\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.922Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e95"
+    },
+    "vendor_id": "160",
+    "name": "\u666e\u5229\u53f8\u901a\u4e2d\u5340\u92b7\u552e\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5927\u80ce",
+    "uniform_number": "1274\uff1e9608\uff1e\u542b\u7a05(\u5927\u80ce.\u5c0f\u80ce\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "037-680032>0928-387792\u838a\u767c\u8208037-684352",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6771\u6c11\u8def27\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.923Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e96"
+    },
+    "vendor_id": "161",
+    "name": "\u666e\u5229\u53f8\u901a\u4e2d\u5340\u92b7\u552e\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u80ce",
+    "uniform_number": "1274\uff1e9608\uff1e\u542b\u7a05(\u4e2d\u578b\u80ce\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "037-680032>0928-387792\u838a\u767c\u8208037-684352",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6771\u6c11\u8def27\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.924Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e97"
+    },
+    "vendor_id": "162",
+    "name": "\u666e\u5229\u53f8\u901a\u4e2d\u5340\u92b7\u552e\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5c0f\u80ce",
+    "uniform_number": "1274\uff1e9608\uff1e\u542b\u7a05(\u5927\u80ce.\u5c0f\u80ce\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "037-680032>0928-387792\u838a\u767c\u8208037-684352",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6771\u6c11\u8def27\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.925Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e98"
+    },
+    "vendor_id": "163",
+    "name": "\u666e\u5229\u53f8\u901a\u4e2d\u5340\u92b7\u552e\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u7ffb\u4fee\u80ce",
+    "uniform_number": "1274\uff1e9608\uff1e\u542b\u7a05(\u5927\u80ce.\u5c0f\u80ce\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "037-680032>0928-387792\u838a\u767c\u8208037-684352",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6771\u6c11\u8def27\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.926Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e99"
+    },
+    "vendor_id": "164",
+    "name": "\u570b\u4f4f\u6a61\u81a0\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5927\u80ce",
+    "uniform_number": "1226\uff1e7209\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u5168\u5a01)",
+    "phone": "02-25012847>02-25012850>0933-768906\u5433\u6771\u6607\uff1e0973-263843\u9ec3\u671d\u7434\uff1e0933-768790\u8a31\u4e18\u9298>\u50b3\u771f02-25064145>\u9001\u9451\u5b9a0987016633\u6797\u5148\u751f",
+    "address": "\u53f0\u5317\u5dff\u677e\u6c5f\u8def363\u865f5\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.927Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e9a"
+    },
+    "vendor_id": "165",
+    "name": "\u570b\u4f4f\u6a61\u81a0\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u80ce",
+    "uniform_number": "1226\uff1e7209\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u5168\u5a01)",
+    "phone": "02-25012847>02-25012850>0933-768906\u5433\u6771\u6607\uff1e0973-263843\u9ec3\u671d\u7434\uff1e0933-768790\u8a31\u4e18\u9298>\u50b3\u771f02-25064145>\u9001\u9451\u5b9a0987016633\u6797\u5148\u751f",
+    "address": "\u53f0\u5317\u5dff\u677e\u6c5f\u8def363\u865f5\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.928Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e9b"
+    },
+    "vendor_id": "166",
+    "name": "\u570b\u4f4f\u6a61\u81a0\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5c0f\u80ce",
+    "uniform_number": "1226\uff1e7209\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u5168\u5a01)",
+    "phone": "02-25012847>02-25012850>0933-768906\u5433\u6771\u6607\uff1e0933-768790\u8a31\u4e18\u9298>\u50b3\u771f02-25064145>FK\u5c0f\u80ce0988-377687\u5ed6\u5049\u821c>\u9001\u9451\u5b9a0987016633\u6797\u5148\u751f",
+    "address": "\u53f0\u5317\u5dff\u677e\u6c5f\u8def363\u865f5\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.929Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e9c"
+    },
+    "vendor_id": "167",
+    "name": "\u5104\u52dd\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5927\u80ce",
+    "uniform_number": "8407\uff1e6067\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "03-6590194>03-6590194>0963-421007\u937e\u70ba\u9594>\u50b3\u771f03-5374573",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u83ef\u8def\u516d\u6bb5716\u5df719\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.930Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e9d"
+    },
+    "vendor_id": "168",
+    "name": "\u5104\u52dd\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u80ce",
+    "uniform_number": "8407\uff1e6067\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "03-6590194>03-6590194>0963-421007\u937e\u70ba\u9594>\u50b3\u771f03-5374573",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u83ef\u8def\u516d\u6bb5716\u5df719\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.931Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e9e"
+    },
+    "vendor_id": "169",
+    "name": "\u5104\u52dd\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5c0f\u80ce",
+    "uniform_number": "8407\uff1e6067\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "03-6590194>03-6590194>0963-421007\u937e\u70ba\u9594>\u50b3\u771f03-5374573",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u83ef\u8def\u516d\u6bb5716\u5df719\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.932Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18e9f"
+    },
+    "vendor_id": "170",
+    "name": "\u5104\u52dd\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5167\u80ce.OB",
+    "uniform_number": "8407\uff1e6067\uff1e\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "03-6590194>03-6590194>0963-421007\u937e\u70ba\u9594>\u50b3\u771f03-5374573",
+    "address": "\u65b0\u7af9\u5dff\u4e2d\u83ef\u8def\u516d\u6bb5716\u5df719\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.933Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea0"
+    },
+    "vendor_id": "171",
+    "name": "\u7950\u52dd\u8eca\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4518>8084>\u542b\u7a05",
+    "phone": "04-23690060>\u50b3\u771f:04-23690062",
+    "address": "\u53f0\u4e2d\u5e02\u9727\u5cf0\u5340\u5cf0\u5824\u8def687\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.934Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea1"
+    },
+    "vendor_id": "172",
+    "name": "\u9867\u745e\u5cf0\u8eca\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5558755>\u50b3\u771f\uff1a03-5553499",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u74b0\u5317\u8def\u4e00\u6bb5236-1\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.934Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea2"
+    },
+    "vendor_id": "173",
+    "name": "\u4e0a\u5168\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5152757>5152758\u738b\u82f1\u8c6a>\u50b3\u771f\uff1a03-5152759",
+    "address": "\u65b0\u7af9\u5e02\u6c11\u65cf\u8def220\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.935Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea3"
+    },
+    "vendor_id": "174",
+    "name": "\u9673\u4eae\u7fbd>\u5167\u80ce\u52a0\u5de5\u5ee0",
+    "uniform_number": null,
+    "phone": "05-7827938>0985-780946-\u9673\u4eae\u7fbd",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.936Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea4"
+    },
+    "vendor_id": "175",
+    "name": "\u5357\u51a0\u8f2a\u80ce\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u53f0\u4e2d\u71df\u696d\u6240)",
+    "uniform_number": "9874>6762>\u542b\u7a05(\u767c\u7968\u958b.\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "(04)25694578",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u96c5\u5340\u54e1\u6797\u91cc\u795e\u6797\u8def\u4e00\u6bb5531\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.938Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea5"
+    },
+    "vendor_id": "176",
+    "name": "\u5e38\u76ca\u4f01\u696d\u793e",
+    "uniform_number": "0989>2241",
+    "phone": "03-4802378>0937-238928-\u5433\u570b\u7fa9>\u50b3\u771f\uff1a03-4803425",
+    "address": "\u6843\u5712\u7e23\u9f8d\u6f6d\u9109\u5efa\u6797\u6751\u5efa\u570b\u8def127\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.939Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea6"
+    },
+    "vendor_id": "177",
+    "name": "\u677e\u57d4\u98df\u54c1\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5397011",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.940Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea7"
+    },
+    "vendor_id": "178",
+    "name": "\u543e\u611b\u8eca\u8eca\u696d",
+    "uniform_number": null,
+    "phone": "(037)583725>\u50b3\u771f\uff1a582958",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u516c\u7fa9\u8def392-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.941Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea8"
+    },
+    "vendor_id": "179",
+    "name": "\u6176\u63da\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-8325660\uff1e04-8374835\uff1e0933-402457\uff1e\u50b3\u771f04-8351917",
+    "address": "\u5f70\u5316\u7e23\u54e1\u6797\u93ae\u4e2d\u6b63\u91cc\u6797\u68ee\u8def273\u865f\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.942Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ea9"
+    },
+    "vendor_id": "180",
+    "name": "\u632f\u7fa4\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "(02)25869800>\u50b3\u771f\uff1a(02)25958257",
+    "address": "\u53f0\u5317\u5e02\u6c11\u65cf\u6771\u8def132\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.943Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eaa"
+    },
+    "vendor_id": "181",
+    "name": "\u99ff\u56fa\u5be6\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "05-5918550>\u50b3\u771f:05-5917457",
+    "address": "\u96f2\u6797\u7e23\u5927\u57e4\u9109\u5ef6\u5e73\u8def3\u6bb580\u5df730\u865f.",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.944Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eab"
+    },
+    "vendor_id": "182",
+    "name": "\u69ae\u65b0\u8f2a\u80ce\u8cbf\u6613\u6709\u9650\u516c\u53f8>\u9245\u5bcc\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2860>4109(\u69ae\u65b0)\u542b\u7a05    2902>2799(\u9245\u5bcc)",
+    "phone": "07-3756015>\u50b3\u771f\uff1a(07)3758930",
+    "address": "\u9ad8\u96c4\u5e02\u4ec1\u6b66\u5340\u9cf3\u4ec1\u8def78\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.945Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eac"
+    },
+    "vendor_id": "183",
+    "name": "\u99ff\u660a\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "0930-389551",
+    "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u74b0\u5824\u5927\u9053590\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.946Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ead"
+    },
+    "vendor_id": "184",
+    "name": "\u9cf4\u6236\u570b\u969b\u4f01\u696d\u6709\u9650\u516c\u53f8>\u9326\u51c6\u570b\u969b\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "6179>3708(\u9cf4\u6236)>4273>1561(\u9326\u51c6)",
+    "phone": null,
+    "address": "\u53f0\u4e2d\u5e02\u9727\u5cf0\u5340\u4e01\u53f0\u8def451\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.947Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eae"
+    },
+    "vendor_id": "185",
+    "name": "\u4fe1\u901a\u4f01\u696d\u793e",
+    "uniform_number": "19369407",
+    "phone": "0901-198199\u6797\u6631\u8fb0",
+    "address": "\u65b0\u7af9\u5e02\u5efa\u7f8e\u8def2\u5df756\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.948Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eaf"
+    },
+    "vendor_id": "186",
+    "name": "\u9d3b\u946b\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-29017980>\u50b3\u771f:02-29018870",
+    "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6b63\u8def508\u5df735\u5f0475\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.949Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb0"
+    },
+    "vendor_id": "187",
+    "name": "\u842c\u82b3\u901a\u904b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-4706598>0937177715>\u5ed6\u904b\u8208>\u50b3\u771f03-4802598",
+    "address": "\u6843\u5712\u5e02\u9f8d\u6f6d\u5340\u5efa\u6797\u91cc\u5fe0\u52c7\u885789\u5df73\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.950Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb1"
+    },
+    "vendor_id": "188",
+    "name": "\u5bf6\u529b\u9069\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5485>8732",
+    "phone": "02-29290359>\u50b3\u771f:02-29290860>0988-738976\u8a31\u667a\u51f1",
+    "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u5b89\u6a02\u8def194\u5df717\u5f041\u865f4\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.951Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb2"
+    },
+    "vendor_id": "189",
+    "name": "\u745e\u8fea\u8f2a\u80ce\u6709\u9650\u516c\u53f8>\u6c38\u81fb\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5460>0889",
+    "phone": "0980-124168\u694a\u5fe0\u7a4e>037-725798>037-733032\u50b3\u771f",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.952Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb3"
+    },
+    "vendor_id": "190",
+    "name": "\u4e2d\u8208\u4fdd\u5168\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2311>4791",
+    "phone": "037-469028>0988-572716\u5f90\u5f65\u6c11>\u76e3\u8996\u5668.\u9435\u6372\u9580\u554f\u984c\u53f3\u4e0a\u89d2\u986f\u793a4MP\u62530800-221195\u5ba2\u670d>\u76e3\u8996\u5668\u554f\u984c\u53f3\u4e0a\u89d2\u986f\u793a1080P\u7dad\u4fee\u62530933-547401\u8001\u95c6>\u50b3\u771f037-462820>0937-729028\u96fb\u8166\u5de5\u7a0b\u5e2b>>0931-233007\u6797\u7d93\u7406",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5927\u71df\u8def93\u865f3\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.953Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb4"
+    },
+    "vendor_id": "191",
+    "name": "\u5b89\u7acb\u6c7d\u8eca\u4fdd\u990a\u5ee0",
+    "uniform_number": "42107>5396",
+    "phone": "03-4758206>0981-506022\u738b\u9577\u7acb",
+    "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u4e2d\u5c71\u5357\u8def50\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.954Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb5"
+    },
+    "vendor_id": "192",
+    "name": "\u963f\u6bc5\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "07-7889830>\u50b3\u771f07-7889833",
+    "address": "\u9ad8\u96c4\u5e02\u5927\u5bee\u5340\u5927\u5bee\u8def856\u5df732\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.955Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb6"
+    },
+    "vendor_id": "193",
+    "name": "\u8c6a\u7043\u8eca\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4256>8673>\u7a05\u5916",
+    "phone": "037-603434>\u50b3\u771f037-603950>0912-370911\u6eab\u9326\u6c11",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u73ca\u745a\u91cc\u4e5d\u828e\u67973\u91302-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.956Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb7"
+    },
+    "vendor_id": "194",
+    "name": "\u65e5\u65b0\u8f2a\u80ce\u884c",
+    "uniform_number": "0598>1116>\u542b\u7a05>(\u767c\u7968\u958b:\u4e2d\u83ef\u5168\u4f51)",
+    "phone": "04-8735353>\u8001\u95c6\u9673\u654f\u5ef70920-687786",
+    "address": "\u5f70\u5316\u7e23\u793e\u982d\u9109\u5ee3\u8208\u6751\u54e1\u96c6\u8def2\u6bb5543\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.957Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb8"
+    },
+    "vendor_id": "195",
+    "name": "KSPORT\u8fea\u5152\u601d\u6c7d\u8eca\u7cbe\u54c1\u884c",
+    "uniform_number": "4750>3828>\u672a\u7a05",
+    "phone": "04-22752678>\u5916\u52d90923-111028",
+    "address": "\u53f0\u4e2d\u5e02\u592a\u5e73\u5340\u6771\u5e73\u8def264\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.958Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eb9"
+    },
+    "vendor_id": "196",
+    "name": "\u9f8d\u6f41\u570b\u969b\u7522\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-2983-8793>\u50b3\u771f02-29838794",
+    "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u66f4\u6d32\u8def11\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.959Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eba"
+    },
+    "vendor_id": "197",
+    "name": "\u8a60\u64b0\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2459>0435>\u672a\u7a05",
+    "phone": "07-6252564>0955-119325>0989-136817\u8ca0\u8cac\u4eba\u67ef\u4fca\u4ecb>\u50b3\u771f07-6250845",
+    "address": "\u9ad8\u96c4\u5e02\u5ca1\u5c71\u5340\u516c\u5712\u897f\u8def\u4e09\u6bb584\u5df778-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.960Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ebb"
+    },
+    "vendor_id": "198",
+    "name": "\u5360\u58eb\u90a6\u92c1\u5708\u4fee\u5fa9\u4e2d\u5fc3",
+    "uniform_number": null,
+    "phone": "0980607777\u8001\u95c6\u5a18",
+    "address": "\u53f0\u4e2d\u5e02\u5357\u5c6f\u5340\u74b0\u4e2d\u8def5\u6bb5768\u865f\u4e4b3",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.961Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ebc"
+    },
+    "vendor_id": "199",
+    "name": "\u9752\u5cf6\u806f\u5408\u6cf0\u723e\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0532-84615175>\u958b\u6236\u884c:\u4e2d\u4fe1\u9280\u884c\u9752\u5cf6\u5e02\u5317\u652f\u884c>\u5e33\u865f:7371121482600003413>\u9280\u884c\u5730\u5740:\u5c71\u6771\u9752\u5cf6\u9999\u6e2f\u4e2d\u8def22\u865f",
+    "address": "\u5c71\u6771\u7701\u9752\u5cf6\u5e02\u4fdd\u7a05\u6e2f\u5340\u5317\u4eac\u8def38\u865f4\u865f\u5ee0\u623f\u4e8c\u6a13\u67712050\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.962Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ebd"
+    },
+    "vendor_id": "200",
+    "name": "\u91d1\u7ae4\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-4900526>\u50b3\u771f03-4900536",
+    "address": "\u6843\u5712\u5e02\u65b0\u5c4b\u5340\u5feb\u901f\u8def\u516d\u6bb5376\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.963Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ebe"
+    },
+    "vendor_id": "201",
+    "name": "\u4e2d\u570b\u9806\u660c\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "\u8001\u95c6\u7528\u5fae\u4fe1\u806f\u7d61",
+    "address": "\u9752\u5cf6\u5e02\u5d97\u5c71\u5340\u682a\u5dde\u8def20\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.964Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ebf"
+    },
+    "vendor_id": "202",
+    "name": "\u5c1a\u9686\u6c7d\u8eca\u6709\u9650\u516c\u53f8(\u5c1a\u9686\u4e2d\u83ef\u5ee0)",
+    "uniform_number": null,
+    "phone": "035-388855>\u50b3\u771f035-309555(\u6797\u5c55\u8f1d\u62db\u52df)",
+    "address": "\u65b0\u7af9\u5e02\u725b\u57d4\u91cc8\u9130\u4e2d\u83ef\u8def\u56db\u6bb5665\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.965Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec0"
+    },
+    "vendor_id": "203",
+    "name": "\u958b\u5143\u5831\u95dc\u884c>\u958b\u539f\u5831\u95dc\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5668>7143",
+    "phone": "04-23262000-326\u6f58\u5ba3\u59a4>\u6703\u8a08356\u856d\u5c0f\u59d0>04-23270062",
+    "address": "\u53f0\u4e2d\u5e02\u897f\u5340\u81fa\u7063\u5927\u9053\u4e8c\u6bb5218\u865f3\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.966Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec1"
+    },
+    "vendor_id": "204",
+    "name": "\u5bb6\u5229\u591a\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0987-198331\u6843\u7af9\u82d7\u696d\u52d9\u912d\u58eb\u5b8f>LINE ID:simotacarido2>04-7680723>\u50b3\u771f04-7696167>",
+    "address": "\u5f70\u5316\u7e23\u79c0\u6c34\u9109\u6c11\u4e3b\u885718\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.967Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec2"
+    },
+    "vendor_id": "205",
+    "name": "\u5f69\u85dd\u5f97\u5370\u5237\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "037-470111>\u50b3\u771f037-460365",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u535a\u611b\u8857173\u5df79\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.968Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec3"
+    },
+    "vendor_id": "206",
+    "name": "\u9054\u4fe1\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "037-630199>\u50b3\u771f037-630129",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u516c\u9928\u91cc\u5927\u57d4\u98027\u91305-10\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.969Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec4"
+    },
+    "vendor_id": "207",
+    "name": "WTT\u53f0\u7063\u7e3d\u4ee3\u7406",
+    "uniform_number": null,
+    "phone": "0932-275-286\u9673\u5fd7\u9293",
+    "address": "\u6843\u5712\u5e02\u8606\u7af9\u5340\u4e2d\u8208\u4e00\u8857150\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.970Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec5"
+    },
+    "vendor_id": "208",
+    "name": "\u8d6b\u6770\u570b\u969b\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5400>6749>\u672a\u7a05",
+    "phone": "04-26869605>\u50b3\u771f04-26869619",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u7532\u5340\u4e2d\u5c71\u8def\u4e00\u6bb5591\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.971Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec6"
+    },
+    "vendor_id": "209",
+    "name": "\u660e\u53f0\u7522\u7269\u4fdd\u96aa\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8489>8520>\u672a\u7a05",
+    "phone": "037-321256\u5206\u6a5f202\u694a\u79c0\u7f8e>0920370705\u694a\u79c0\u7f8e>\u50b3\u771f037-369951",
+    "address": "\u82d7\u6817\u7e23\u82d7\u6817\u5e02\u570b\u83ef\u8def1136\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.972Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec7"
+    },
+    "vendor_id": "210",
+    "name": "\u6bc5\u6210\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0935-222200>0958111002",
+    "address": "\u53f0\u5317\u5e02\u5357\u4eac\u6771\u8def5\u6bb5336\u865f10F",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.973Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec8"
+    },
+    "vendor_id": "211",
+    "name": "\u5947\u5ca9\u81ea\u52d5\u8eca",
+    "uniform_number": null,
+    "phone": "02-26185582>\u50b3\u771f02-26185592>0915-771771\u76e7\u5efa\u5fd7",
+    "address": "\u65b0\u5317\u5e02\u516b\u91cc\u5340\u4e2d\u83ef\u8def\u4e8c\u6bb5173-2",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.974Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ec9"
+    },
+    "vendor_id": "212",
+    "name": "\u667a\u826f\u5be6\u696d\u6709\u9650\u516c\u53f8>\u6d88\u6691\u5c08\u5bb6",
+    "uniform_number": null,
+    "phone": "02-29655888>\u50b3\u771f:02-29600808",
+    "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u9f8d\u8208\u885773\u5df724\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.975Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eca"
+    },
+    "vendor_id": "213",
+    "name": "\u5c1a\u5927\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-25031255>\u50b3\u771f02-2517-9495",
+    "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u6ff1\u6c5f\u8857178-5\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.976Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ecb"
+    },
+    "vendor_id": "214",
+    "name": "\u5be6\u5bb6\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "06-2834130>\u50b3\u771f06-2834132",
+    "address": "\u53f0\u5357\u5e02\u5317\u6210\u8def300\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.977Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ecc"
+    },
+    "vendor_id": "215",
+    "name": "\u7fd4\u946b\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2424>4505",
+    "phone": "04-23593549>\u50b3\u771f04-23593650",
+    "address": "\u53f0\u4e2d\u5e02\u5357\u5c6f\u5340\u5de5\u696d21\u8def29\u865f3\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.978Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ecd"
+    },
+    "vendor_id": "216",
+    "name": "\u627f\u5bcc\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5370822>0925-385857\u738b\u5148\u751f>\u50b3\u771f03-5373027",
+    "address": "\u65b0\u7af9\u5e02\u4e2d\u83ef\u8def\u516d\u6bb51\u5df73\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.979Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ece"
+    },
+    "vendor_id": "217",
+    "name": "\u8eca\u53cb\u884c\u8cbf\u6613\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8019>0045",
+    "phone": "03-5530400",
+    "address": "\u65b0\u7af9\u5e02\u535a\u611b\u885727-15\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.980Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ecf"
+    },
+    "vendor_id": "218",
+    "name": "\u91d1\u76db\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-22939809>\u50b3\u771f:02-22925539",
+    "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u6c11\u7fa9\u8def\u4e00\u6bb5255-31\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.981Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed0"
+    },
+    "vendor_id": "219",
+    "name": "\u7fcc\u967d\u96fb\u6a5f\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-24262507>\u50b3\u771f04-24261262",
+    "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u66f4\u751f\u5df7176-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.982Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed1"
+    },
+    "vendor_id": "220",
+    "name": "\u65b0\u92b3\u5149\u5c08\u696d\u71c8\u6ce1",
+    "uniform_number": null,
+    "phone": "0907-407980",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u52e4\u8208\u8857158\u5df72\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.983Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed2"
+    },
+    "vendor_id": "221",
+    "name": "\u5609\u91cc\u5927\u69ae\u8ca8\u904b\u7269\u6d41\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "037-622269>\u53f8\u6a5f\u96fb\u8a710905-388370",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u81ea\u5f37\u8def\u4e8c\u6bb568\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.984Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed3"
+    },
+    "vendor_id": "222",
+    "name": "\u7530\u5bcc\u8cbf\u6613\u6709\u9650\u516c\u53f8>\u715e\u8eca\u76ae\u6c38\u8b19",
+    "uniform_number": "5099>8900",
+    "phone": "0935-356997",
+    "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u5ef6\u5409\u885726\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.985Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed4"
+    },
+    "vendor_id": "223",
+    "name": "\u93a7\u65b0\u7814\u5275\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-86719581>\u50b3\u771f02-86719085",
+    "address": "\u65b0\u5317\u5e02\u4e09\u5cfd\u5340\u4e09\u6a39\u8def222\u5df7166-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.986Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed5"
+    },
+    "vendor_id": "224",
+    "name": "\u798f\u7279\u65b0\u82d7\u6c7d\u8eca(\u982d\u4efd\u5ee0)",
+    "uniform_number": "2527>6308",
+    "phone": "037-683806>\u50b3\u771f037-684784",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u6771\u5e84\u91cc\u81ea\u5f37\u8def206\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.987Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed6"
+    },
+    "vendor_id": "225",
+    "name": "\u5927\u53f0\u5317\u5104\u6210\u8f2a\u80ce\u91cf\u8ca9\u4e2d\u5fc3",
+    "uniform_number": null,
+    "phone": "02-22687309>0983-008299\u9ec3\u555f\u7965",
+    "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u5927\u5b89\u8def8\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.988Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed7"
+    },
+    "vendor_id": "226",
+    "name": "\u7ad1\u9a0f\u8eca\u696d",
+    "uniform_number": null,
+    "phone": "0935-817966\u5c24\u79cb\u9d6c",
+    "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u65b0\u751f\u8def\u4e8c\u6bb5311\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.989Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed8"
+    },
+    "vendor_id": "227",
+    "name": "\u83ab\u540d\u5176\u5999\u5009\u5eab",
+    "uniform_number": null,
+    "phone": "0928-389698\u5b6b\u4ef2\u5cb3",
+    "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u4e00\u5fc3\u4e8c\u8def157\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.990Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ed9"
+    },
+    "vendor_id": "228",
+    "name": "\u5409\u5229\u4f86\u8f2a\u80ce\u884c>\u694a\u9280\u4e2d",
+    "uniform_number": null,
+    "phone": "04-7982239>0918-396159\u694a\u9280\u4e2d",
+    "address": "\u5f70\u5316\u7e23\u4f38\u6e2f\u9109\u6eaa\u5e95\u6751\u8208\u5de5\u8def138\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.990Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18eda"
+    },
+    "vendor_id": "229",
+    "name": "\u6cf0\u745e\u65af\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-23125527>\u50b3\u771f:04-23125529",
+    "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u56db\u5ddd\u8def33\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.991Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18edb"
+    },
+    "vendor_id": "230",
+    "name": "\u8fea\u5967\u746a\u65af",
+    "uniform_number": null,
+    "phone": "02-25414141",
+    "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u9577\u5b89\u897f\u8def26\u5df71\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.992Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18edc"
+    },
+    "vendor_id": "231",
+    "name": "\u7965\u5104\u6c23\u52d5",
+    "uniform_number": null,
+    "phone": "04-25278358>0910-452628\u8521\u5b89\u7965",
+    "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u8c50\u793e\u8def137\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.993Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18edd"
+    },
+    "vendor_id": "232",
+    "name": "\u4e0a\u4e95\u50b3\u52d5\u8ef8",
+    "uniform_number": null,
+    "phone": "037-623367>037-635349>0935-422340",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u7530\u5bee\u91cc\u6c11\u65cf\u8def433\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.994Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ede"
+    },
+    "vendor_id": "233",
+    "name": "\u92d0\u6cf0\u6c7d\u8eca",
+    "uniform_number": null,
+    "phone": "03-4967859>03-4964422>\u50b3\u771f03-4964410",
+    "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5ef6\u5e73\u8def\u4e09\u6bb5421\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.995Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18edf"
+    },
+    "vendor_id": "234",
+    "name": "\u9a30\u8b1a\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "6592>6905",
+    "phone": "0916-282000",
+    "address": "\u65b0\u5317\u5e02\u6cf0\u5c71\u5340\u6cf0\u6797\u8def\u4e8c\u6bb5503\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.996Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ee0"
+    },
+    "vendor_id": "235",
+    "name": "\u53f0\u7063\u65b0\u5149\u4fdd\u5168\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1226>1768",
+    "phone": "037-673584",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u83ef\u8def1192\u865f10F",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.997Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ee1"
+    },
+    "vendor_id": "236",
+    "name": "\u5922\u5de5\u5ee0\u570b\u969b\u8eca\u696d",
+    "uniform_number": null,
+    "phone": "0978153518\u9ec3\u4ec1\u5fb7",
+    "address": "\u82d7\u6817\u7e23\u516c\u9928\u9109\u4e2d\u7fa9\u6751133\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.998Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb616ab10bda6ba18ee2"
+    },
+    "vendor_id": "237",
+    "name": "SPEEDFACTORY",
+    "uniform_number": null,
+    "phone": "0986-316069 JUJU",
+    "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u91d1\u57ce\u8def\u4e09\u6bb5309\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:57.999Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee3"
+    },
+    "vendor_id": "238",
+    "name": "\u552f\u8fb0\u884c>\u4f73\u4f73\u5546\u884c",
+    "uniform_number": null,
+    "phone": "037-250238\uff1e0919-045093\uff1e0912-037554(\u8a02\u74f6\u88dd\u6c34)",
+    "address": "\u82d7\u6817\u7e23\u982d\u5c4b\u9109\u66f2\u6d1e\u675111\u913095\u865f.",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee4"
+    },
+    "vendor_id": "239",
+    "name": "\u5df4\u514b\u5229\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "06-5975863>0917-593481\u9ec3\u5fe0\u5049>\u50b3\u771f06-5975663",
+    "address": "\u53f0\u5357\u5e02\u5b89\u5b9a\u5340\u5b89\u5b9a262-21\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.001Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee5"
+    },
+    "vendor_id": "240",
+    "name": "\u6176\u7fd4\u6c7d\u8eca\u6750\u6599\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2513>9261",
+    "phone": "0966-686269\u694a\u99a5\u6bd3",
+    "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u4e2d\u5c71\u5317\u8def\u4e8c\u6bb5137\u5df716-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.001Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee6"
+    },
+    "vendor_id": "241",
+    "name": "\u65e5\u76db\u5e06\u5e03\u9435\u67b6\u884c",
+    "uniform_number": "7691>6025",
+    "phone": "0937-634908\u6797\u76db\u5c4f>037-634908>037-634007>037-626418\u50b3\u771f",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u6c11\u65cf\u8def710\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.002Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee7"
+    },
+    "vendor_id": "242",
+    "name": "\u7d71\u99ff\u8f2a\u80ce\u884c>\u662d\u5b89\u8f2a\u80ce\u884c>\u8ca0:\u8521\u6dd1\u60e0",
+    "uniform_number": null,
+    "phone": "07-8220587\uff1e0927-996226",
+    "address": "\u9ad8\u96c4\u5e02\u5c0f\u6e2f\u5340\u6e2f\u5898\u91cc\u5e73\u548c\u8def132\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.003Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee8"
+    },
+    "vendor_id": "243",
+    "name": "\u5ef6\u5b97\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-22695277>\u50b3\u771f02-22695299",
+    "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u6c38\u548c\u885727-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.004Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ee9"
+    },
+    "vendor_id": "244",
+    "name": "\u96d9\u9322\u96c6\u5718(\u65b0\u7586)\u6606\u4f96\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0086-991-3304709>\u50b3\u771f:0086-996-3304709",
+    "address": "\u4e2d\u570b\u65b0\u7586\u70cf\u9b6f\u6728\u9f4a\u6771\u5317\u8def7880\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.005Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eea"
+    },
+    "vendor_id": "245",
+    "name": "\u8000\u946b\u6709\u9650\u516c\u53f8>\u8afe\u57fa\u4e9e\u8f2a\u80ce",
+    "uniform_number": null,
+    "phone": "02-25171269>\u50b3\u771f02-25171659",
+    "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u6ff1\u6c5f\u8857320\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.005Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eeb"
+    },
+    "vendor_id": "246",
+    "name": "\u5927\u6208\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-22402805>\u50b3\u771f02-22402793",
+    "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u4e2d\u6b63\u8def410\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.006Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eec"
+    },
+    "vendor_id": "247",
+    "name": "\u842c\u8c50\u8f2a\u80ce\u884c>\u6bc5\u8c50\u4f01\u696d\u793e>",
+    "uniform_number": "1920\uff1e3125\u946b\u6bc5",
+    "phone": "0937-703963\u8001\u95c6\u90b1\u6176\u92d2>0932-458376",
+    "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u5357\u6e2f23-10\u865f>\u842c\u8c50 \u767b:\u901a\u9704\u93ae\u5e73\u5143\u91cc5\u9130\u5d07\u4ec1\u8def490\u5df726\u865f.\u65b0\u6bc5",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.007Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eed"
+    },
+    "vendor_id": "248",
+    "name": "\u7027\u9a30\u80a1\u4efd\u6709\u9650\u516c\u53f8 >\u7027\u7fd4\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-5507821-2>\u50b3\u771f03-5507823>0988054341\u90b1\u667a\u5049",
+    "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u798f\u8208\u6771\u8def\u4e00\u6bb5372\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.008Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eee"
+    },
+    "vendor_id": "249",
+    "name": "\u6c83\u6b65\u570b\u969b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0928-090195\u8303\u4e2d\u97dc",
+    "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u4e94\u5de5\u4e8c\u5f04\u8def120\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.009Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eef"
+    },
+    "vendor_id": "250",
+    "name": "\u83ef\u4ed4",
+    "uniform_number": null,
+    "phone": "02-22520585>0927-630689",
+    "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u842c\u677f\u8def818\u5df77\u865f\u5bc6\u5ba4",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.010Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef0"
+    },
+    "vendor_id": "251",
+    "name": "NOOP.COLTHING",
+    "uniform_number": null,
+    "phone": "06-2218397",
+    "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u9752\u5e74\u8def31\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.011Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef1"
+    },
+    "vendor_id": "252",
+    "name": "\u69ae\u665f\u6c7d\u8eca\u767e\u8ca8",
+    "uniform_number": null,
+    "phone": "037-623889",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u6c38\u8c9e\u8def\u4e00\u6bb595\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.012Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef2"
+    },
+    "vendor_id": "253",
+    "name": "\u9577\u6e90\u6c7d\u8eca\u80a1\u4efd\u6709\u9650\u516c\u53f8>\u65b0\u7af9\u5ee0",
+    "uniform_number": "1663\uff1e0047\u7a05\u5916",
+    "phone": "03-5389811>0932-528360\u694a\u667a\u7fd4",
+    "address": "\u65b0\u7af9\u5e02\u4e2d\u83ef\u8def\u56db\u6bb5561\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.013Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef3"
+    },
+    "vendor_id": "254",
+    "name": "\u79d1\u958e\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-269337677>\u50b3\u771f04-26937162",
+    "address": "\u53f0\u4e2d\u5e02\u5927\u809a\u5340\u738b\u7530\u91cc\u6c99\u7530\u8def\u4e00\u6bb5235-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.014Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef4"
+    },
+    "vendor_id": "255",
+    "name": "\u60e0\u723e\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8669>6871",
+    "phone": "02-25411019>\u50b3\u771f02-25624104>0916521489\u9673\u5efa\u7ff0",
+    "address": "\u53f0\u5317\u5e02\u5409\u6797\u8def107\u865f2\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.015Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef5"
+    },
+    "vendor_id": "256",
+    "name": "\u5c55\u8018\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-25358281>0928-193873",
+    "address": "\u53f0\u4e2d\u5e02\u6f6d\u5b50\u5340\u96c5\u6f6d\u8def\u4e00\u6bb599\u5df710\u865fA5",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.016Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef6"
+    },
+    "vendor_id": "257",
+    "name": "\u5409\u9806\u8f2a\u80ce\u4f01\u696d\u793e",
+    "uniform_number": "3987>9929",
+    "phone": "04-7778008>0934-071258\u8a31\u5bb6\u744b",
+    "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u798f\u5357\u6751\u632f\u8208\u5df715\u4e4b5\u865f(\u53f017\u7e2340.5K)",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.017Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef7"
+    },
+    "vendor_id": "258",
+    "name": "\u4e0a\u798f\u8f2a\u80ce\u5be6\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "6631\uff1e2742",
+    "phone": "02-26102178\uff1e\u5e33:02-26102680\u9673\u5c0f\u59d0>0960-529969\uff1e0973-522588\u8521\u5b9c\u5b8f\uff1e\u50b3\u771f02-26102078",
+    "address": "\u65b0\u5317\u5dff\u516b\u91cc\u5340\u4e2d\u5c71\u8def2\u6bb5540\u5df713\u865f1\u6a13\uff1e\u767b:\u6843\u5712\u5e02\u6843\u5712\u5340\u4e2d\u4fe1\u91cc\u5fb7\u83ef\u8857197\u5df715\u865f1\u6a13\u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.018Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef8"
+    },
+    "vendor_id": "259",
+    "name": "\u7f85\u5bb6\u8c50>(\u53f0\u4e2d)\u69ae\u65b0\u8f2a\u80ce\u696d\u52d9",
+    "uniform_number": null,
+    "phone": "0906-666441",
+    "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u5bee\u967d\u5317\u4e8c\u885774\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.019Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18ef9"
+    },
+    "vendor_id": "260",
+    "name": "\u5289\u53c8\u744b>\u53f0\u7063\u98db\u5229\u6d66\u65b0\u7af9\u7279\u7d04\u670d\u52d9\u7ad9",
+    "uniform_number": "5450>6499",
+    "phone": "03-5318583>0980-856693\u5289\u53c8\u744b>\u50b3\u771f03-5423963",
+    "address": "\u65b0\u7af9\u5e02\u6771\u5927\u8def\u4e8c\u6bb5371\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.020Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18efa"
+    },
+    "vendor_id": "261",
+    "name": "MST\u9577\u548c\u4ea4\u901a\u914d\u4ef6\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "06-5938852>\u50b3\u771f06-5938851",
+    "address": "\u53f0\u5357\u5e02\u5b89\u5b9a\u5340\u6e2f\u53e321-18\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.021Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18efb"
+    },
+    "vendor_id": "262",
+    "name": "\u4e0d\u53ef\u601d\u8b70\u670d\u98fe\u5e97",
+    "uniform_number": null,
+    "phone": "0920427700\u6797\u66f8\u9038",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u5c1a\u9806\u8def1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.022Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18efc"
+    },
+    "vendor_id": "263",
+    "name": "\u6b63\u91cc\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2217>4686",
+    "phone": "02-27084820>\u50b3\u771f02-27049093>0927123421\u696d\u52d9",
+    "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u8def\u56db\u6bb5263\u865f9\u6a13\u4e4b1",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.023Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18efd"
+    },
+    "vendor_id": "264",
+    "name": "\u4e45\u660c\u6c7d\u8eca\u6750\u6599\u884c",
+    "uniform_number": null,
+    "phone": "02-22229220>\u50b3\u771f02-22229232",
+    "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u4e2d\u6b63\u8def717\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.024Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18efe"
+    },
+    "vendor_id": "265",
+    "name": "\u5be7\u8c6a\u4f01\u696d\u80a1\u4efd\u6709\u516c\u53f8",
+    "uniform_number": "7050>4052",
+    "phone": "02-26775998>\u50b3\u771f02-26798388",
+    "address": "\u65b0\u5317\u5e02\u9daf\u6b4c\u5340\u5efa\u570b\u8def429\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.025Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18eff"
+    },
+    "vendor_id": "266",
+    "name": "\u4e0a\u6e90\u6c7d\u8eca\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-3603185>\u50b3\u771f03-392-0728",
+    "address": "\u6843\u5712\u5e02\u6843\u5708\u5340\u570b\u969b\u8def\u4e8c\u6bb5361-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.026Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f00"
+    },
+    "vendor_id": "267",
+    "name": "\u901a\u9054\u8ca8\u904b",
+    "uniform_number": null,
+    "phone": "03-4013553>03-4013554>0903655030\u53f8\u6a5f\u96fb\u8a71",
+    "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5fa9\u65e6\u8def\u4e09\u6bb5136\u5df715-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.027Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f01"
+    },
+    "vendor_id": "268",
+    "name": "ANKER>\u5929\u6674\u5be6\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-86013708>\u50b3\u771f02-26024359>0988-539759\u696d\u52d9",
+    "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u5927\u5357\u8def285\u5df711-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.029Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f02"
+    },
+    "vendor_id": "269",
+    "name": "\u83ef\u57ce\u8f2a\u80ce\u9928",
+    "uniform_number": null,
+    "phone": "0989-036771",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u516c\u7fa9\u8def717\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.030Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f03"
+    },
+    "vendor_id": "270",
+    "name": "\u85cd\u683c\u5370\u5237",
+    "uniform_number": null,
+    "phone": "06-2226061",
+    "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u5927\u52c7\u885766\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.031Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f04"
+    },
+    "vendor_id": "271",
+    "name": "\u6613\u967d\u904b\u8f38\u80a1\u4efd\u6709\u9650\u516c\u53f8>\u6613\u967d\u958b\u767c\u6709\u9650\u516c\u53f8>\u8ca1\u77f3\u7802\u77f3\u6709\u9650\u516c\u53f8",
+    "uniform_number": "\u6613\u967d8340>8476>\u8ca1\u77f38970>1217",
+    "phone": "04-25336789>\u50b3\u771f04-25316699>0955-192222\u6e38\u6cf3\u96c4>",
+    "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u8c50\u539f\u5927\u9053\u4e00\u6bb5606\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.032Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f05"
+    },
+    "vendor_id": "272",
+    "name": "\u5b9c\u798f\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2238>9589",
+    "phone": "03-5399600>\u50b3\u771f03-5399500",
+    "address": "\u65b0\u7af9\u7e23\u9999\u5c71\u5340\u4e2d\u83ef\u8def\u56db\u6bb5262\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.033Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f06"
+    },
+    "vendor_id": "273",
+    "name": "\u5b9c\u6210\u7802\u77f3\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2424\uff1e7329\u5b9c\u6210\uff1e4557\uff1e4207\u7e3d\u5b9c\uff1e\u672a\u7a05",
+    "phone": "0922-787179\uff1e\u50b3\u771f04-25892930",
+    "address": "\u82d7\u6817\u7e23\u5353\u862d\u93ae\u65b0\u69ae\u91cc10\u9130\u4ec1\u611b\u8def16\u865f1\u6a13 \u3002",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.034Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f07"
+    },
+    "vendor_id": "274",
+    "name": "\u6771\u5229\u8f2a\u80ce\u884c",
+    "uniform_number": "0993>4002",
+    "phone": "03-9502044>0932-089244\u76e7\u96f2\u798f",
+    "address": "\u5b9c\u862d\u7e23\u4e94\u7d50\u9109\u4e94\u6ff1\u8def\u4e8c\u6bb5232\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.035Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f08"
+    },
+    "vendor_id": "275",
+    "name": "\u6bc5\u5927\u6c7d\u8eca",
+    "uniform_number": null,
+    "phone": "02-22620339",
+    "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u91d1\u57ce\u8def\u4e8c\u6bb5236\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.036Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f09"
+    },
+    "vendor_id": "276",
+    "name": "\u4ef2\u4fe1\u878d\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-27986488>\u50b3\u771f02-27986909",
+    "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u5167\u6e56\u8def\u4e00\u6bb5392\u865f6\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.037Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f0a"
+    },
+    "vendor_id": "277",
+    "name": "\u8c6a\u7965\u6c7d\u8eca\u7cbe\u54c1",
+    "uniform_number": null,
+    "phone": "04-7780600>\u50b3\u771f04-7776603>0983660050\u7d93\u7406",
+    "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u798f\u8208\u8def61-12\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.038Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f0b"
+    },
+    "vendor_id": "278",
+    "name": "\u5cf0\u6d0b\u8f2a\u80ce\u884c",
+    "uniform_number": "5068\uff1e1255",
+    "phone": "0981-892912\u9673\u5fe0\u69ae\uff1e0925-460686\u9673\u7d00\u8ce2",
+    "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u56db\u7dad\u91cc\u56db\u7dad\u8def125\u5df719-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.039Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f0c"
+    },
+    "vendor_id": "279",
+    "name": "\u5b87\u5cf0\u8eca\u7528\u5f71\u97f3\u591a\u5a92\u9ad4",
+    "uniform_number": null,
+    "phone": "0930-125556",
+    "address": "\u6843\u5712\u5e02\u516b\u5fb7\u5340\u4e2d\u83ef\u8def387-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.040Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f0d"
+    },
+    "vendor_id": "280",
+    "name": "\u7f85\u5a01\u7fd4",
+    "uniform_number": null,
+    "phone": "0917-075501",
+    "address": "\u65b0\u7af9\u5e02\u4e2d\u83ef\u8def\u516d\u6bb5118-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.041Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f0e"
+    },
+    "vendor_id": "281",
+    "name": "\u826f\u5fa1\u570b\u969b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": "8064>3504",
+    "phone": "04-26657228>\u50b3\u771f:04-26657221",
+    "address": "\u53f0\u4e2d\u5e02\u68a7\u68f2\u5340\u4e2d\u83ef\u8def\u4e8c\u6bb5260\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.042Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f0f"
+    },
+    "vendor_id": "282",
+    "name": "\u5b8f\u57ce\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "037-476260>0939852715\u9f94\u6e05\u5b8f",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5d0e\u9802\u91cc7\u9130\u5317\u623633-15\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.043Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f10"
+    },
+    "vendor_id": "283",
+    "name": "\u570b\u8ed2\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "037-598518",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u9686\u9802\u8857301\u5df73\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.044Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f11"
+    },
+    "vendor_id": "284",
+    "name": "\u51a0\u627f\u6c7d\u8eca\u70e4\u6f06\u5de5\u574a",
+    "uniform_number": null,
+    "phone": "037-552646>0927-591706",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u9f8d\u9cf3\u91cc\u52e4\u8208\u885778\u5df785\u5f0489\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.045Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f12"
+    },
+    "vendor_id": "285",
+    "name": "\u9d3b\u59ff\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-28010369>\u50b3\u771f02-28013527",
+    "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u5f8c\u5dde\u5b501\u4e4b3\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.046Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f13"
+    },
+    "vendor_id": "286",
+    "name": "\u6e90\u9d3b\u6c7d\u8eca",
+    "uniform_number": "4565>4692",
+    "phone": "037-550793\u694a\u68df\u96c4",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u71df\u76e4\u91cc21\u9130\u65b0\u751f\u8def327\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.047Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f14"
+    },
+    "vendor_id": "287",
+    "name": "\u597d\u5229\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-27930277>\u50b3\u771f02-27930177",
+    "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u884c\u5584\u8def118\u865f2F-2",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.048Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f15"
+    },
+    "vendor_id": "288",
+    "name": "\u4fe1\u5229\u884c(\u9ad8\u96c4)",
+    "uniform_number": null,
+    "phone": null,
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.049Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f16"
+    },
+    "vendor_id": "289",
+    "name": "\u548c\u99ff\u6210\u9ad8\u79d1\u6280\u6709\u9650\u516c\u53f8>\u8ca0:\u8a31\u6b63\u9054",
+    "uniform_number": "8296>6727",
+    "phone": "0909-008301",
+    "address": "\u5f70\u5316\u7e23\u548c\u7f8e\u93ae\u548c\u5357\u91cc\u9e7f\u548c\u8def\u516d\u6bb5477\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.050Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f17"
+    },
+    "vendor_id": "290",
+    "name": "\u9752\u5cf6\u7c73\u5947\u591a\u6a61\u81a0\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0086-0532-85111668>\u50b3\u771f:0086-0532-85111638",
+    "address": "\u9752\u5cf6\u5e02\u9ec3\u5cf6\u5340\u8eca\u502b\u5c71\u8def388\u865f\u842c\u65b0\u4e2d\u592e\u5ee3\u5834801",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.051Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f18"
+    },
+    "vendor_id": "291",
+    "name": "\u9060\u4eab\u6c7d\u8eca\u6750\u6599\u884c",
+    "uniform_number": null,
+    "phone": "0927-530070\u7f85\u5b50\u8c6a",
+    "address": "\u9ad8\u96c4\u5e02\u524d\u91d1\u5340\u4e2d\u83ef\u4e09\u8def240-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.052Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f19"
+    },
+    "vendor_id": "292",
+    "name": "\u5fa0\u78a9\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-7463088>\u50b3\u771f:5938386",
+    "address": "\u53f0\u5357\u5e02\u5b89\u5b9a\u5340\u516d\u5609\u91cc97-10\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.053Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f1a"
+    },
+    "vendor_id": "293",
+    "name": "\u548c\u6210\u8a31\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "1653>5199",
+    "phone": "02-2212-5555>\u50b3\u771f:02-22125775>0955532697\u8521\u660e\u54f2",
+    "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5b89\u696d\u8def285-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.054Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f1b"
+    },
+    "vendor_id": "294",
+    "name": "\u6c38\u951d\u4f01\u696d\u793e",
+    "uniform_number": "8096>0655",
+    "phone": "037-613878>\u50b3\u771f:037-636302>0919674891\u674e\u672c\u677e",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u7530\u5bee\u91cc\u8606\u7af9\u8def333\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.055Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f1c"
+    },
+    "vendor_id": "295",
+    "name": "\u9226\u4e0a\u4f01\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5303>5921",
+    "phone": "0919701373\u5289\u5bb6\u9853",
+    "address": "\u5f70\u5316\u7e23\u54e1\u6797\u93ae\u54e1\u96c6\u8def\u4e00\u6bb5428\u5df725\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.056Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f1d"
+    },
+    "vendor_id": "296",
+    "name": "\u5de8\u9054\u6d88\u9632\u5de5\u7a0b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "2458>3271",
+    "phone": "04-22472123>\u50b3\u771f:04-22472125>0968-388281\u8b1d\u677e\u9716>0906-388218\u9f4a\u6587\u63da",
+    "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u67f3\u967d\u6771\u885769\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.057Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f1e"
+    },
+    "vendor_id": "297",
+    "name": "\u52dd\u5f18\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "06-5710395>\u50b3\u771f:06-5715980",
+    "address": "\u53f0\u5357\u5e02\u9ebb\u8c46\u5340\u65b0\u751f\u5357\u8def532-5\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.058Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f1f"
+    },
+    "vendor_id": "298",
+    "name": "\u8056\u5e15\u65af\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5494>3739",
+    "phone": "0918060071\u6e38\u5fe0\u946b",
+    "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u4ecb\u58fd\u8def11-4\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.059Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f20"
+    },
+    "vendor_id": "299",
+    "name": "\u5049\u5d69\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-28866955>\u50b3\u771f:02-28852319",
+    "address": "\u53f0\u5317\u5e02\u627f\u5fb7\u8def\u56db\u6bb5110\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.060Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f21"
+    },
+    "vendor_id": "300",
+    "name": "\u539f\u65b0\u87ba\u7d72\u884c",
+    "uniform_number": null,
+    "phone": "03-5260322-3>\u50b3\u771f:03-5260324",
+    "address": "\u65b0\u7af9\u5e02\u8b66\u5149\u8def30\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.061Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f22"
+    },
+    "vendor_id": "301",
+    "name": "\u7f85\u5f97\u514b\u6d1b",
+    "uniform_number": null,
+    "phone": "8615863046319",
+    "address": "YINZUO BUILDING, NO.11 ZAOYUAN ROAD, QINGDAO,CHINA",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.062Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f23"
+    },
+    "vendor_id": "302",
+    "name": "\u4ec1\u5b87\u8f2a\u80ce\u4f01\u696d\u793e",
+    "uniform_number": null,
+    "phone": "03-3638869>0932273066>0955049551\u6f58\u4fe1\u8f1d",
+    "address": "\u6843\u5712\u7e23\u516b\u5fb7\u5e02\u5927\u798f\u885797\u5df78\u865f.",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.063Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f24"
+    },
+    "vendor_id": "303",
+    "name": "\u7dad\u4eac\u5168\u7403\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-22522228>\u50b3\u771f:04-22522558",
+    "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u53f0\u7063\u5927\u9053\u4e09\u6bb5679\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.064Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f25"
+    },
+    "vendor_id": "304",
+    "name": "\u7acb\u8208\u5de5\u7a0b\u884c",
+    "uniform_number": "2521>2993",
+    "phone": "0933-547401\u5f35\u52dd\u9298",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u8208\u9686\u8def\u4e00\u6bb596\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.065Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f26"
+    },
+    "vendor_id": "305",
+    "name": "\u540d\u57ce\u5ee3\u544a\u793e",
+    "uniform_number": "0294>1485",
+    "phone": "037-477324",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6b63\u5357\u91cc\u6c11\u65cf\u885726\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.066Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f27"
+    },
+    "vendor_id": "306",
+    "name": "\u5bcc\u6210\u8f2a\u80ce\u884c",
+    "uniform_number": "7860>6004",
+    "phone": "08-7732668>0912783847\u6797\u51a0\u4f51",
+    "address": "\u5c4f\u6771\u7e23\u91cc\u6e2f\u9109\u4e09\u548c\u8def120-7\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.067Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f28"
+    },
+    "vendor_id": "307",
+    "name": "\u6046\u6a02\u767c\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "0965-381333",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5927\u6d66\u4e03\u8857170\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.068Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f29"
+    },
+    "vendor_id": "308",
+    "name": "\u4e45\u5927\u7cbe\u54c1\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-4612800>\u50b3\u771f:03-4613689",
+    "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u5167\u5b9a\u516b\u8857478\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.069Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f2a"
+    },
+    "vendor_id": "309",
+    "name": "\u6b23\u627f(\u7d71\u9806)\u8f2a\u80ce\u670d\u52d9\u4e2d\u5fc3",
+    "uniform_number": null,
+    "phone": "03-4773579>\u50b3\u771f03-4773558",
+    "address": "\u6843\u5712\u5e02\u65b0\u5c4b\u5340\u5f8c\u6e56\u91cc\u5bf6\u6a39\u8def316\u5df796\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.070Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f2b"
+    },
+    "vendor_id": "310",
+    "name": "\u9806\u5b89\u6c7d\u8eca-\u7af9\u5357\u5ee0",
+    "uniform_number": null,
+    "phone": "037-656960>\u50b3\u771f037-611618",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u516c\u9928\u91cc7\u91301-7\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.071Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f2c"
+    },
+    "vendor_id": "311",
+    "name": "\u76df\u8c50\u8f2a\u80ce\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-26560507-04-26560529",
+    "address": "\u53f0\u4e2d\u5e02\u6e05\u6c34\u5340\u81e8\u6e2f\u8def5\u6bb5522\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.072Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f2d"
+    },
+    "vendor_id": "312",
+    "name": "SKYPOWER TIRE INDUSTRY CO.,LIMITED(\u512a\u76db\u8f2a\u80ce)",
+    "uniform_number": null,
+    "phone": "0086-15215327106",
+    "address": "\u4e2d\u570b\u5c71\u6771\u9752\u5cf6\u5e02\u4e95\u5ca1\u5c71\u8def157\u865f\u91d1\u77f3\u570b\u969b\u5ee3\u5834",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.073Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f2e"
+    },
+    "vendor_id": "313",
+    "name": "\u5146\u660c\u4f01\u696d\u884c",
+    "uniform_number": "8267>0415",
+    "phone": "\u7693\u5b87\u806f\u7d61",
+    "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u9f0e\u529b\u8def267\u5df75\u5f0442\u865f3\u6a13\u4e4b1",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.074Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f2f"
+    },
+    "vendor_id": "314",
+    "name": "\u9e92\u99ea\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "02-22118595>02-29119595>0965237239\u5f35\u4eba\u6587(\u8001\u95c6)",
+    "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5b89\u696d\u8857155-2\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.075Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f30"
+    },
+    "vendor_id": "315",
+    "name": "\u8c50\u79dd\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "03-3638704>\u50b3\u771f:03-3751925",
+    "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u8208\u9686\u8def5\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.076Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f31"
+    },
+    "vendor_id": "316",
+    "name": "\u6731\u51a0\u83ef>\u6b50\u65af\u7279\u570b\u969b\u5be6\u696d\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-24700218>0918282788>\u50b3\u771f04-24702218",
+    "address": "\u53f0\u4e2d\u5e02\u5357\u5c6f\u5340\u9ece\u660e\u8def\u4e00\u6bb5727\u5df726\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.077Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f32"
+    },
+    "vendor_id": "317",
+    "name": "1111\u4eba\u529b\u9280\u884c",
+    "uniform_number": "1677>6387",
+    "phone": "(02)8787-1111#6636\u6797\u6021\u7fe0",
+    "address": null,
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.078Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f33"
+    },
+    "vendor_id": "318",
+    "name": "\u51f1\u4ed5\u8cbf\u6613\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "02-28932696>\u50b3\u771f02-28915246",
+    "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u627f\u5fb7\u8def\u4e03\u6bb5401\u5df7183-3\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.079Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f34"
+    },
+    "vendor_id": "319",
+    "name": "\u4e9e\u6200\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-26622906",
+    "address": "\u53f0\u4e2d\u5e02\u6c99\u9e7f\u5340\u65e5\u65b0\u885725\u5df711\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.080Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f35"
+    },
+    "vendor_id": "320",
+    "name": "\u9d3b\u91d1\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "02-82958216",
+    "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u5e73\u8def362\u865f6\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.081Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f36"
+    },
+    "vendor_id": "321",
+    "name": "\u65b0\u5149\u7522\u7269\u4fdd\u96aa",
+    "uniform_number": null,
+    "phone": "037-689400>\u50b3\u771f037-676224>0928-795014\u90b1\u90c1\u59c8\u696d\u52d9>0932-668082\u5f35\u7fa9\u660e\u696d\u52d9\u8944\u7406",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u516b\u5fb7\u4e8c\u8def40\u865f1\u6a13",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.082Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f37"
+    },
+    "vendor_id": "322",
+    "name": "\u666e\u83f2\u8fc5\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "5380>5499",
+    "phone": "06-2051112>\u50b3\u771f 06-2051131>0977277975\u9ec3\u8f1d\u5b97",
+    "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u5927\u5edf\u4e8c\u885793\u5df720\u5f042\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.083Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f38"
+    },
+    "vendor_id": "323",
+    "name": "HUA YUAN TIRE TECHNOLOGY CO., LIMITED",
+    "uniform_number": null,
+    "phone": "(+86)10-8440-495",
+    "address": "ROOM 32 11/F LEE KA INDUSTRIAL BUILDING 8 NG FONG STREET SAN PO KONG KOWLOON,HONG KONG",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.084Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f39"
+    },
+    "vendor_id": "324",
+    "name": "\u8aa0\u8c50\u6c7d\u8eca\u4fdd\u990a\u5ee0",
+    "uniform_number": null,
+    "phone": "037-637106",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u6c38\u8c9e\u8def\u4e00\u6bb595-1\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.085Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f3a"
+    },
+    "vendor_id": "325",
+    "name": "\u5143\u4ea8\u6280\u8853\u6709\u9650\u516c\u53f8",
+    "uniform_number": "4266>5252",
+    "phone": "886-423321123",
+    "address": "\u53f0\u4e2d\u5e02\u9727\u5cf0\u5340\u6797\u68ee\u8def706\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.086Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f3b"
+    },
+    "vendor_id": "326",
+    "name": "\u6ff1\u6c5f\u82b1\u5e02",
+    "uniform_number": null,
+    "phone": "037-464898>\u50b3\u771f037-464805",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u535a\u611b\u8857211\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.087Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f3c"
+    },
+    "vendor_id": "327",
+    "name": "\u9ad8\u52d5\u529b\u570b\u969b\u6709\u9650\u516c\u53f8",
+    "uniform_number": "80008>0498",
+    "phone": "04-7748603>\u50b3\u771f04-7779303>0973000360\u6e38\u9022\u6797\u696d\u52d9",
+    "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5f70\u9e7f\u8def\u516d\u6bb5504\u5df736\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.088Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f3d"
+    },
+    "vendor_id": "328",
+    "name": "\u6c38\u6cf0\u4e94\u91d1",
+    "uniform_number": null,
+    "phone": "037-483368>\u50b3\u771f037-483276",
+    "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u535a\u611b\u8857337\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.089Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f3e"
+    },
+    "vendor_id": "329",
+    "name": "\u9d3b\u8aed\u8f2a\u80ce\u884c",
+    "uniform_number": null,
+    "phone": "05-6938767>\u50b3\u771f:05>6931219>0963179521\u8001\u95c6",
+    "address": "\u96f2\u6797\u7e23\u9ea5\u5bee\u9109\u74e6\u78d8\u6751\u9704\u4ec1\u539d2\u865f\u4e4b178",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.090Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f3f"
+    },
+    "vendor_id": "330",
+    "name": "\u65ed\u5821\u8eca\u696d",
+    "uniform_number": null,
+    "phone": "03-5397788>0981-878458\u5433\u5ff5\u5b78",
+    "address": "\u65b0\u7af9\u5e02\u9999\u5c71\u5340\u4e2d\u83ef\u8def\u4e94\u6bb5313\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.091Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f40"
+    },
+    "vendor_id": "331",
+    "name": "\u627f\u5fb7\u5674\u5c04\u5668\u884c",
+    "uniform_number": null,
+    "phone": "037-720392>0933-429859",
+    "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u9020\u8c50\u8def142\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.092Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f41"
+    },
+    "vendor_id": "332",
+    "name": "\u91d1\u548c\u67f4\u6cb9\u90a6\u6d66\u8abf\u4fee\u884c",
+    "uniform_number": null,
+    "phone": "037-673489>0932-659687",
+    "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u83ef\u8def625\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.093Z"
+    },
+    "is_deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "6a27eb626ab10bda6ba18f42"
+    },
+    "vendor_id": "333",
+    "name": "\u5609\u8000\u570b\u969b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "uniform_number": null,
+    "phone": "04-23380502",
+    "address": "\u53f0\u4e2d\u5e02\u70cf\u65e5\u5340\u4e2d\u5c71\u8def\u4e09\u6bb5606\u865f",
+    "created_by": "system_migration",
+    "created_at": {
+      "$date": "2026-06-09T10:30:58.094Z"
+    },
+    "is_deleted": false
+  }
+]

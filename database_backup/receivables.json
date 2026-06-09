@@ -1,0 +1,33 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2818da2052738e459c6ade"
+    },
+    "receivable_id": "RCV-20260609134458-b29142",
+    "order_id": "TEST-SO-001",
+    "date": {
+      "$date": "2026-06-09T13:44:58.376Z"
+    },
+    "customer_id": "TEST-CUST",
+    "customer_name": "\u6e2c\u8a66\u5ba2\u6236",
+    "plate_number": "ABC-1234",
+    "amount": 7500.0,
+    "paid_amount": 5000.0,
+    "balance": 2500.0,
+    "status": "partial",
+    "due_date": null,
+    "created_by": "admin",
+    "created_at": {
+      "$date": "2026-06-09T13:44:58.381Z"
+    },
+    "is_deleted": true,
+    "updated_by": "admin",
+    "updated_at": {
+      "$date": "2026-06-09T13:44:58.385Z"
+    },
+    "deleted_by": "admin",
+    "deleted_at": {
+      "$date": "2026-06-09T13:44:58.391Z"
+    }
+  }
+]

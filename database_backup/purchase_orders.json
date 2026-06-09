@@ -1,0 +1,126 @@
+[
+  {
+    "_id": {
+      "$oid": "6a281680c66e5ca36c4fc2fd"
+    },
+    "purchase_id": "PX090564",
+    "date": {
+      "$date": "2026-06-09T13:34:56.839Z"
+    },
+    "vendor_id": "test",
+    "vendor_name": null,
+    "vendor_phone": null,
+    "vendor_uniform_number": null,
+    "vendor_address": null,
+    "items": [
+      {
+        "product_code": "1",
+        "brand": null,
+        "spec": null,
+        "pattern": null,
+        "qty": 1,
+        "price": 0.0,
+        "amount": 0.0
+      }
+    ],
+    "total_amount": 0.0,
+    "tax_amount": 0.0,
+    "grand_total": 0.0,
+    "payment_status": "test",
+    "invoice_number": "test",
+    "note": null,
+    "created_by": "branch_taichung",
+    "created_at": {
+      "$date": "2026-06-09T13:34:56.858Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2816e9c3fc9d94bd5ba84a"
+    },
+    "purchase_id": "TEST-PO-001",
+    "date": {
+      "$date": "2026-06-09T13:36:41.918Z"
+    },
+    "vendor_id": "TEST-VEND",
+    "vendor_name": "\u6e2c\u8a66\u5ee0\u5546",
+    "vendor_phone": null,
+    "vendor_uniform_number": null,
+    "vendor_address": null,
+    "items": [
+      {
+        "product_code": "TEST-TIRE-001",
+        "brand": null,
+        "spec": null,
+        "pattern": null,
+        "qty": 5,
+        "price": 1500.0,
+        "amount": 7500.0
+      }
+    ],
+    "total_amount": 7500.0,
+    "tax_amount": 0.0,
+    "grand_total": 7500.0,
+    "payment_status": "payable",
+    "invoice_number": "IN-999",
+    "note": null,
+    "created_by": "admin",
+    "created_at": {
+      "$date": "2026-06-09T13:36:41.920Z"
+    },
+    "is_deleted": true,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": "admin",
+    "deleted_at": {
+      "$date": "2026-06-09T13:36:41.930Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a282ee18f8089865a1b7b5b"
+    },
+    "purchase_id": "PO-20260609-843",
+    "date": {
+      "$date": "2026-06-09T00:00:00Z"
+    },
+    "vendor_id": "",
+    "vendor_name": "",
+    "vendor_phone": "",
+    "vendor_uniform_number": "",
+    "vendor_address": "",
+    "items": [
+      {
+        "product_code": "",
+        "brand": "",
+        "spec": "",
+        "pattern": "",
+        "qty": 1,
+        "price": 0.0,
+        "amount": 0.0,
+        "service_type": "",
+        "tire_position": ""
+      }
+    ],
+    "total_amount": 0.0,
+    "tax_amount": 0.0,
+    "grand_total": 0.0,
+    "payment_status": "\u6536\u73fe",
+    "invoice_number": "",
+    "note": null,
+    "created_by": "owner1",
+    "created_at": {
+      "$date": "2026-06-09T15:18:57.297Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  }
+]

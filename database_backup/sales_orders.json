@@ -1,0 +1,139 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2818da2052738e459c6add"
+    },
+    "order_id": "TEST-SO-001",
+    "department": "sedan",
+    "category": "\u8f4e\u8eca\u5e97\u5167",
+    "date": {
+      "$date": "2026-06-09T13:44:58.376Z"
+    },
+    "customer_id": "TEST-CUST",
+    "customer_name": "\u6e2c\u8a66\u5ba2\u6236",
+    "customer_phone": null,
+    "customer_uniform_number": null,
+    "customer_address": null,
+    "plate_number": "ABC-1234",
+    "items": [
+      {
+        "product_code": "TEST-TIRE-001",
+        "brand": null,
+        "spec": null,
+        "pattern": null,
+        "qty": 3,
+        "price": 2500.0,
+        "amount": 7500.0,
+        "service_type": null,
+        "tire_position": "FL,FR"
+      }
+    ],
+    "total_amount": 7500.0,
+    "tax_amount": 0.0,
+    "grand_total": 7500.0,
+    "payment_status": "\u61c9\u6536\u8ca8\u6b3e",
+    "invoice_number": null,
+    "note": null,
+    "created_by": "admin",
+    "created_at": {
+      "$date": "2026-06-09T13:44:58.378Z"
+    },
+    "is_deleted": true,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": "admin",
+    "deleted_at": {
+      "$date": "2026-06-09T13:44:58.391Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a281aa7e503d82cb0c82d76"
+    },
+    "order_id": "SO-20260609-106",
+    "department": "truck",
+    "category": "\u5927\u8eca\u5e97\u5167",
+    "date": {
+      "$date": "2026-06-09T00:00:00Z"
+    },
+    "customer_id": "",
+    "customer_name": "",
+    "customer_phone": "",
+    "customer_uniform_number": "",
+    "customer_address": "",
+    "plate_number": "",
+    "items": [
+      {
+        "product_code": "",
+        "brand": "",
+        "spec": "",
+        "pattern": "",
+        "qty": 1,
+        "price": 0.0,
+        "amount": 0.0,
+        "service_type": "",
+        "tire_position": ""
+      }
+    ],
+    "total_amount": 0.0,
+    "tax_amount": 0.0,
+    "grand_total": 0.0,
+    "payment_status": "\u6536\u73fe",
+    "invoice_number": "",
+    "note": null,
+    "created_by": "admin",
+    "created_at": {
+      "$date": "2026-06-09T13:52:39.281Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6a2838f6828bf9e7eb49c820"
+    },
+    "order_id": "SO-Q-20260609-370",
+    "department": "truck",
+    "category": "\u8f4e\u8eca\u5e97\u5167",
+    "date": {
+      "$date": "2026-06-09T16:01:58.127Z"
+    },
+    "customer_id": "1-0162",
+    "customer_name": "\u93b0\u52a0\u8ca8\u904b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "customer_phone": "037-462621\uff1e0988-636087\u9673\u5929\u9001\uff1e\u50b3\u771f037-471892",
+    "customer_uniform_number": "8977\uff1e3719\u93b0\u5609\uff1e8499\uff1e8577\u93b0\u5229\uff1e5006>5800>\u7af9\u5357\u6c7d\u8eca>\u542b\u7a05>\u4e2d\u83ef\u5168\u5a01\uff1e\u958b:\u93b0\u5609>\u93b0\u5229>\u7af9\u5357\u6c7d\u8eca>\u7e3d\u91d1\u984d\u52063\u5bb6",
+    "customer_address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5929\u6587\u91cc20\u9130\u9f8d\u6c5f\u8857298\u5df729\u865f\u3002",
+    "plate_number": "",
+    "items": [
+      {
+        "product_code": "500",
+        "brand": "",
+        "spec": "\u88dc\u80ce",
+        "pattern": "",
+        "qty": 1,
+        "price": 500.0,
+        "amount": 500.0,
+        "service_type": "",
+        "tire_position": ""
+      }
+    ],
+    "total_amount": 500.0,
+    "tax_amount": 25.0,
+    "grand_total": 525.0,
+    "payment_status": "\u6536\u73fe",
+    "invoice_number": null,
+    "note": "\u7531\u5831\u50f9\u55ae Q-20260609-370 \u8f49\u63db",
+    "created_by": "owner1",
+    "created_at": {
+      "$date": "2026-06-09T16:01:58.127Z"
+    },
+    "is_deleted": false,
+    "updated_by": null,
+    "updated_at": null,
+    "deleted_by": null,
+    "deleted_at": null
+  }
+]
