@@ -1,0 +1,6 @@
+# Excel temporary files
+~$*
+*.tmp
+
+# macOS system files
+.DS_Store
