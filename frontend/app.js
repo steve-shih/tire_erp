@@ -760,10 +760,12 @@ async function saveNote(e) {
     e.preventDefault();
     const payload = {
         note_id: `NT-${Date.now()}`,
-        type: document.getElementById("note-type").value,
+        note_type: document.getElementById("note-type").value,
         note_number: document.getElementById("note-number").value,
         party_name: document.getElementById("note-party").value,
+        party_id: document.getElementById("note-party").value || "UNKNOWN",
         amount: parseFloat(document.getElementById("note-amount").value) || 0,
+        issue_date: new Date().toISOString(),
         due_date: document.getElementById("note-due-date").value + "T00:00:00Z",
         note: document.getElementById("note-desc").value,
         status: "pending"
@@ -924,6 +926,108 @@ async function submitPayment() {
         closeModal("payment-modal");
         if(payload.payment_type === 'receivable') loadArSummary();
     } catch(e) { alert("失敗: " + e.message); }
+}
+
+// ==================== Invoices ====================
+async function loadInvoices(page = 1) {
+    const tbody = document.querySelector("#invoices-table tbody");
+    tbody.innerHTML = "<tr><td colspan='8' class='text-center'>載入中...</td></tr>";
+    try {
+        const type = document.getElementById("invoice-filter-type").value;
+        const reported = document.getElementById("invoice-filter-reported").value;
+        
+        let url = `/invoices?page=${page}&limit=30`;
+        if (type) url += `&invoice_type=${type}`;
+        if (reported !== "") url += `&is_reported=${reported}`;
+        
+        const result = await apiGet(url);
+        const data = result.data;
+        const total = result.total;
+        
+        tbody.innerHTML = "";
+        data.forEach(d => {
+            const dateStr = new Date(d.date).toLocaleDateString();
+            const typeStr = d.invoice_type === 'sales' ? '銷項' : (d.invoice_type === 'purchase' ? '進項' : '收據');
+            const repBadge = d.is_reported 
+                ? `<span class="badge badge-success">已申報 (${d.report_period || ''})</span>` 
+                : `<span class="badge badge-warning">未申報</span>`;
+                
+            tbody.innerHTML += `
+                <tr>
+                    <td>${dateStr}</td>
+                    <td>${typeStr}</td>
+                    <td>${d.invoice_number}</td>
+                    <td>${d.party_name || ''}</td>
+                    <td>${d.party_uniform_number || ''}</td>
+                    <td>$${d.grand_total}</td>
+                    <td>${repBadge}</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" onclick="toggleInvoiceReport('${d.invoice_id}', ${d.is_reported})">
+                            ${d.is_reported ? '取消申報' : '標記申報'}
+                        </button>
+                    </td>
+                </tr>
+            `;
+        });
+        renderPagination("invoices-pagination", total, page, 30, "loadInvoices(PAGE)");
+    } catch(e) { 
+        tbody.innerHTML = `<tr><td colspan='8' class='text-center text-danger'>載入失敗: ${e.message}</td></tr>`; 
+    }
+}
+
+function openInvoiceModal() {
+    document.getElementById("invoice-form").reset();
+    document.getElementById("inv-date").value = new Date().toISOString().split("T")[0];
+    openModal("invoice-modal");
+}
+
+function calcInvAmount() {
+    const qty = parseInt(document.getElementById("inv-qty").value) || 0;
+    const price = parseFloat(document.getElementById("inv-price").value) || 0;
+    const amount = qty * price;
+    const tax = Math.round(amount * 0.05);
+    
+    document.getElementById("inv-amount").value = amount;
+    document.getElementById("inv-tax").value = tax;
+    document.getElementById("inv-grandtotal").value = amount + tax;
+}
+
+async function saveInvoice() {
+    const payload = {
+        invoice_id: `INV-${Date.now()}`,
+        invoice_type: document.getElementById("inv-type").value,
+        invoice_number: document.getElementById("inv-number").value,
+        party_id: "MANUAL",
+        party_name: document.getElementById("inv-party").value,
+        party_uniform_number: document.getElementById("inv-taxid").value,
+        items_summary: document.getElementById("inv-summary").value,
+        qty: parseInt(document.getElementById("inv-qty").value) || 1,
+        price: parseFloat(document.getElementById("inv-price").value) || 0,
+        amount: parseFloat(document.getElementById("inv-amount").value) || 0,
+        tax: parseFloat(document.getElementById("inv-tax").value) || 0,
+        grand_total: parseFloat(document.getElementById("inv-grandtotal").value) || 0,
+        date: document.getElementById("inv-date").value + "T00:00:00Z",
+        is_reported: false
+    };
+    
+    try {
+        await apiPost("/invoices", payload);
+        closeModal("invoice-modal");
+        loadInvoices();
+    } catch(err) { alert(err.message); }
+}
+
+async function toggleInvoiceReport(id, currentStatus) {
+    let period = null;
+    if (!currentStatus) {
+        period = prompt("請輸入申報期 (例如: 115-05~06):");
+        if (period === null) return; // cancelled
+    }
+    
+    try {
+        await apiPut(`/invoices/${id}/report`, { is_reported: !currentStatus, report_period: period });
+        loadInvoices();
+    } catch(err) { alert(err.message); }
 }
 
 // ==================== Reports ====================
@@ -1263,6 +1367,11 @@ window.switchArTab = switchArTab;
 window.loadArDetails = loadArDetails;
 window.openPaymentModal = openPaymentModal;
 window.submitPayment = submitPayment;
+window.loadInvoices = loadInvoices;
+window.openInvoiceModal = openInvoiceModal;
+window.calcInvAmount = calcInvAmount;
+window.saveInvoice = saveInvoice;
+window.toggleInvoiceReport = toggleInvoiceReport;
 window.initReports = initReports;
 window.loadReports = loadReports;
 window.openOrderModal = openOrderModal;
@@ -1433,41 +1542,76 @@ function openVendorModal(id) {
 }
 
 function openPartyModal(type, id) {
-    document.getElementById('party-form').reset();
-    document.getElementById('party-type').value = type;
-    document.getElementById('party-id-old').value = id || '';
+    let form = document.getElementById('party-form');
+    if (form) form.reset();
+    
+    let typeInput = document.getElementById('party-type');
+    if (!typeInput) {
+        typeInput = document.createElement('input');
+        typeInput.type = 'hidden';
+        typeInput.id = 'party-type';
+        if (form) form.appendChild(typeInput);
+    }
+    typeInput.value = type;
+
+    // Ensure pt-id-old hidden input exists (or check if we need to set a local variable / property)
+    let oldIdInput = document.getElementById('pt-id-old');
+    if (!oldIdInput) {
+        oldIdInput = document.createElement('input');
+        oldIdInput.type = 'hidden';
+        oldIdInput.id = 'pt-id-old';
+        document.getElementById('party-form').appendChild(oldIdInput);
+    }
+    oldIdInput.value = id || '';
+    
     if(id) {
-        document.getElementById('party-id').value = id;
-        document.getElementById('party-id').readOnly = true;
+        document.getElementById('pt-id').value = id;
+        document.getElementById('pt-id').readOnly = true;
         // Fetch existing data
         const endpoint = type === 'customer' ? `/customers/${id}` : `/vendors/${id}`;
         apiGet(endpoint).then(data => {
             if(data) {
-                document.getElementById('party-name').value = data.name || '';
-                document.getElementById('party-phone').value = data.phone || '';
-                document.getElementById('party-address').value = data.address || '';
-                document.getElementById('party-uniform').value = data.uniform_number || '';
+                document.getElementById('pt-name').value = data.name || '';
+                document.getElementById('pt-phone').value = data.phone || '';
+                document.getElementById('pt-address').value = data.address || '';
+                document.getElementById('pt-taxid').value = data.uniform_number || '';
+                document.getElementById('pt-env').value = data.mailing_info?.envelope || '';
+                document.getElementById('pt-renv').value = data.mailing_info?.return_envelope || '';
+                document.getElementById('pt-bulk').value = data.mailing_info?.bulk_mail || '';
             }
         });
     } else {
-        document.getElementById('party-id').readOnly = false;
+        document.getElementById('pt-id').value = '';
+        document.getElementById('pt-id').readOnly = false;
+        document.getElementById('pt-name').value = '';
+        document.getElementById('pt-phone').value = '';
+        document.getElementById('pt-address').value = '';
+        document.getElementById('pt-taxid').value = '';
+        document.getElementById('pt-env').value = '';
+        document.getElementById('pt-renv').value = '';
+        document.getElementById('pt-bulk').value = '';
     }
     openModal('party-modal');
 }
 
 async function saveParty() {
     const type = document.getElementById('party-type').value;
-    const oldId = document.getElementById('party-id-old').value;
+    const oldId = document.getElementById('pt-id-old')?.value || '';
     
     const payload = {
-        name: document.getElementById('party-name').value,
-        phone: document.getElementById('party-phone').value,
-        address: document.getElementById('party-address').value,
-        uniform_number: document.getElementById('party-uniform').value
+        name: document.getElementById('pt-name').value,
+        phone: document.getElementById('pt-phone').value,
+        address: document.getElementById('pt-address').value,
+        uniform_number: document.getElementById('pt-taxid').value,
+        mailing_info: {
+            envelope: document.getElementById('pt-env').value,
+            return_envelope: document.getElementById('pt-renv').value,
+            bulk_mail: document.getElementById('pt-bulk').value
+        }
     };
     
     const idField = type === 'customer' ? 'customer_id' : 'vendor_id';
-    payload[idField] = document.getElementById('party-id').value;
+    payload[idField] = document.getElementById('pt-id').value;
     
     const method = oldId ? 'PUT' : 'POST';
     const url = oldId ? `/${type}s/${oldId}` : `/${type}s`;
@@ -1480,6 +1624,7 @@ async function saveParty() {
         else loadVendors();
     } catch(e) { alert("儲存失敗: " + e.message); }
 }
+
 
 // --- Inventory ---
 function switchInvTab(tab) {

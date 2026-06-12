@@ -59,6 +59,7 @@
                 <a class="nav-item" data-target="ap-section"><i class="fas fa-money-check-alt"></i> 應付帳款</a>
                 <a class="nav-item" data-target="notes-section"><i class="fas fa-money-bill-wave"></i> 票據管理</a>
                 <a class="nav-item" data-target="reports-section"><i class="fas fa-chart-line"></i> 損益報表</a>
+                <a class="nav-item" data-target="invoices-section"><i class="fas fa-file-invoice"></i> 發票管理</a>
                 <a class="nav-item" data-target="payroll-section"><i class="fas fa-user-tie"></i> 人事薪資</a>
                 
                 <div id="owner-settings-group" class="hidden">
@@ -347,7 +348,6 @@
                 <section id="ar-section" class="app-section hidden">
                     <div class="card-header mb-4">
                         <h3>應收帳款管理</h3>
-                        <button class="btn btn-primary" onclick="openPaymentModal('receivable')"><i class="fas fa-cash-register"></i> 新增收款沖帳</button>
                     </div>
                     
                     <div class="tabs">
@@ -415,7 +415,6 @@
                 <section id="ap-section" class="app-section hidden">
                     <div class="card-header mb-4">
                         <h3>應付帳款管理</h3>
-                        <button class="btn btn-primary" onclick="openPaymentModal('payable')"><i class="fas fa-money-check-alt"></i> 新增付款沖帳</button>
                     </div>
                     
                     <div class="tabs">
@@ -599,8 +598,49 @@
                                 <div><label><input type="checkbox" name="perm_menu" value="ap-section"> 應付帳款</label></div>
                                 <div><label><input type="checkbox" name="perm_menu" value="notes-section"> 票據管理</label></div>
                                 <div><label><input type="checkbox" name="perm_menu" value="reports-section"> 損益報表</label></div>
+                                <div><label><input type="checkbox" name="perm_menu" value="invoices-section"> 發票管理</label></div>
                                 <div><label><input type="checkbox" name="perm_menu" value="payroll-section"> 人事薪資</label></div>
                             </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 13. INVOICES SECTION (發票管理) -->
+                <section id="invoices-section" class="app-section hidden">
+                    <div class="card-header mb-4">
+                        <h3>發票管理</h3>
+                        <button class="btn btn-primary" onclick="openInvoiceModal()"><i class="fas fa-plus"></i> 新增發票</button>
+                    </div>
+                    <div class="filters-bar">
+                        <select id="invoice-filter-type" class="form-control">
+                            <option value="">全部類型</option>
+                            <option value="sales">銷項發票 (Sales)</option>
+                            <option value="purchase">進項發票 (Purchase)</option>
+                        </select>
+                        <select id="invoice-filter-reported" class="form-control">
+                            <option value="">申報狀態</option>
+                            <option value="false">未申報</option>
+                            <option value="true">已申報</option>
+                        </select>
+                        <button class="btn btn-secondary mb-0" onclick="loadInvoices()">搜尋</button>
+                    </div>
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table" id="invoices-table">
+                                <thead>
+                                    <tr>
+                                        <th>日期</th>
+                                        <th>類型</th>
+                                        <th>發票號碼</th>
+                                        <th>對象名稱</th>
+                                        <th>統編</th>
+                                        <th>總計金額</th>
+                                        <th>申報狀態</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
                         </div>
                     </div>
                 </section>
@@ -697,7 +737,7 @@
                 <button class="btn btn-icon" onclick="closeModal('order-modal')"><i class="fas fa-times"></i></button>
             </div>
             <div class="modal-body">
-                <form id="order-form">
+                <form id="order-form" onsubmit="event.preventDefault(); saveOrder();">
                     <input type="hidden" id="order-type">
                     <input type="hidden" id="order-id-input">
                     
@@ -850,7 +890,7 @@
                 <button class="btn btn-icon" onclick="closeModal('payment-modal')"><i class="fas fa-times"></i></button>
             </div>
             <div class="modal-body">
-                <form id="payment-form">
+                <form id="payment-form" onsubmit="event.preventDefault(); submitPayment();">
                     <input type="hidden" id="pay-type">
                     <input type="hidden" id="pay-ref-id">
                     
@@ -925,7 +965,7 @@
                 <button class="btn btn-icon" onclick="closeModal('party-modal')"><i class="fas fa-times"></i></button>
             </div>
             <div class="modal-body">
-                <form id="party-form">
+                <form id="party-form" onsubmit="event.preventDefault(); saveParty();">
                     <input type="hidden" id="party-type">
                     <div class="form-grid-2">
                         <div class="form-group"><label>編號 *</label><input type="text" id="pt-id" class="form-control" required></div>
@@ -1117,6 +1157,74 @@
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="closeModal('note-modal')">取消</button>
                             <button type="submit" class="btn btn-primary">儲存票據</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Invoice Modal -->
+        <div id="invoice-modal" class="modal-overlay">
+            <div class="modal-content" style="max-width:500px;">
+                <div class="modal-header">
+                    <h3 id="invoice-modal-title">新增發票</h3>
+                    <button class="btn btn-icon btn-secondary" onclick="closeModal('invoice-modal')"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form id="invoice-form" onsubmit="event.preventDefault(); saveInvoice();">
+                        <div class="form-grid-2 mb-3">
+                            <div>
+                                <label>發票類型</label>
+                                <select class="form-control" id="inv-type" required>
+                                    <option value="sales">銷項 (Sales)</option>
+                                    <option value="purchase">進項 (Purchase)</option>
+                                    <option value="receipt">收據 (Receipt)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>發票號碼</label>
+                                <input type="text" class="form-control" id="inv-number" required>
+                            </div>
+                            <div>
+                                <label>對象名稱</label>
+                                <input type="text" class="form-control" id="inv-party" required>
+                            </div>
+                            <div>
+                                <label>統一編號</label>
+                                <input type="text" class="form-control" id="inv-taxid">
+                            </div>
+                            <div style="grid-column: span 2;">
+                                <label>品名摘要</label>
+                                <input type="text" class="form-control" id="inv-summary" required>
+                            </div>
+                            <div>
+                                <label>數量</label>
+                                <input type="number" class="form-control" id="inv-qty" value="1" min="1" required oninput="calcInvAmount()">
+                            </div>
+                            <div>
+                                <label>單價</label>
+                                <input type="number" class="form-control" id="inv-price" value="0" min="0" required oninput="calcInvAmount()">
+                            </div>
+                            <div>
+                                <label>銷售額</label>
+                                <input type="number" class="form-control" id="inv-amount" readonly>
+                            </div>
+                            <div>
+                                <label>營業稅</label>
+                                <input type="number" class="form-control" id="inv-tax" readonly>
+                            </div>
+                            <div>
+                                <label>總計金額</label>
+                                <input type="number" class="form-control" id="inv-grandtotal" readonly style="font-weight:bold; color:var(--primary);">
+                            </div>
+                            <div>
+                                <label>發票日期</label>
+                                <input type="date" class="form-control" id="inv-date" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="closeModal('invoice-modal')">取消</button>
+                            <button type="submit" class="btn btn-primary">儲存發票</button>
                         </div>
                     </form>
                 </div>
